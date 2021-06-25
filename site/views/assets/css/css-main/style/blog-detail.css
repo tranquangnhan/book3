@@ -21,3 +21,9 @@
 .blog-content p {
     font-size: 1.3em;
 }
+
+.blog-content img {
+    width: 100%!important;
+    height: 100%!important;
+}
+

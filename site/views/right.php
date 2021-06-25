@@ -26,6 +26,7 @@
             <?php
                 foreach ($getLastestNews as $row) {
                     $id = $row['id'];
+                    $date = date('m/d/Y', $row['date']);
                     $link = ROOT_URL . "/bai-viet/" . $row['slug'] . '-' . $id;
                     $img = PATH_IMG_SITE . explode(",", $row['img'])[0];
                     echo '<div class="container-sider">
@@ -34,10 +35,14 @@
                                     <img class="img-sidebar" src="' . $img . '" width="50%" alt="">
                                 </a>
                             </div>
-                            <div class="containerright-sider">
-                                <div class="row pb-4">
+                            <div class="containerright-sider d-flex align-items-center">
+                                <div class="row">
                                     <div class="col-md-12 heading-section ftco-animate limit-content-3">
                                         <a href="' . $link . '"><h6>' . $row['name']. '</h6></a>
+
+                                    </div>
+                                    <div class="col-md-12 heading-section ftco-animate limit-content-1 mt-2">
+                                        <h6 class="color-gray">'.$date.'</h6>
                                     </div>
                                 </div>
                             </div>

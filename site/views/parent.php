@@ -18,12 +18,19 @@
                             </div>
                         </a>
                         <div class="description">
-                            <a href="<?=$link?>"><h1><?=$row['name']?></h1></a>
-                            <h6><?=$date?></h6>
-                            <p><?=$row['description']?></p>
-                            <p class="read-more">
-                                <a href="<?=$link?>">Đọc thêm</a>
-                            </p>
+                            <a href="<?=$link?>"><h1 class="limit-content-2"><?=$row['name']?></h1></a>
+                            <p class="limit-content-2 color-gray mt-1"><?=$row['description']?></p>
+                            <div class="row mt-2">
+                                <div class="col-6">
+                                    <h6>'.$date.'</h6>
+                                </div>
+                                <div class="col-6">
+                                    <p class="read-more m-0">
+                                        <a href="'.$link .'">Đọc thêm</a>
+                                    </p>
+                                </div>
+                            </div>
+                          
                         </div>
                     </div>
                     <?php } ?>

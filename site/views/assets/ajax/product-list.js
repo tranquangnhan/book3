@@ -1,4 +1,4 @@
-const baseUrlSite = '/book2';
+const baseUrlSite = '/book3';
 
 var level = $('.levelType').val();
 var firstIdCategory = $('.filter.category').first().val();
@@ -48,7 +48,7 @@ var checkReloadPage = false;
 var timeRequest;
 
 //////// trang teacher ////////
-var classe = 100;
+var classef = 0;
 $('.btn.show-option').click(function(e) {
     e.preventDefault();
     if (!$(this).hasClass('active')) {
@@ -64,35 +64,34 @@ $('.btn.show-option').click(function(e) {
         if ($(this).hasClass('support-resources')) {
             if ($('.filter.class').parent('.active')) {
                 $('.filter.class').parent('.active').removeClass('active');
-                var needActive = $('[data-class=' + classe + ']').parent();
+                
+                var needActive = $('[data-class=' + classef + ']').parent();
                 needActive.addClass('active');
             }
             pageNumber = $('.pageNumberTeacher').val();
         }
-    }
-    console.log(pageNumber);
+    }    
 });
 
 $('.filter').click(function(e) {
     e.preventDefault();
     if ($('.support-resources').hasClass('option-active')) {
-        checkReloadPage = true;
-        if ($('.ftco-loader.teacher').hasClass('show') == false) {
-            $('.spre .Resources-item').remove();
-            $('.ftco-loader.teacher').addClass('show');
-        }
-
-        var keyFilter = $(this).text();
-
-        classe = keyFilter;
         if ($(this).parent().hasClass('active')) {
-            $(this).parent().removeClass('active');
-            getDataSupportResource(100, 0);
+            // $(this).parent().removeClass('active');
+            // getDataSupportResource(100, 0);
         } else {
+            checkReloadPage = true;
+            if ($('.ftco-loader.teacher').hasClass('show') == false) {
+                $('.spre .Resources-item').remove();
+                $('.ftco-loader.teacher').addClass('show');
+            }
+            var keyFilter = $(this).text();
+            
+            classef = keyFilter;
             var elementActive = $('.filter.class').parent('.active');
             elementActive.removeClass('active');
             $(this).parent().addClass('active');
-            getDataSupportResource(keyFilter, 0);
+            getDataSupportResource(keyFilter, 0);           
         }
         // alert('Phần này không có lọc');
     } else {

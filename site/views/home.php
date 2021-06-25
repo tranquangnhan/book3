@@ -9,13 +9,13 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="<?=PATH_URL?>images/bg-header-1.JPG" alt="First slide">
+                    <img class="d-block w-100" src="<?=PATH_URL?>images/banner1.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="<?=PATH_URL?>images/bg-header-2.JPG" alt="Second slide">
+                    <img class="d-block w-100" src="<?=PATH_URL?>images/banner2.jpg" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="<?=PATH_URL?>images/bg-header-3.JPG" alt="Third slide">
+                    <img class="d-block w-100" src="<?=PATH_URL?>images/banner3.jpg" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

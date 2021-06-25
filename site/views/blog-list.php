@@ -45,15 +45,24 @@
                                             </a>
                                         </div>
                                         <div class="description">
+                                            
                                             <a href="'.$link .'"><h1 class="limit-content-2">'.addslashes($row['name']).'</h1></a>
-                                            <h6>'.$date.'</h6>
-                                            <p class="limit-content-2">'.addslashes($row['description']) .'</p>
-                                            <p class="read-more">
-                                                <a href="'.$link .'">Đọc thêm</a>
-                                            </p>
+                                            
+                                            <p class="limit-content-2 color-gray mt-1">'.addslashes($row['description']) .'</p>
+                                            <div class="row mt-2">
+                                                <div class="col-6">
+                                                    <h6>'.$date.'</h6>
+                                                </div>
+                                                <div class="col-6">
+                                                    <p class="read-more m-0">
+                                                        <a href="'.$link .'">Đọc thêm</a>
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>';
                         }
+                        
                     
                     ?>
                 

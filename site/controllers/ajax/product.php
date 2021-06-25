@@ -84,7 +84,7 @@ require_once "../../../system/config.php";
             if ($justClass == true) {
                 $sql .= ' ORDER BY idcate ASC, class ';
             } else {            
-                $sql .= ' ORDER BY class ASC ';
+                $sql .= ' ORDER BY idcate ASC, class ';
             }
             $sql .= ' limit ' . $form . ' , 9';
 
@@ -110,20 +110,25 @@ require_once "../../../system/config.php";
             settype($class, "int");
             settype($form, "int");
 
-            if ($class > 12) { // get all
-                if ($form > 0) {
-                    $form = ($form - 1) * 9;
-                    $listSpResource   = $model->getAllSupportResourceLimitForm($form);                    
-                } else {                
-                    $listSpResource   = $model->getAllSupportResourceLimit();                    
-                }
-                $amountSupport    = $model->getAmountSpResources();
-            } else {  // get by class                           
-            $listSpResource   = $model->getSupportResourceBy($class, $form);            
-            $amountSupport    = $model->getAmountSupportResourceBy($class);                                
+            // if ($class > 12) { // get all
+            //     if ($form > 0) {
+            //         $form = ($form - 1) * 9;
+            //         $listSpResource   = $model->getAllSupportResourceLimitForm($form);                    
+            //     } else {                
+            //         $listSpResource   = $model->getAllSupportResourceLimit();                    
+            //     }
+            //     $amountSupport    = $model->getAmountSpResources();
+            // } else {  // get by class                       
+                                              
+            // }
+            if ($form > 0) {
+                $form = ($form - 1) * 9;    
             }
+            
+            $listSpResource   = $model->getSupportResourceBy($class, $form);            
+            $amountSupport    = $model->getAmountSupportResourceBy($class); 
 
-            echo json_encode([$listSpResource, $amountSupport, $form]);
+            echo json_encode([$listSpResource, $amountSupport, $form, $class]);
             
             break;   
         default:

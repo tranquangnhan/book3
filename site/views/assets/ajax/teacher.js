@@ -5,7 +5,7 @@ filterOb = [
 ];
 
 obj.pageTeacher = true;
-var classe = 100;
+var classe = 0;
 
 function getDataSupportResource(classhe, form) {
     var dataSend = new FormData();
@@ -15,7 +15,7 @@ function getDataSupportResource(classhe, form) {
     dataSend.append('action', 'getDataSpResources');
     
     var url = `${baseUrlSite}/site/controllers/ajax/product.php`;
-    
+        
     getDataSpResourceClass(dataSend, url);
 }
 
@@ -28,7 +28,7 @@ function getDataSpResourceClass(data, url) {
         contentType: false,
         processData: false,
         data: data,
-        success: function(response) {            
+        success: function(response) {                             
             if ($('.notice-h3')) {
                 $('.notice-h3').remove();
                 $('.pagina-box').show();

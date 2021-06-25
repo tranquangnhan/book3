@@ -767,6 +767,16 @@ class Model_home extends Model_db{
         return $this->result1(0, $sql);
     }
 
+    function getSpResoucesClasslimit() {
+        $sql = "SELECT * FROM `supportresources` WHERE class = 0 ORDER BY ordinal ASC limit 9";
+        return $this->result1(0, $sql);
+    }
+
+    function getAmountSpResourcesClass() {
+        $sql = 'SELECT count(*) AS sodong FROM `supportresources` WHERE class = 0';
+        return $this->result1(1, $sql)['sodong'];
+    }
+
     function getAllSupportResourceLimit() {
         $sql = "SELECT * FROM `supportresources` ORDER BY ordinal ASC limit 9";
         return $this->result1(0, $sql);
@@ -778,7 +788,7 @@ class Model_home extends Model_db{
     }
 
     function getSupportResourceBy($class, $form) {
-        $sql = "SELECT * FROM `supportresources` WHERE class = ? ORDER BY id DESC limit $form, 9";
+        $sql = "SELECT * FROM `supportresources` WHERE class = ? ORDER BY ordinal ASC limit $form, 9";
         return $this->result1(0, $sql, $class);
     }
 

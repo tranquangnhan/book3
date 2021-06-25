@@ -98,8 +98,8 @@
                         <ul class="dropdown-hover-2 sanpham">
                             <li><a href="<?=ROOT_URL?>/sach/mam-non">MẦM NON</a></li>
                             <li><a href="<?=ROOT_URL?>/sach/tieu-hoc">TIỂU HỌC</a></li>
-                            <li><a href="<?=ROOT_URL?>/sach/thcs">THCS</a></li>
-                            <li><a href="<?=ROOT_URL?>/?sach/thpt">THPT</a></li>
+                            <li><a href="<?=ROOT_URL?>/sach/thcs">TRUNG HỌC CƠ SỞ</a></li>
+                            <li><a href="<?=ROOT_URL?>/?sach/thpt">TRUNG HỌC PHỔ THÔNG</a></li>
                         </ul>
                     </li>
 
@@ -159,7 +159,7 @@ if (file_exists($viewFile)) {
 ?>
 
     <footer class="ftco-footer ftco-no-pt">
-        <div class="container">
+        <div class="container footer-contai">
             <div class="row mb-4">
                 <div class="col-md">
                     <div class="ftco-footer-widget pt-md-5 mb-4">

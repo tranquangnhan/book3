@@ -155,11 +155,11 @@ class Home
                     $AmountProduct = $this->model->countProductsByTypes('1', '1', $idCateFirst);
                     
                 } else if ($level == 3) {
-                    $namePage2     = 'TIẾNG ANH THCS';
+                    $namePage2     = 'TIẾNG ANH TRUNG HỌC CƠ SỞ';
                     $listProduct   = $this->model->getProductsByTypes('1', '6', $idCateFirst);
                     $AmountProduct = $this->model->countProductsByTypes('1', '6', $idCateFirst);
                 } else if ($level == 4) {
-                    $namePage2     = 'TIẾNG ANH THPT';
+                    $namePage2     = 'TIẾNG ANH TRUNG HỌC PHỔ THÔNG';
                     $listProduct   = $this->model->getProductsByTypes('1', '10', $idCateFirst);
                     $AmountProduct = $this->model->countProductsByTypes('1', '10', $idCateFirst);
                 }
@@ -244,7 +244,7 @@ class Home
         $page_title     = "Giáo Viên - EngBook";
         $viewFile       = "views/teacher.php";
         $css            = "teacher.css";    
-        $js             = ["teacher.js, sticky.js"];    
+        $js             = ["teacher.js", "sticky.js"];    
         $namePage       = "Giáo Viên";            
         $ajax           = ["product-list.js", "teacher.js"];
         $where          = ' type = 2 ';
@@ -259,8 +259,8 @@ class Home
             $mess = '<h3 class="text-center w-100 notice-h3">Không tìm thấy sản phẩm !</h3>';
         }
         
-        $listSpResources = $this->model->getSpResouceslimit();
-        $amountSpResources = $this->model->getAmountSpResources();
+        $listSpResources = $this->model->getSpResoucesClasslimit();
+        $amountSpResources = $this->model->getAmountSpResourcesClass();
         
         if ($amountSpResources == 0) {
             $mess2 = '<h3 class="text-center w-100 notice-h3">Không tìm thấy tài nguyên hỗ trợ!</h3>';

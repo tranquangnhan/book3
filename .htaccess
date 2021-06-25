@@ -10,29 +10,29 @@ php_value max_input_time 300
 
 
 
-RewriteRule ^trang-chu$ /book2/site/?act=home [L]
-RewriteRule ^gioi-thieu$ /book2/site/?act=about [L]
-RewriteRule ^san-pham$ /book2/site/?act=products [L]
-RewriteRule ^hoc-sinh$ /book2/site/?act=student [L]
-RewriteRule ^giao-vien$ /book2/site/?act=teacher [L]
-RewriteRule ^phu-huynh$ /book2/site/?act=parent [L]
-RewriteRule ^bai-viet$ /book2/site/?act=blog [L]
-RewriteRule ^lien-he$ /book2/site/?act=contact [L]
+RewriteRule ^trang-chu$ /book3/site/?act=home [L]
+RewriteRule ^gioi-thieu$ /book3/site/?act=about [L]
+RewriteRule ^san-pham$ /book3/site/?act=products [L]
+RewriteRule ^hoc-sinh$ /book3/site/?act=student [L]
+RewriteRule ^giao-vien$ /book3/site/?act=teacher [L]
+RewriteRule ^phu-huynh$ /book3/site/?act=parent [L]
+RewriteRule ^bai-viet$ /book3/site/?act=blog [L]
+RewriteRule ^lien-he$ /book3/site/?act=contact [L]
 
-RewriteRule ^sach/mam-non$ /book2/site/?act=products&level=1 [L]
-RewriteRule ^sach/tieu-hoc$ /book2/site/?act=products&level=2 [L]
-RewriteRule ^sach/thcs$ /book2/site/?act=products&level=3 [L]
-RewriteRule ^sach/thpt$ /book2/site/?act=products&level=4 [L]
+RewriteRule ^sach/mam-non$ /book3/site/?act=products&level=1 [L]
+RewriteRule ^sach/tieu-hoc$ /book3/site/?act=products&level=2 [L]
+RewriteRule ^sach/thcs$ /book3/site/?act=products&level=3 [L]
+RewriteRule ^sach/thpt$ /book3/site/?act=products&level=4 [L]
 
 
-RewriteRule ^bai-viet/page-([0-9]+)$ /book2/site/?act=blog&Page=$1 [L]
+RewriteRule ^bai-viet/page-([0-9]+)$ /book3/site/?act=blog&Page=$1 [L]
 
-RewriteRule ^bai-viet/page-([0-9]+)$ /book2/site/index.php?act=blog&pagenum=$1 [L]
+RewriteRule ^bai-viet/page-([0-9]+)$ /book3/site/index.php?act=blog&pagenum=$1 [L]
 
-RewriteRule ^bai-viet/([a-zA-Z0-9-]+)-([0-9]+)$ /book2/site/?act=blogdetail&id=$2&slug=$1 [L]
+RewriteRule ^bai-viet/([a-zA-Z0-9-]+)-([0-9]+)$ /book3/site/?act=blogdetail&id=$2&slug=$1 [L]
 
-RewriteRule ^bai-viet/([a-zA-Z0-9-]+)-([0-9]+)/page-([0-9]+)$ /book2/site/?act=blog&maloai=$2&Page=$3&slug=$1 [L]
+RewriteRule ^bai-viet/([a-zA-Z0-9-]+)-([0-9]+)/page-([0-9]+)$ /book3/site/?act=blog&maloai=$2&Page=$3&slug=$1 [L]
 
-RewriteRule ^sach/([a-zA-Z0-9-]+)$ /book2/site/?act=productdetail&slug=$1 [L]
+RewriteRule ^sach/([a-zA-Z0-9-]+)$ /book3/site/?act=productdetail&slug=$1 [L]
 
-ErrorDocument 404 /book2/site/views/Error404.php
+ErrorDocument 404 /book3/site/views/Error404.php

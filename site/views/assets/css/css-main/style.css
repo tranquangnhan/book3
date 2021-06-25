@@ -40,7 +40,7 @@ img {
 }
 
 ::-webkit-scrollbar {
-    /* display: none; */
+    display: none;
 }
 
 ::-webkit-scrollbar-track {
@@ -49,12 +49,12 @@ img {
 }
 
 ::-webkit-scrollbar-thumb {
-    /* border-radius: 5px; */
-    /* background: #cacaca; */
+    border-radius: 5px; 
+    background: #cacaca;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    /* background: #16448d; */
+    background: #16448d;
 }
 
 html {
@@ -14095,7 +14095,7 @@ textarea.form-control {
 .containerright-sider {
     width: 70%;
     padding-left: 0.5rem;
-    height: 100px;
+    /* height: 100px; */
     /* position: relative;
     right: 30%;
     text-overflow: ellipsis; */
@@ -14244,7 +14244,7 @@ textarea.form-control {
 .blog-card .description h1 {
     line-height: 1;
     margin: 0;
-    padding: 1%;
+    /* padding: 1%; */
     font-size: 1.7rem;
 }
 
@@ -14291,7 +14291,7 @@ textarea.form-control {
 }
 
 .blog-card p:first-of-type:before {
-    content: "";
+    /* content: ""; */
     position: absolute;
     height: 5px;
     background: #2967a4;
@@ -15003,7 +15003,7 @@ button.navbar-toggler {
 }
 
 .sanpham li {
-    width: 180px!important;
+    width: 220px!important;
 }
 
 .tab {
@@ -15112,4 +15112,8 @@ button.navbar-toggler {
     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
+}
+
+.color-gray {
+    color: gray;
 }

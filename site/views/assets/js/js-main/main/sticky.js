@@ -3,7 +3,7 @@ $(window).scroll(function() {
     var hH    = $('.right.fix').outerHeight(),
         wH    = $(window).height(),
         wS    = $(this).scrollTop(),
-        hT    = $('.fixed-location').offset().top + 500,
+        hT    = $('.fixed-location').offset().top + 700,
         hBody = $('body').height();                
     
     if (wS < hBody - 1200) {
