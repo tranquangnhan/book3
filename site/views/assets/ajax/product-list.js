@@ -64,13 +64,13 @@ $('.btn.show-option').click(function(e) {
         if ($(this).hasClass('support-resources')) {
             if ($('.filter.class').parent('.active')) {
                 $('.filter.class').parent('.active').removeClass('active');
-                
+
                 var needActive = $('[data-class=' + classef + ']').parent();
                 needActive.addClass('active');
             }
             pageNumber = $('.pageNumberTeacher').val();
         }
-    }    
+    }
 });
 
 $('.filter').click(function(e) {
@@ -86,12 +86,12 @@ $('.filter').click(function(e) {
                 $('.ftco-loader.teacher').addClass('show');
             }
             var keyFilter = $(this).text();
-            
+
             classef = keyFilter;
             var elementActive = $('.filter.class').parent('.active');
             elementActive.removeClass('active');
             $(this).parent().addClass('active');
-            getDataSupportResource(keyFilter, 0);           
+            getDataSupportResource(keyFilter, 0);
         }
         // alert('Phần này không có lọc');
     } else {
@@ -200,10 +200,19 @@ function getDataByFilterOb(data, url) {
                 $('.ftco-loader').removeClass('show');
             }
 
+            var url = new URL(window.location.href);
+            var param = url.searchParams.get("act");
+            var isSanPhamPage = false;
+            if (url.toString().includes('san-pham')) {
+                isSanPhamPage = true;
+            } else {
+                isSanPhamPage = false;
+            }
+
             if (response[1] > 0) {
                 response[0].forEach(element => {
                     // console.log(element);
-                    var html = htmlProductItem(element);
+                    var html = htmlProductItem(element, isSanPhamPage);
                     $('.product-box').append(html);
                 });
 
@@ -248,13 +257,15 @@ function setDataAndRequest(filterOb, form, url) {
     getDataByFilterOb(dataSend, url);
 }
 
-function htmlProductItem(product) {
+function htmlProductItem(product, isSanPhamPage) {
     var link = '';
-    if (product['sachmem'] == 1) {
+    if (product['sachmem'] == 1 && isSanPhamPage == true) {
         link = product['link'];
     } else {
         link = `${baseUrlSite}/sach/${product['slug']}`;
     }
+
+
 
     var html = `
     <div class="col-md-4 d-flex product-item align-items-stretch ftco-animate fadeInUp ftco-animated">

@@ -76,11 +76,7 @@
                         }
                     ?>                                
                     <?php foreach ($listProduct as $product) { 
-                        if($product['sachmem'] ==1 ){
-                            $link =$product['link'];
-                        }else{
-                            $link = ROOT_URL."/sach/".$product['slug'];
-                        }
+                       $link = ROOT_URL."/sach/".$product['slug'];
                     ?>
                     <div class="col-md-4 product-item d-flex align-items-stretch ftco-animate">
                         <div class="project-wrap">
