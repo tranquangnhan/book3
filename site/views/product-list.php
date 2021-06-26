@@ -8,10 +8,10 @@
                     <?php if ($level != 7) { ?>
                     <div class="container" style="width: fit-content; margin-bottom: 5%;">
                         <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                            <label class="type btn btn-dark font-weight-600">
+                            <label class="type btn btn-primary-2 font-weight-600">
                                 <input type="radio" class="filter type" data-type="0" value="1" name="options">Học Sinh
                             </label>
-                            <label class="type btn btn-dark font-weight-600">
+                            <label class="type btn btn-primary-2 font-weight-600">
                                 <input type="radio" class="filter type" data-type="0" value="2" name="options"> Giáo Viên
                             </label>
                         </div>
@@ -60,7 +60,7 @@
                             <?php                                                                 
                                 $num = 1;
                                 foreach ($categories as $cate) { ?>
-                                    <label class="category btn btn-dark font-weight-600 ">
+                                    <label class="category btn btn-primary-2 font-weight-600 ">
                                         <input type="radio" class="filter category" data-type="2" value="<?= $cate['id'] ?>" name="" id="" class="filter" ><?=$cate['name']?>
                                     </label>                                    
                                 <?php $num++; 

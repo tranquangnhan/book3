@@ -5,7 +5,11 @@
     }
 
     img.logo-header {
-        width: 26%;
+        width: 50px;
+    }
+
+    .logo-text {
+        display: none;
     }
 }
 
@@ -25,6 +29,14 @@
 }
 
 @media only screen and (max-width: 991px) {
+    .dropdown-hover-2 {
+        display: none;
+    }
+
+    .ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
+        color: var(--color-main);
+    }
+
     .dropdown-2 .dropdown-hover-2 {
         left: 0px;
     }
@@ -60,7 +72,7 @@
     }
     
     a.nav-link:hover {
-        background: rgba(108, 122, 252, 1);
+        background: var(--color-main);
         color: white!important;
         border-radius: 5px;
     }
@@ -84,6 +96,9 @@
 
     .ftco-navbar-light .navbar-nav > .nav-item.active > a {
         border: none!important;
+        background: var(--color-main);
+        color: white!important;
+        border-radius: 5px;
     }
 
     .navbar-collapse {
@@ -106,7 +121,7 @@
     }
 
     .logo-header {
-        width: 45%!important;
+        width: 7%;
     }
 }
 
@@ -126,11 +141,7 @@
     }
     
     .logo-header {
-        width: 65%;
-    }
-
-    .logo-header {
-        width: 55%!important;
+        width: 50px;
     }
 
     .card-body.p-1p4rem {

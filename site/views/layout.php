@@ -49,7 +49,6 @@
 
                             </div>
                         </div>
-
                     </form>
                 </div>
             </div>
@@ -60,14 +59,15 @@
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
         <div class="container">
             <a class="navbar-brand logo-lap" href="<?=ROOT_URL?>">
-                <img src="<?=PATH_URL?>images/logo.jpg" class="logo-header" alt="logo">
+                <img src="<?=PATH_URL?>images/heid-logo.png" class="logo-header" alt="logo">
+                <h3 class="text-uppercase logo-text">CÔNG TY CỔ PHẦN ĐẦU TƯ <br> VÀ PHÁT TRIỂN GIÁO DỤC HÀ NỘI</h3>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
                 aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="oi oi-menu"><i class="fa fa-bars" aria-hidden="true"></i></span>
             </button>
             <a class="navbar-brand logo-mobile w-80" href="<?=ROOT_URL?>">
-                <img src="<?=PATH_URL?>images/logo.jpg" class="logo-header" alt="logo">
+                <img src="<?=PATH_URL?>images/heid-logo.png" class="logo-header" alt="logo">
             </a>
             <div class="navbar-brand m-0 p-0 search-on-nav search-box-will-show w-10">
                 <div class="icon-search" data-toggle="modal" data-target="#search-modal">
@@ -80,14 +80,16 @@
                         <a href="<?=ROOT_URL?>" class="nav-link">Trang Chủ</a>
                     </li>
                     <li class="nav-item dropdown-2 aboutDropdown <?php echo ($viewFile == "views/about.php") ? 'bar-active active' : '' ?>">
-                        <a href="<?=ROOT_URL?>/gioi-thieu" class="nav-link">Giới Thiệu</a>
+                        <a href="<?=ROOT_URL?>/gioi-thieu" class="nav-link">Giới Thiệu 
+                        </a>
                         <ul class="dropdown-hover-2">
-                            <li class="about-item"><a href="<?=ROOT_URL?>/gioi-thieu">Giới thiệu chung</a></li>
+                            <li class="about-item"><a href="<?=ROOT_URL?>/gioi-thieu" class="text-uppercase">Giới thiệu chung</a></li>
+                            <li class="about-item"><a href="<?=ROOT_URL?>/gioi-thieu/1" class="text-uppercase">Giới thiệu </a></li>
                             <?php foreach($abouts as $about) { 
                                 if ($about['link'] == '') { ?>
-                                    <li class="about-item"><a href="<?=SITE_URL?>?act=about&id=<?=$about['id']?>"><?=$about['name']?></a></li>
+                                    <li class="about-item"><a class="text-uppercase" href="<?=SITE_URL?>?act=about&id=<?=$about['id']?>"><?=$about['name']?></a></li>
                                 <?php } else { ?>
-                                    <li class="about-item"><a href="<?=$about['link']?>"><?=$about['name']?></a></li>
+                                    <li class="about-item"><a class="text-uppercase" href="<?=$about['link']?>"><?=$about['name']?></a></li>
                             <?php } 
                             } ?>                            
                         </ul>
@@ -99,10 +101,11 @@
                             <li><a href="<?=ROOT_URL?>/sach/mam-non">MẦM NON</a></li>
                             <li><a href="<?=ROOT_URL?>/sach/tieu-hoc">TIỂU HỌC</a></li>
                             <li><a href="<?=ROOT_URL?>/sach/thcs">TRUNG HỌC CƠ SỞ</a></li>
-                            <li><a href="<?=ROOT_URL?>/?sach/thpt">TRUNG HỌC PHỔ THÔNG</a></li>
+                            <li><a href="<?=ROOT_URL?>/sach/thpt">TRUNG HỌC PHỔ THÔNG</a></li>
                         </ul>
                     </li>
 
+              
                     <li class="nav-item <?php echo ($viewFile == "views/student.php") ? 'bar-active active' : '' ?>">
                         <a href="<?=ROOT_URL?>/hoc-sinh" class="nav-link">Học Sinh</a>
                     </li>

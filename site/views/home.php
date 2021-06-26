@@ -31,9 +31,9 @@
     </div>
 
     <section id="about" class="about my-5">
-        <div class="container">
+        <div class="container ftco-animate">
             <div class="row text-center">
-                <div class="col-4 col-lg-4 text-center">
+                <div class="col-4 col-lg-4 text-center ftco-animate">
                     <div class="card mr-0-auto w-100">
                         <div class="icon-top">
                             <i class="fa fa-graduation-cap icon-top-i-first" aria-hidden="true"></i>
@@ -48,7 +48,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4 col-lg-4 text-center">
+                <div class="col-4 col-lg-4 text-center ftco-animate">
                     <div class="card mr-0-auto w-100">
                         <div class="icon-top">
                             <i class="fa fa-book icon-top-i-seccond" aria-hidden="true"></i>
@@ -65,7 +65,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4 col-lg-4 mr-0-auto text-center">
+                <div class="col-4 col-lg-4 mr-0-auto text-center ftco-animate">
                     <div class="card mr-0-auto w-100">
                         <div class="icon-top">
                             <i class="fa fa-leanpub icon-top-i-thirt" aria-hidden="true"></i>
@@ -87,14 +87,14 @@
     </section>
 
     <div class="product-first w-100 text-center mt-5 mb-5">
-        <div class="container mb-5">
-            <div class="row justify-content-center pb-4">
+        <div class="container mb-5 ftco-animate">
+            <div class="row justify-content-center pb-4 ftco-animate">
                 <div class="col-md-12 heading-section text-center ftco-animate fadeInUp ftco-animated">
                     <h2 class="mb-4 text-uppercase">HỆ THỐNG SÁCH TIẾNG ANH THEO CẤP HỌC</h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 col-lg-3 box-categories  mb-3 ">
+                <div class="col-sm-6 ftco-animate col-lg-3 box-categories  mb-3 ">
                     <div class="card show-button-to-right">
                         <div class="div-image">
                             <img src="<?=PATH_URL?>images/user-cat.jpg" class="card-img-top img-fluid" alt="...">
@@ -110,7 +110,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-3 box-categories mb-3">
+                <div class="col-sm-6 ftco-animate col-lg-3 box-categories mb-3">
                     <div class="card show-button-to-right">
                         <div class="div-image">
                             <img src="<?=PATH_URL?>images/user-cat-1.jpg" class="card-img-top img-fluid" alt="...">
@@ -126,7 +126,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-3 box-categories  mb-3">
+                <div class="col-sm-6 ftco-animate col-lg-3 box-categories  mb-3">
                     <div class="card show-button-to-right">
                         <div class="div-image">
                             <img src="<?=PATH_URL?>images/user-cat-2.jpg" class="card-img-top img-fluid" alt="...">
@@ -142,7 +142,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-3 box-categories mb-3 ">
+                <div class="col-sm-6 col-lg-3 ftco-animate box-categories mb-3 ">
                     <div class="card show-button-to-right">
                         <div class="div-image">
                             <img src="<?=PATH_URL?>images/user-cat-3.jpg" class="card-img-top img-fluid" alt="...">
@@ -164,31 +164,31 @@
     </div>
 
     <section class="ftco-section services-section mt-5  pt-6">
-        <div class="container position-relative z-10">
+        <div class="container position-relative z-10 ftco-animate">
             <div class="row d-flex justify-content-center">
                 <div class="col-md-6 heading-section pr-md-5 ftco-animate">
                     <div class="w-100 mb-4 mb-md-0">
-                        <h1 class="color-main text-uppercase sach-mem">Sách Mềm</h1>
-                        <h3 class="mb-4">Hệ thống phần mềm và học liệu điện tử <br>hỗ trợ giảng dạy, học tập</h3>
-                        <p class="color-gray-1 font-size-1em">Được chuyển thể từ sách giấy và bổ sung thêm nội dung đa
+                        <h1 class="color-main text-uppercase sach-mem ftco-animate">Sách Mềm</h1>
+                        <h3 class="mb-4 ftco-animate">Hệ thống phần mềm và học liệu điện tử <br>hỗ trợ giảng dạy, học tập</h3>
+                        <p class="color-gray-1 font-size-1em ftco-animate">Được chuyển thể từ sách giấy và bổ sung thêm nội dung đa
                             phương tiện, trò
                             chơi, ứng dụng học
                             tâp, nội dung mở rộng. Ngân hàng câu hỏi và công cụ tạo đề kiểm tra, đánh giá thường xuyên
                             và
                             định kỳ.</p>
-                        <p class="color-gray-1 font-size-1em">Nội dung sách được mở rộng với tư liệu, câu hỏi bổ sung,
+                        <p class="color-gray-1 font-size-1em ftco-animate">Nội dung sách được mở rộng với tư liệu, câu hỏi bổ sung,
                             giải thích hướng
                             dẫn và thảo
                             luận.Nội dung do cộng đồng đóng góp, đã qua kiểm duyệt để đảm bảo chất lượng.</p>
                         <div>
-                            <a href="https://www.sachmem.vn/">
+                            <a class="ftco-animate" href="https://www.sachmem.vn/">
                                 <button class="btn btn-primary py-2 px-3">sachmem.vn</button>
                             </a>
                         </div>
                     </div>
 
                 </div>
-                <div class="col-6 text-right">
+                <div class="col-6 text-right ftco-animate">
                     <img src="<?=PATH_URL?>images/Logo-SM-(New).png" class="img-fluid" alt="">
                 </div>
 
@@ -197,7 +197,7 @@
     </section>
 
     <section class="ftco-section bg-light">
-        <div class="container">
+        <div class="container ftco-animate">
             <div class="row justify-content-center pb-4">
                 <div class="col-md-12 heading-section text-center ftco-animate">
                     <h2 class="mb-4 text-uppercase">Tin Tức - Sự Kiện</h2>
@@ -212,7 +212,7 @@
                             $date  = date('m/d/Y', $blog1['date']);
                             $link  = ROOT_URL."/bai-viet/".$blog1['slug'].'-'.$blog1['iddm'];    
                         ?>
-                        <div class="w-100 right-item-video">
+                        <div class="w-100 right-item-video ftco-animate">
                             <div class="row">
                                 <a href="<?=$link?>" class="col-4 p-0 bg-image-fix"  style="background: url(<?=$img?>);"></a>
                                 <div class="col-8">
@@ -232,7 +232,7 @@
                             $date2  = date('m/d/Y', $blog2['date']);
                             $link2  = ROOT_URL."/bai-viet/".$blog2['slug'].'-'.$blog2['iddm'];    
                         ?>
-                        <div class="w-100 left-item-video">
+                        <div class="w-100 left-item-video ftco-animate">
                             <div class="row">
                                 <a href="<?=$link2?>" class="col-4 p-0 bg-image-fix" style="background: url(<?=$img2?>); min-height: 80px;"></a>
 
@@ -254,12 +254,12 @@
     <!-- đoạn chứa quảng cáo -->
     <section class="ftco-section bg-light  pt-0">
         <div class="container">
-            <div class="row justify-content-center pb-4 m-0">
+            <div class="row justify-content-center pb-4 m-0 ftco-animate">
                 <div class="col-md-12 heading-section text-center ftco-animate">
                     <h2 class="mb-4">DẠY LINH HOẠT - HỌC CHỦ ĐỘNG</h2>
                 </div>
             </div>
-            <div class="owl-carousel owl-theme slide-video" id="video-carousel">
+            <div class="owl-carousel owl-theme slide-video ftco-animate" id="video-carousel">
                <?php
                 foreach ( $video as $row) {
                   echo '    

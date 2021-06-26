@@ -110,6 +110,9 @@ class Home
     }
 
     public function about() {
+        if (isset($_GET['page'])) {
+            $page = $_GET['page'];
+        }
         $page_title   = "Giới Thiệu - EngBook";
         $viewFile     = "views/about.php";
         $css          = "about.css";

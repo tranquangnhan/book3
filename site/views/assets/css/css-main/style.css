@@ -11514,7 +11514,7 @@ h5,
 .ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
     font-size: 0.9em;
     padding: 0.5rem 0.8em;
-    color: #000;
+    color: #000000d9;
     opacity: 1 !important;
     font-weight: 600;
 }
@@ -11532,7 +11532,7 @@ h5,
           padding-bottom: 0; */
         /* padding-top: 0.6rem !important; */
         /* padding-bottom: 0.3rem !important; */
-        color: #01c0f3;
+        /* color: #01c0f3; */
     }
 }
 
@@ -14385,9 +14385,9 @@ textarea.form-control {
 }
 
 ol.carousel-indicators {
-    position: absolute;
+    /* position: absolute;
     top: 615px;
-    display: none;
+    display: none; */
 }
 
 .p-r-0 {
@@ -14765,7 +14765,7 @@ nav#ftco-navbar {
 }
 
 .logo-header {
-    width: 30%;
+    width: 5%;
 }
 
 .search-phone-menu {
@@ -14909,6 +14909,7 @@ button.navbar-toggler {
     top: 40px;
     padding-top: 13px;
     z-index: 999;
+    /* box-shadow: 0px 0px 6px #0000003d; */
 }
 
 .dropdown-2 .dropdown-hover-2 li {
@@ -14924,11 +14925,12 @@ button.navbar-toggler {
     transition: 0.3s;
     color: #000;
     font-weight: 500;
+    box-shadow: 0px 0px 6px #0000003d;
 }
 
 .dropdown-2 .dropdown-hover-2 li a {
     color: #000000f0;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 0.9em;
 }
 
@@ -15116,4 +15118,29 @@ button.navbar-toggler {
 
 .color-gray {
     color: gray;
+}
+
+.logo-text {
+    font-size: 0.8em;
+    line-height: 21px;
+    font-weight: 600;
+    margin: 0 0 0 .35em;
+    color: var(--color-main);
+}
+
+
+.btn-primary-2 {
+    background: var(--color-main) !important;
+    border: 1px solid var(--color-main) !important;
+    color: #fff !important;
+}
+
+.btn-primary-2:hover, .primary-2-active:hover {
+    box-shadow: 0 0 0 0.2rem rgb(0 65 135 / 25%);
+}
+
+.primary-2-active {
+    background: #07203b !important;
+    border: 1px solid #07203b !important;
+    color: #fff !important;
 }

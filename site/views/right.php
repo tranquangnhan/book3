@@ -68,7 +68,7 @@
           
         </div>
 
-        <div class="sidebar-box bg-white ftco-animate">
+        <div class="sidebar-box bg-white ftco-animate m-0">
             <h3 class="heading-sidebar buttontitle">KẾT NỐI MẠNG XÃ HỘI</h3>
             <iframe class="p-2" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fsachmem.vn&tabs=timeline&width=300&height=300&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1259082827813860" 
                 width="100%" height="300px" style="border:none;overflow:hidden;display:block !important" 

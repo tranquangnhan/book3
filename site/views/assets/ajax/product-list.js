@@ -126,15 +126,15 @@ $('.filter').click(function(e) {
             var keyFilter = $(this).val();
             var data = getDataByTypeCheck(checkType);
 
-            if ($(this).parent().hasClass('btn-primary')) { // remove
-                $(this).parent().removeClass('btn-primary');
-                $(this).parent().addClass('btn-dark');
+            if ($(this).parent().hasClass('primary-2-active')) { // remove
+                $(this).parent().removeClass('primary-2-active');
+                $(this).parent().addClass('btn-primary-2');
                 findAndDeleteItemInArray(data, keyFilter);
             } else { // add
                 if ($(this).hasClass('type')) {
-                    var elementActive = $('.type.btn-primary');
-                    elementActive.removeClass('btn-primary');
-                    elementActive.addClass('btn-dark');
+                    var elementActive = $('.type.primary-2-active');
+                    elementActive.removeClass('primary-2-active');
+                    elementActive.addClass('btn-primary-2');
                     if (keyFilter == 2) {
                         filterOb[0].type = [1, 2];
 
@@ -145,13 +145,13 @@ $('.filter').click(function(e) {
                     }
                 }
                 if ($(this).hasClass('category')) {
-                    var elementActive = $('.category.btn-primary');
-                    elementActive.removeClass('btn-primary');
-                    elementActive.addClass('btn-dark');
+                    var elementActive = $('.category.primary-2-active');
+                    elementActive.removeClass('primary-2-active');
+                    elementActive.addClass('btn-primary-2');
                     filterOb[2].category[0] = keyFilter;
                 }
-                $(this).parent().removeClass('btn-dark');
-                $(this).parent().addClass('btn-primary');
+                $(this).parent().removeClass('btn-primary-2');
+                $(this).parent().addClass('primary-2-active');
             }
         }
         var url = `${baseUrlSite}/site/controllers/ajax/product.php`;
