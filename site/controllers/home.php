@@ -110,12 +110,14 @@ class Home
     }
 
     public function about() {
+        $css          = "about.css";
         if (isset($_GET['page'])) {
+            $css  = "about-page.css";
             $page = $_GET['page'];
+            $js   = ["about-page.js"];
         }
         $page_title   = "Giới Thiệu - EngBook";
         $viewFile     = "views/about.php";
-        $css          = "about.css";
         $abouts       = $this->model->getAbouts();
         if (isset($_GET['id'])) {
             $id          = $_GET['id'];

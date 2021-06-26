@@ -133,6 +133,12 @@
     <!-- END nav -->
 
     <?php if ($viewFile != "views/home.php") {?>
+    <?php 
+    if (isset($page)) { ?>
+        <section class="header-banner">
+            <img src="<?=PATH_URL?>images/bannerab.jpg" alt="" class="img-fluid">
+        </section>  
+    <?php } else { ?>
     <section class="hero-wrap hero-wrap-2" style="background-image: url('<?=PATH_URL?>images/bia3.jpg'); ">
         <div class="container">
             <div class="row no-gutters slider-text align-items-end justify-content-center">
@@ -154,7 +160,7 @@
             </div>
         </div>
     </section>
-    <?php }
+    <?php } }
 
 if (file_exists($viewFile)) {
     require_once "$viewFile";

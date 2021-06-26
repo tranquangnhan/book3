@@ -15123,7 +15123,7 @@ button.navbar-toggler {
 .logo-text {
     font-size: 0.8em;
     line-height: 21px;
-    font-weight: 600;
+    font-weight: bolder;
     margin: 0 0 0 .35em;
     color: var(--color-main);
 }
