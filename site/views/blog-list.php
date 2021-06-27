@@ -31,6 +31,7 @@
                     </div>
                 </div>
                 <div class="row">
+                    <div class="container">
                     <?php
                         foreach ($ds as $row) {
                             $date = date('m/d/Y', $row['date']);
@@ -66,7 +67,7 @@
                     
                     ?>
                 
-
+                    </div>
                 </div>
                 <div class="row mt-5">
                     <div class="col">

@@ -59,7 +59,7 @@
                         </div>
                         <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
                             <div class="info-wrap w-100 p-md-5 p-4">
-                                <h3 class="color-black-2">Công ty Cổ phần Đầu tư và <br> Phát triển Giáo dục Hà Nội</h3>
+                                <h3 class="color-black-2 contact-name">Công ty Cổ phần Đầu tư và <br> Phát triển Giáo dục Hà Nội</h3>
                                 
                                 <div class="dbox w-100 d-flex align-items-start">
                                     <div class="icon d-flex align-items-center justify-content-center">

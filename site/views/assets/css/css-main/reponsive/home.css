@@ -159,4 +159,42 @@
     .item.d-flex.justify-content-center.counter-wrap.ftco-animate.fadeInUp.ftco-animated {
         width: 43%!important;
     }
+
+    .blog-2 {
+        display: none;
+    }
+
+    .fanpage-mobile {
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    .fanpage-md {
+        display: block;
+    }
+
+    .fanpage-lg {
+        display: none;
+    }
+
+    .contact-name {
+        font-size: 1.4em;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .fanpage-md {
+        display: none;
+    }
+
+    .fanpage-lg {
+        display: none;
+    }
+
+    
+    .fanpage-mobile {
+        display: block;
+    }
 }
