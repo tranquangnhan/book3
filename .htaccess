@@ -12,7 +12,8 @@ php_value max_input_time 300
 
 RewriteRule ^trang-chu$ /book3/site/?act=home [L]
 RewriteRule ^gioi-thieu$ /book3/site/?act=about [L]
-RewriteRule ^gioi-thieu/1$ /book3/site/?act=about&page=1 [L]
+RewriteRule ^gioi-thieu/bo-sgk-tieng-anh-global-success$ /book3/site/?act=about&page=1 [L]
+RewriteRule ^gioi-thieu/bo-sgk-tieng-anh-thi-diem$ /book3/site/?act=about&page=2 [L]
 RewriteRule ^san-pham$ /book3/site/?act=products [L]
 RewriteRule ^hoc-sinh$ /book3/site/?act=student [L]
 RewriteRule ^giao-vien$ /book3/site/?act=teacher [L]
@@ -24,6 +25,9 @@ RewriteRule ^sach/mam-non$ /book3/site/?act=products&level=1 [L]
 RewriteRule ^sach/tieu-hoc$ /book3/site/?act=products&level=2 [L]
 RewriteRule ^sach/thcs$ /book3/site/?act=products&level=3 [L]
 RewriteRule ^sach/thpt$ /book3/site/?act=products&level=4 [L]
+RewriteRule ^sach/hoc-sinh$ /book3/site/?act=products&level=10 [L]
+RewriteRule ^sach/giao-vien$ /book3/site/?act=products&level=11 [L]
+RewriteRule ^sach/sach-giao-khoa$ /book3/site/?act=products&level=12 [L]
 
 
 RewriteRule ^bai-viet/page-([0-9]+)$ /book3/site/?act=blog&Page=$1 [L]

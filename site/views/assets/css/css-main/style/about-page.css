@@ -101,14 +101,14 @@ figure.img-wrap {
 
 .owl-prev {
     position: absolute !important;
-    left: -10px !important;
+    left: -45px !important;
     z-index: 100;
     margin-top: 14em !important;
 }
 
 .owl-next {
     position: absolute !important;
-    right: -10px !important;
+    right: -45px !important;
     z-index: 100;
     margin-top: 14em !important;
 }
@@ -117,5 +117,14 @@ figure.img-wrap {
     position: absolute;
     top: 0px;
     width: 100%;
-   
+}
+
+.w-80-center {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.owl-nav .owl-prev span, .owl-nav .owl-next span {
+    font-size: 90px;
 }

@@ -84,7 +84,6 @@
                         </a>
                         <ul class="dropdown-hover-2">
                             <li class="about-item"><a href="<?=ROOT_URL?>/gioi-thieu" class="text-uppercase">Giới thiệu chung</a></li>
-                            <li class="about-item"><a href="<?=ROOT_URL?>/gioi-thieu/1" class="text-uppercase">Giới thiệu </a></li>
                             <?php foreach($abouts as $about) { 
                                 if ($about['link'] == '') { ?>
                                     <li class="about-item"><a class="text-uppercase" href="<?=SITE_URL?>?act=about&id=<?=$about['id']?>"><?=$about['name']?></a></li>
@@ -134,9 +133,13 @@
 
     <?php if ($viewFile != "views/home.php") {?>
     <?php 
-    if (isset($page)) { ?>
+    if (isset($page) && $page == 1) { ?>
         <section class="header-banner">
-            <img src="<?=PATH_URL?>images/bannerab.jpg" alt="" class="img-fluid">
+            <img src="<?=PATH_URL?>images/banner2.jpg" alt="" class="img-fluid">
+        </section>  
+    <?php } else if (isset($page) && $page == 2) { ?> 
+        <section class="header-banner">
+            <img src="<?=PATH_URL?>images/banner1.jpg" alt="" class="img-fluid">
         </section>  
     <?php } else { ?>
     <section class="hero-wrap hero-wrap-2" style="background-image: url('<?=PATH_URL?>images/bia3.jpg'); ">
