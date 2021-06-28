@@ -3,7 +3,13 @@
 <section class="ftco-section bg-light">
     <div class="container">
         <div class="row">
-            <div class="col-lg-9">
+            <div class="col-lg-9">            
+                <?php if (isset($key) && $key != '') { ?>
+                    <div class="row mb-3">
+                        <h3>Tìm kiếm "<span class="keyWordSearch"><?=$key?></span>" có <?=$AmountProduct?> kết quả</h3>
+                    </div>
+                    <?php }
+                ?>  
                 <div class="col-lg-12" id="nav-chil">
                     <?php if ($level != 7) { ?>
                     <div class="container" style="width: fit-content; margin-bottom: 5%;">
@@ -81,8 +87,9 @@
                     <?php 
                         if (isset($mess)) {
                             echo $mess;
-                        }
-                    ?>                                
+                        } 
+                    ?>
+                              
                     <?php foreach ($listProduct as $product) { 
                        $link = ROOT_URL."/sach/".$product['slug'];
                     ?>

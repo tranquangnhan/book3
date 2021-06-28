@@ -143,7 +143,7 @@ class Home
         if (isset($_POST['keysearch'])) {
             $key = $_POST['keysearch'];
             $listProduct   = $this->model->getBookByKeyWordLimit($key);            
-            $AmountProduct = $this->model->getAmountBookByKeyWord($key);   
+            $AmountProduct = $this->model->getAmountBookByKeyWord($key);  
             $level = 7;                     
         } else {
             if (isset($_GET['level'])) {            

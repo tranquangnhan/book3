@@ -35,6 +35,11 @@ if (level == 1) {
         { 'class': ["10"] },
         { 'category': [firstIdCategory] }
     ];
+} else if (level == 7) {
+    var keyWord = $('.keyWordSearch').html();
+    filterOb = {
+        'keyWord': keyWord
+    }
 } else if (level == 10) {
     filterOb = [
         { 'type': [1] },

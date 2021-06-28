@@ -402,8 +402,7 @@ var obj = {
     url: '',
     filterOb: '',
     pageTeacher: false,
-    getData: function(form) {    
-        console.log(form);    
+    getData: function(form) {             
         goToByScroll('nav-chil');
     
     
