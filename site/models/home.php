@@ -733,6 +733,37 @@ class Model_home extends Model_db{
         return $this->result1(0, $sql);
     }
 
+    function getProductStudentLimit() {
+        $sql = "SELECT * FROM `book` WHERE type = 1 ORDER BY idcate ASC, class limit 9";
+        return $this->result1(0, $sql);
+    }
+
+    function countProductStudent() {
+        $sql = "SELECT count(*) AS sodong FROM `book` WHERE type = 1";
+        return $this->result1(1, $sql)['sodong'];
+    }
+
+    function getProductTeacherLimit() {
+        $sql = "SELECT * FROM `book` WHERE type in (1,2) ORDER BY idcate ASC, class limit 9";
+        return $this->result1(0, $sql);
+    }
+
+    function countProductTeacher() {
+        $sql = "SELECT count(*) AS sodong FROM `book` WHERE type in (1,2)";
+        return $this->result1(1, $sql)['sodong'];
+    }
+
+    function getProductByCateFirstLimit($first) {
+        $sql = "SELECT * FROM `book` WHERE idcate = ? ORDER BY idcate ASC, class limit 9";
+        return $this->result1(0, $sql, $first);
+    }
+
+    function countProductByCateFirst($first) {
+        $sql = "SELECT count(*) AS sodong FROM `book` WHERE idcate in (?)";
+        return $this->result1(1, $sql, $first)['sodong'];
+    }
+
+
     function getProductTeacher() {
         $sql = "SELECT * FROM `book` WHERE type = 2";
         return $this->result1(0, $sql);

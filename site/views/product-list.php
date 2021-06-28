@@ -8,10 +8,10 @@
                     <?php if ($level != 7) { ?>
                     <div class="container" style="width: fit-content; margin-bottom: 5%;">
                         <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                            <label class="type btn btn-primary-2 font-weight-600">
+                            <label class="type btn btn-primary-2 font-weight-600 <?=($level==10 || $level == 2 || $level == 3 || $level == 4) ? 'active primary-2-active' : ''?>">
                                 <input type="radio" class="filter type" data-type="0" value="1" name="options">Học Sinh
                             </label>
-                            <label class="type btn btn-primary-2 font-weight-600">
+                            <label class="type btn btn-primary-2 font-weight-600 <?=($level==11) ? 'active primary-2-active' : ''?>">
                                 <input type="radio" class="filter type" data-type="0" value="2" name="options"> Giáo Viên
                             </label>
                         </div>
@@ -24,25 +24,25 @@
                         <div class="row">
                             <div class="col-12">
                                 <ul><?php if ($level != 7) { ?>
-                                        <?php if ($level == 6) { ?>
+                                        <?php if ($level == 6 || $level > 9) { ?>
                                             <li><a href="#" class="big filter class" data-type="1">Mầm Non</a></li>
                                         <?php } else { ?>
                                             <li class="big class">Lớp</li>
                                             <?php } ?>
-                                        <?php if ($level == 2 || $level == 6) { ?>
-                                        <li <?php echo ($level != 6) ? 'class="active"' : ''?>><a href="#" class="filter class" data-type="1">1</a></li>
+                                        <?php if ($level == 2 || $level == 6 || $level > 9) { ?>
+                                        <li <?php echo ($level != 6 && $level < 9) ? 'class="active"' : ''?>><a href="#" class="filter class" data-type="1">1</a></li>
                                         <li><a href="#" class="filter class" data-type="1">2</a></li>
                                         <li><a href="#" class="filter class" data-type="1">3</a></li>
                                         <li><a href="#" class="filter class" data-type="1">4</a></li>
                                         <li><a href="#" class="filter class" data-type="1">5</a></li>
                                         <?php }
-                                        if ($level == 3 || $level == 6) { ?>
+                                        if ($level == 3 || $level == 6 || $level > 9) { ?>
                                         <li <?php echo ($level == 3) ? 'class="active"' : ''?>><a href="#" class="filter class" data-type="1">6</a></li>
                                         <li><a href="#" class="filter class" data-type="1">7</a></li>
                                         <li><a href="#" class="filter class" data-type="1">8</a></li>
                                         <li><a href="#" class="filter class" data-type="1">9</a></li>
                                         <?php }
-                                        if ($level == 4 || $level == 6) { ?>
+                                        if ($level == 4 || $level == 6 || $level > 9) { ?>
                                         <li <?php echo ($level == 4) ? 'class="active"' : ''?>><a href="#" class="filter class" data-type="1">10</a></li>
                                         <li><a href="#" class="filter class" data-type="1">11</a></li>
                                         <li><a href="#" class="filter class" data-type="1">12</a></li>
@@ -60,9 +60,17 @@
                             <?php                                                                 
                                 $num = 1;
                                 foreach ($categories as $cate) { ?>
-                                    <label class="category btn btn-primary-2 font-weight-600 ">
-                                        <input type="radio" class="filter category" data-type="2" value="<?= $cate['id'] ?>" name="" id="" class="filter" ><?=$cate['name']?>
-                                    </label>                                    
+                                <?php 
+                                    if ($level == 12 || $level == 2 || $level == 3 || $level == 4) { ?>
+                                        <label class="category btn btn-primary-2 font-weight-600 <?=($num == 1) ? 'active primary-2-active' : ''?> ">
+                                            <input type="radio" class="filter category" data-type="2" value="<?= $cate['id'] ?>" name="" id="" class="filter" ><?=$cate['name']?>
+                                        </label>  
+                                    <?php } else { ?>
+                                        <label class="category btn btn-primary-2 font-weight-600">
+                                            <input type="radio" class="filter category" data-type="2" value="<?= $cate['id'] ?>" name="" id="" class="filter" ><?=$cate['name']?>
+                                        </label>     
+                                    <?php } ?>
+                                                                 
                                 <?php $num++; 
                                 } ?>                            
                         </div>
@@ -80,7 +88,7 @@
                     ?>
                     <div class="col-md-4 product-item d-flex align-items-stretch ftco-animate">
                         <div class="project-wrap">
-                            <a href="<?=$link?>" class="img" style="background-image: url('<?=PATH_IMG_SITE?>/<?= $product['img']?>');">
+                            <a href="<?=$link?>" class="img" style="background-image: url('<?=PATH_IMG_SITE?><?= $product['img']?>');">
                             </a>                            
 
                             <div class="text p-4">

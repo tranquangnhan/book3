@@ -110,12 +110,14 @@ class Home
     }
 
     public function about() {
+        $css          = "about.css";
         if (isset($_GET['page'])) {
+            $css  = "about-page.css";
             $page = $_GET['page'];
+            $js   = ["about-page.js"];
         }
         $page_title   = "Giới Thiệu - EngBook";
         $viewFile     = "views/about.php";
-        $css          = "about.css";
         $abouts       = $this->model->getAbouts();
         if (isset($_GET['id'])) {
             $id          = $_GET['id'];
@@ -165,6 +167,17 @@ class Home
                     $namePage2     = 'TIẾNG ANH TRUNG HỌC PHỔ THÔNG';
                     $listProduct   = $this->model->getProductsByTypes('1', '10', $idCateFirst);
                     $AmountProduct = $this->model->countProductsByTypes('1', '10', $idCateFirst);
+
+                } else if ($level == 10) { // lọc học sinh
+                    $listProduct   = $this->model->getProductStudentLimit();
+                    $AmountProduct = $this->model->countProductStudent();
+                } else if ($level == 11) { // lọc giáo viên
+                    $listProduct   = $this->model->getProductTeacherLimit();
+                    $AmountProduct = $this->model->countProductTeacher();
+                } else if ($level == 12) { // lọc cate 1
+                    $listProduct   = $this->model->getProductByCateFirstLimit($idCateFirst);  
+                    
+                    $AmountProduct = $this->model->countProductByCateFirst($idCateFirst);
                 }
                 
             } else {

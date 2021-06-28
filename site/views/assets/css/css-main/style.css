@@ -14813,12 +14813,12 @@ nav#ftco-navbar {
 button.navbar-toggler {
     text-align: left;
     padding: 0px;
-    padding-left: 15px;
+    /* padding-left: 15px; */
 }
 
 .icon-search {
     text-align: right;
-    padding-right: 15px;
+    /* padding-right: 15px; */
 }
 
 .font-weight-600 {
@@ -15123,7 +15123,7 @@ button.navbar-toggler {
 .logo-text {
     font-size: 0.8em;
     line-height: 21px;
-    font-weight: 600;
+    font-weight: bolder;
     margin: 0 0 0 .35em;
     color: var(--color-main);
 }
@@ -15143,4 +15143,25 @@ button.navbar-toggler {
     background: #07203b !important;
     border: 1px solid #07203b !important;
     color: #fff !important;
+}
+
+.limit-content-3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+
+._2p3a {
+    margin: 0 auto;
+}
+
+.fanpage-md {
+    display: none;
+}
+
+.fanpage-mobile {
+    display: none;
 }

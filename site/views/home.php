@@ -216,17 +216,17 @@
                             <div class="row">
                                 <a href="<?=$link?>" class="col-4 p-0 bg-image-fix"  style="background: url(<?=$img?>);"></a>
                                 <div class="col-8">
-                                    <a href="<?=$link?>"><h4 c2ass="m-0 p-0 title-1"> <?=$blog1['name']?>
+                                    <a href="<?=$link?>"><h4 class="m-0 p-0 title-1 limit-content-3"> <?=$blog1['name']?>
                                     </h4></a>
                                     <small class="m-0 p-0"><?=$date?></small>
-                                    <p class="description-1 mt-2"><?=$blog1['description']?></p>
+                                    <p class="description-1 mt-2 limit-content-3"><?=$blog1['description']?></p>
                                 </div>
                             </div>
                             <hr />
                         </div>
                         <?php } ?>                       
                     </div>
-                    <div class="col-0 col-md-4">
+                    <div class="col-0 col-md-4 blog-2">
                         <?php foreach($bloglist2 as $blog2) { 
                             $img2   = PATH_IMG_SITE.explode(",",$blog2['img'])[0];
                             $date2  = date('m/d/Y', $blog2['date']);
@@ -237,7 +237,7 @@
                                 <a href="<?=$link2?>" class="col-4 p-0 bg-image-fix" style="background: url(<?=$img2?>); min-height: 80px;"></a>
 
                                 <div class="col-8">
-                                    <a href="<?=$link2?>"><h4 class="m-0 p-0 title-1"><?=$blog2['name']?>
+                                    <a href="<?=$link2?>"><h4 class="m-0 p-0 title-1 limit-content-3"><?=$blog2['name']?>
                                     </h4></a>
                                     <small class="m-0 p-0"><?=$date?></small>
                                     <!-- Thứ tư, 28/04/2021 | 18:00 -->

@@ -1,0 +1,130 @@
+.button-item {
+    display: inline-block;
+    margin: .1em;
+}
+
+.button-item a button {
+    background: var(--color-main);
+    color: white;
+    font-weight: 600;
+    padding: 6px 20px;
+    border-radius: 16px;
+    border: 0px;
+}
+
+.title-1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--color-main);
+}
+
+.padding-top-0 {
+    padding-top: 0px!important;
+}
+
+.hover-scale {
+    transition: 0.3s;
+}
+ 
+.hover-scale:hover {
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+}
+
+.hover-scale-white {
+    transition: 0.2s;
+    position: relative;
+}
+
+/* .hover-scale-white:hover {
+    transform: scale(1.1);
+} */
+
+.hover-scale-white::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 10;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: .0;
+    transition: 0.2;
+}
+
+.hover-scale-white:hover::after {
+    opacity: 0.2;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transition: 0.2;
+}
+
+.hover-scale-white:hover .img-fluid {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+.hover-scale-white .img-fluid {
+    transition: 0.3s;
+}
+
+.hover-color-blue {
+    transition: 0.2;
+}
+
+.hover-color-blue:hover {
+    color: #07203b !important;
+}
+
+.section {
+    margin: 100px 0px !important;
+}
+
+figure.img-wrap {
+    position: relative;
+    overflow: hidden;
+    width: 70%;
+    margin: auto !important;
+}
+
+.room {
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+
+.slide-about-item {
+    padding: 2.5em;
+}
+
+.owl-prev {
+    position: absolute !important;
+    left: -45px !important;
+    z-index: 100;
+    margin-top: 14em !important;
+}
+
+.owl-next {
+    position: absolute !important;
+    right: -45px !important;
+    z-index: 100;
+    margin-top: 14em !important;
+}
+
+.owl-nav {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+.w-80-center {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.owl-nav .owl-prev span, .owl-nav .owl-next span {
+    font-size: 90px;
+}

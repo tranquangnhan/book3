@@ -35,6 +35,24 @@ if (level == 1) {
         { 'class': ["10"] },
         { 'category': [firstIdCategory] }
     ];
+} else if (level == 10) {
+    filterOb = [
+        { 'type': [1] },
+        { 'class': [] },
+        { 'category': [] }
+    ];
+} else if (level == 11) {
+    filterOb = [
+        { 'type': [1,2] },
+        { 'class': [] },
+        { 'category': [] }
+    ];
+} else if (level == 12) {
+    filterOb = [
+        { 'type': [] },
+        { 'class': [] },
+        { 'category': [firstIdCategory] }
+    ];
 } else {
     var filterOb = [
         { 'type': [] },
