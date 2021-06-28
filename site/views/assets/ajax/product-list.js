@@ -208,6 +208,7 @@ function getDataByFilterOb(data, url) {
             } else {
                 isSanPhamPage = false;
             }
+            alert(isSanPhamPage)
 
             if (response[1] > 0) {
                 response[0].forEach(element => {
@@ -259,7 +260,7 @@ function setDataAndRequest(filterOb, form, url) {
 
 function htmlProductItem(product, isSanPhamPage) {
     var link = '';
-    if (product['sachmem'] == 1 && isSanPhamPage == true) {
+    if (product['sachmem'] == 1 && isSanPhamPage == false) {
         link = product['link'];
     } else {
         link = `${baseUrlSite}/sach/${product['slug']}`;
