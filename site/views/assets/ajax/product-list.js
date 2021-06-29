@@ -43,7 +43,7 @@ if (level == 1) {
     ];
 } else if (level == 11) {
     filterOb = [
-        { 'type': [1,2] },
+        { 'type': [1, 2] },
         { 'class': [] },
         { 'category': [] }
     ];
@@ -226,7 +226,6 @@ function getDataByFilterOb(data, url) {
             } else {
                 isSanPhamPage = false;
             }
-            alert(isSanPhamPage)
 
             if (response[1] > 0) {
                 response[0].forEach(element => {

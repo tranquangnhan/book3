@@ -74,5 +74,9 @@
     display: flex;
 }
 
+.title-1 {
+    text-transform: uppercase;
+}
+
 
 /* end code by nhan */

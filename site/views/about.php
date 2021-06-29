@@ -7,43 +7,108 @@
                         if (isset($aboutDetail)) {
                             echo $aboutDetail['content'];
                         } else if (isset($page) && $page == 1) { ?>
-                        <section class="button m-5">
-                            <div class="w-100 text-center">                        
-                                <a href="#">
-                                    <label class="category btn btn-primary-2 font-weight-600 move-to" data-to="phaply">
-                                        PHÁP lý
-                                    </label>
-                                </a>  
-                                <a href="#">
-                                    <label class="category btn btn-primary-2 font-weight-600 move-to" data-to="cautruc">
-                                        CẤU TRÚC
-                                    </label>
-                                </a>    
-                                <a href="#">
-                                    <label class="category btn btn-primary-2 font-weight-600 move-to" data-to="tainguyen">
-                                        TÀI NGUYÊN
-                                    </label>
-                                </a>
-                                <a href="#">
-                                    <label class="category btn btn-primary-2 font-weight-600">
-                                        VIDEO - HÌNH ẢNH
-                                    </label>
-                                </a>  
-                                <a href="#">
-                                    <label class="category btn btn-primary-2 font-weight-600">
-                                        HỎI ĐÁP
-                                    </label>
-                                </a>  
-                                <a href="#">
-                                    <label class="category btn btn-primary-2 font-weight-600">
-                                        PHÁP lý
-                                    </label>
-                                </a>  
-                                <a href="#">
-                                    <label class="category btn btn-primary-2 font-weight-600">
-                                        LIÊN HỆ
-                                    </label>
-                                </a>  
+                       <section class="section" id="phaply">
+                            <div class="container ftco-animate">
+                                <div class="row justify-content-center text-center mb-5">
+                                    <div class="col-md-7">
+                                    <h2 class="title-1" data-aos="fade-up">BỘ SGK TIẾNG ANH <br> GLOBAL SUCCESS</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-2 col-6 aos-init aos-animate" data-aos="fade-up">
+                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
+                                            <figure class="img-wrap m-0 text-center">
+                                                <img src="<?=PATH_URL?>/images/sach bai tap.png" alt="Cơ sở pháp lý 1" class="w-80-center hover-scale img-fluid mb-3">
+                                            </figure>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-md-6 col-lg-2 col-6 aos-init aos-animate" data-aos="fade-up">
+                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
+                                            <figure class="img-wrap m-0 text-center">
+                                                <img src="<?=PATH_URL?>/images/Bia-TA2_SBT.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
+                                            </figure>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-md-6 col-lg-2 col-6 aos-init aos-animate" data-aos="fade-up">
+                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
+                                            <figure class="img-wrap m-0 text-center">
+                                                <img src="<?=PATH_URL?>/images/Bia-TA3_SBT.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 col-lg-2 col-6 aos-init aos-animate" data-aos="fade-up">
+                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
+                                            <figure class="img-wrap m-0 text-center">
+                                                <img src="<?=PATH_URL?>/images/Bia-TA4_SBT.png" alt="Cơ sở pháp lý 1" class="w-80-center hover-scale img-fluid mb-3">
+                                            </figure>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-md-6 col-lg-2 col-6 aos-init aos-animate" data-aos="fade-up">
+                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
+                                            <figure class="img-wrap m-0 text-center">
+                                                <img src="<?=PATH_URL?>/images/Bia-TA5_SBT.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
+                                            </figure>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-md-6 col-lg-2 col-6 aos-init aos-animate" data-aos="fade-up">
+                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
+                                            <figure class="img-wrap m-0 text-center">
+                                                <img src="<?=PATH_URL?>/images/Bia-TA6_SBT_1.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 col-lg-2 col-6 aos-init aos-animate" data-aos="fade-up">
+                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
+                                            <figure class="img-wrap m-0 text-center">
+                                                <img src="<?=PATH_URL?>/images/Bia-TA7-SBT-1.png" alt="Cơ sở pháp lý 1" class="w-80-center hover-scale img-fluid mb-3">
+                                            </figure>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-md-6 col-lg-2 col-6 aos-init aos-animate" data-aos="fade-up">
+                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
+                                            <figure class="img-wrap m-0 text-center">
+                                                <img src="<?=PATH_URL?>/images/Bia-TA8-SBT-1.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
+                                            </figure>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-md-6 col-lg-2 col-6 aos-init aos-animate" data-aos="fade-up">
+                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
+                                            <figure class="img-wrap m-0 text-center">
+                                                <img src="<?=PATH_URL?>/images/Bia-TA9-SBT-1.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 col-lg-2 col-6 aos-init aos-animate" data-aos="fade-up">
+                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
+                                            <figure class="img-wrap m-0 text-center">
+                                                <img src="<?=PATH_URL?>/images/Bia-TA10-SBT-1.png" alt="Cơ sở pháp lý 1" class="w-80-center hover-scale img-fluid mb-3">
+                                            </figure>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-md-6 col-lg-2 col-6 aos-init aos-animate" data-aos="fade-up">
+                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
+                                            <figure class="img-wrap m-0 text-center">
+                                                <img src="<?=PATH_URL?>/images/Bia-TA11-SBT-1.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
+                                            </figure>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-md-6 col-lg-2 col-6 aos-init aos-animate" data-aos="fade-up">
+                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
+                                            <figure class="img-wrap m-0 text-center">
+                                                <img src="<?=PATH_URL?>/images/Bia-TA12-SBT-1.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
+                                            </figure>
+                                        </a>
+                                    </div>
+
+                                </div>
                             </div>
                         </section>
 
@@ -145,7 +210,7 @@
                                 </div>
                             </div>
                         </section>
-
+                        <!-- 
                         <section class="section m-5" id="cautruc">
                             <div class="container ftco-animate">
                                 <div class="row justify-content-center text-center mb-5 ftco-animate">
@@ -267,7 +332,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </section>
+                        </section> -->
 
                         <section class="section" id="tainguyen">
                             <div class="container ftco-animate">
@@ -536,7 +601,7 @@
                                 </div>
                             </div>
                         </section>
-
+                        <!-- 
                         <section class="py-5" id="">
                             <div class="container ftco-animate">
                                 <div class="row justify-content-center text-center mb-5 ftco-animate fadeInUp ftco-animated">
@@ -560,7 +625,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </section>
+                        </section> -->
 
                     <?php } else if (isset($page) && $page == 2) { ?>
                         <section class="button m-5">
