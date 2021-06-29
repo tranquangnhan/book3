@@ -834,7 +834,12 @@ class Model_home extends Model_db{
     }
 
     function getBookByKeyWordLimit($keyWord) {
-        $sql = "SELECT * FROM `book` WHERE name like '%$keyWord%' OR author like '%$keyWord%' ORDER BY class DESC limit 9";
+        $sql = "SELECT * FROM `book` WHERE name like '%$keyWord%' OR author like '%$keyWord%' ORDER BY idcate ASC, class limit 9";
+        return $this->result1(0, $sql);
+    }
+
+    function getBookByKeyWordFormLimit($keyWord, $form) {
+        $sql = "SELECT * FROM `book` WHERE name like '%$keyWord%' OR author like '%$keyWord%' ORDER BY idcate ASC, class limit $form, 9";
         return $this->result1(0, $sql);
     }
 
