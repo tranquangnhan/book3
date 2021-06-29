@@ -85,7 +85,7 @@
 
 
 	$('#dropdown04').on('show.bs.dropdown', function () {
-	  console.log('show');
+	  
 	});
 
 	// scroll
@@ -159,7 +159,7 @@
 				$('.number').each(function(){
 					var $this = $(this),
 						num = $this.data('number');
-						console.log(num);
+						// console.log(num);
 					$this.animateNumber(
 					  {
 					    number: num,
@@ -271,6 +271,18 @@ $('#video-carousel').owlCarousel({
             items:4
         }
     }
+});
+
+
+$('#cate-product').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+    }
 })
 
 
@@ -286,7 +298,13 @@ $('.show-option').click(function (e) {
         $('div[data-option="'+ num +'"]').addClass('active');
 
         $('div[data-show-op="'+ num +'"]').addClass('option-active');
-        $('div[data-show-op="'+ numActive +'"]').removeClass('option-active');        
+        $('div[data-show-op="'+ numActive +'"]').removeClass('option-active'); 
+        
+        if ($(this).hasClass('sp_rs')) {            
+            obj.pageTeacher = true;
+        } else {
+            obj.pageTeacher = false;
+        }
     } 
 });
 
@@ -311,8 +329,13 @@ function paginationItemHtmlFirst(html) {
 }
 
 function removeAndAddNewLi(html) {
-    $('.page-list li').remove();
-    $('.page-list').append(html); 
+    if (obj.pageTeacher == true) {
+        $('.page-list-sprs li').remove();
+        $('.page-list-sprs').append(html);
+    } else {
+        $('.page-list li').remove();
+        $('.page-list').append(html);
+    }     
 }
 
 function paginationItemHtmlLast(html, pageNumber) {
@@ -327,7 +350,7 @@ var pageNumber = $('.pageNumber').val();
 pageNumber     = parseInt(pageNumber);
 var pageCur = 1;
 
-function moveNext() {
+function moveNext() {    
     pageCur++;
     if (pageCur <= pageNumber) {
         renderPage(pageCur);
@@ -404,10 +427,9 @@ var obj = {
     pageTeacher: false,
     getData: function(form) {             
         goToByScroll('nav-chil');
-    
-    
+        
         clearTimeout(timeRequest);
-        if (obj.pageTeacher == false) {
+        if (obj.pageTeacher == false) {            
             if ($('.ftco-loader').hasClass('show') == false) {
                 $('.product-box .product-item').remove();
                 $('.ftco-loader').addClass('show');    

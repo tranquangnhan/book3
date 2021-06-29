@@ -58,6 +58,12 @@ if (level == 1) {
         { 'class': [] },
         { 'category': [firstIdCategory] }
     ];
+} else if (level == 13) {
+    filterOb = [
+        { 'type': [2] },
+        { 'class': [] },
+        { 'category': [] }
+    ];
 } else {
     var filterOb = [
         { 'type': [] },
@@ -116,6 +122,7 @@ $('.filter').click(function(e) {
             $(this).parent().addClass('active');
             getDataSupportResource(keyFilter, 0);
         }
+        
         // alert('Phần này không có lọc');
     } else {
         checkReloadPage = true;
@@ -123,7 +130,7 @@ $('.filter').click(function(e) {
             $('.product-box .product-item').remove();
             $('.ftco-loader').addClass('show');
         }
-
+        
         clearTimeout(timeRequest);
 
         var checkType = $(this).attr('data-type');
@@ -212,8 +219,7 @@ function getDataByFilterOb(data, url) {
         contentType: false,
         processData: false,
         data: data,
-        success: function(response) {
-            console.log(response);
+        success: function(response) {                   
             if ($('.notice-h3')) {
                 $('.notice-h3').remove();
                 $('.pagina-box').show();
@@ -233,8 +239,7 @@ function getDataByFilterOb(data, url) {
             }
 
             if (response[1] > 0) {
-                response[0].forEach(element => {
-                    // console.log(element);
+                response[0].forEach(element => {                    
                     var html = htmlProductItem(element, isSanPhamPage);
                     $('.product-box').append(html);
                 });
@@ -259,7 +264,7 @@ function getDataByFilterOb(data, url) {
             //     showConfirmButton: false,
             //     showCancelButton: false,
             // });
-            alert('loi khi load book');
+            alert('Đã xảy ra lỗi khi tải sách');
         }
     });
 }

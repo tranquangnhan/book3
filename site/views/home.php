@@ -93,7 +93,7 @@
                     <h2 class="mb-4 text-uppercase">HỆ THỐNG SÁCH TIẾNG ANH THEO CẤP HỌC</h2>
                 </div>
             </div>
-            <div class="row">
+            <div class="row cate-product">
                 <div class="col-sm-6 ftco-animate col-lg-3 box-categories  mb-3 ">
                     <div class="card show-button-to-right">
                         <div class="div-image">
@@ -156,6 +156,75 @@
                             <a href="<?=SITE_URL?>?act=products&level=4" class="btn btn-primary mr-0-auto mt-auto button-to-right">Xem thêm <i
                                     class="fa fa-arrow-circle-right" aria-hidden="true"></i>
                             </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile">
+                <div class="owl-carousel owl-theme" id="cate-product">
+                    <div class="item col-sm-6 ftco-animate col-lg-3 box-categories  mb-3 ">
+                        <div class="card show-button-to-right">
+                            <div class="div-image">
+                                <img src="<?=PATH_URL?>images/user-cat.jpg" class="card-img-top img-fluid" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <div class="title-categories d-flex align-items-center justify-content-center">
+                                    <h2 class="card-title color-white font-family-Neo-Sans-bold">MẦM NON</h2>
+                                </div>
+                                <a href="<?=SITE_URL?>?act=products&level=1" class="btn btn-primary mr-0-auto mt-auto button-to-right">Xem thêm <i
+                                        class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item col-sm-6 ftco-animate col-lg-3 box-categories mb-3">
+                        <div class="card show-button-to-right">
+                            <div class="div-image">
+                                <img src="<?=PATH_URL?>images/user-cat-1.jpg" class="card-img-top img-fluid" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <div class="title-categories d-flex align-items-center justify-content-center">
+                                    <h2 class="card-title color-white font-family-Neo-Sans-bold">TIỂU HỌC</h2>
+                                </div>
+
+                                <a href="<?=SITE_URL?>?act=products&level=2" class="btn btn-primary mr-0-auto mt-auto button-to-right">Xem thêm <i
+                                        class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item col-sm-6 ftco-animate col-lg-3 box-categories  mb-3">
+                        <div class="card show-button-to-right">
+                            <div class="div-image">
+                                <img src="<?=PATH_URL?>images/user-cat-2.jpg" class="card-img-top img-fluid" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <div class="title-categories d-flex align-items-center justify-content-center">
+                                    <h2 class="card-title color-white font-family-Neo-Sans-bold">TRUNG HỌC <br> CƠ SỞ</h2>
+                                </div>
+
+                                <a href="<?=SITE_URL?>?act=products&level=3" class="btn btn-primary mr-0-auto mt-auto button-to-right">Xem thêm <i
+                                        class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item col-sm-6 col-lg-3 ftco-animate box-categories mb-3 ">
+                        <div class="card show-button-to-right">
+                            <div class="div-image">
+                                <img src="<?=PATH_URL?>images/user-cat-3.jpg" class="card-img-top img-fluid" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <div class="title-categories d-flex align-items-center justify-content-center">
+                                    <h2 class="card-title color-white font-family-Neo-Sans-bold">TRUNG HỌC <br> PHỔ THÔNG
+                                    </h2>
+                                </div>
+
+                                <a href="<?=SITE_URL?>?act=products&level=4" class="btn btn-primary mr-0-auto mt-auto button-to-right">Xem thêm <i
+                                        class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

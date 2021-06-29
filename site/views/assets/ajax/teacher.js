@@ -3,8 +3,11 @@ filterOb = [
     { 'class': [] },
     { 'category': [] }
 ];
+var what = $('#what_').val();
+if (what == 1) {
+    obj.pageTeacher = true;
+}
 
-obj.pageTeacher = true;
 var classe = 0;
 
 function getDataSupportResource(classhe, form) {
@@ -37,7 +40,7 @@ function getDataSpResourceClass(data, url) {
             if ($('.ftco-loader').hasClass('show') == true) {
                 $('.ftco-loader').removeClass('show');
             }
-            console.log(response);
+            
             if (response[1] > 0) {
                 response[0].forEach(element => {                    
                     var ResourcesItem = htmlResourcesItem(element);
@@ -64,7 +67,7 @@ function getDataSpResourceClass(data, url) {
             //     showConfirmButton: false,
             //     showCancelButton: false,
             // });
-            alert('loi khi load tai nguyen ho tro');
+            alert('Đã xảy ra lỗi khi tải tài nguyên hỗ trợ');
         }
     });
 }
@@ -89,3 +92,4 @@ function htmlResourcesItem(data) {
 
     return html;
 }
+

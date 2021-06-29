@@ -17,6 +17,7 @@ RewriteRule ^gioi-thieu/bo-sgk-tieng-anh-thi-diem$ /book3/site/?act=about&page=2
 RewriteRule ^san-pham$ /book3/site/?act=products [L]
 RewriteRule ^hoc-sinh$ /book3/site/?act=student [L]
 RewriteRule ^giao-vien$ /book3/site/?act=teacher [L]
+RewriteRule ^giao-vien/tai-nguyen$ /book3/site/?act=teacher&what=1 [L]
 RewriteRule ^phu-huynh$ /book3/site/?act=parent [L]
 RewriteRule ^bai-viet$ /book3/site/?act=blog [L]
 RewriteRule ^lien-he$ /book3/site/?act=contact [L]

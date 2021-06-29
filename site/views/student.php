@@ -63,11 +63,11 @@
                                 </div>
                             </label>
                             <label class="btn p-0">
-                                <div id="option2" class="btn show-option" data-show-op="2"> Luyện tập
+                                <div id="option2" class="btn show-option btn-primary-2" data-show-op="2"> Luyện tập
                                 </div>
                             </label>
                             <label class="btn p-0">
-                                <div id="option3" class="btn show-option" data-show-op="3"> Kiểm tra đánh
+                                <div id="option3" class="btn show-option btn-primary-2" data-show-op="3"> Kiểm tra đánh
                                     giá</div>
                             </label>
 

@@ -128,3 +128,9 @@ figure.img-wrap {
 .owl-nav .owl-prev span, .owl-nav .owl-next span {
     font-size: 90px;
 }
+
+figure.img-wrap img {
+    min-height: 270px;
+    object-fit: contain;
+    width: 100%;
+}
