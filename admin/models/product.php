@@ -235,4 +235,8 @@ class Model_product extends Model_db{
         return $this->result1(1,$sql,$part)['id'];
     }
 
+    function getAllLinkSingle(){
+        $sql = "SELECT name FROM linksingle";
+        return $this->result1(0,$sql);
+    }
 }

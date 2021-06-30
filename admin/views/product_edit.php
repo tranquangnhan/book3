@@ -161,73 +161,73 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="form-group">
-                                        <label for="">Link sách mềm giáo viên</label><span style="color:red;"></span>
+                                        <label for="">Link <?=$getAllLinkSingle[0]['name']?></label><span style="color:red;"></span>
                                         <input type="text" name="linksachmengv"  value="<?=$oneRecode['linksachmengv']?>" parsley-trigger="change"
-                                            placeholder="link sách mềm giáo viên ..." class="form-control" >
+                                            placeholder="link <?=$getAllLinkSingle[0]['name']?> ..." class="form-control" >
                                     </div>
                                 </div>   
                                 <div class="col-lg-6">
                                     <div class="form-group">
-                                        <label for="">Link sách mềm học sinh</label><span style="color:red;"></span>
+                                        <label for="">Link <?=$getAllLinkSingle[6]['name']?></label><span style="color:red;"></span>
                                         <input type="text" name="linksachmemhs" value="<?=$oneRecode['linksachmemhs']?>"  parsley-trigger="change"
-                                            placeholder="link sách mềm học sinh ..." class="form-control" >
+                                            placeholder="link <?=$getAllLinkSingle[6]['name']?> ..." class="form-control" >
                                     </div>
                                 </div>              
                             </div>
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="form-group">
-                                        <label for="">Link sách giáo viên tập 1</label><span style="color:red;"></span>
+                                        <label for="">Link <?=$getAllLinkSingle[1]['name']?></label><span style="color:red;"></span>
                                         <input type="text" name="linksachgv" value="<?=$oneRecode['linkgv']?>" parsley-trigger="change"
-                                            placeholder="link sách giáo viên tập 1 ..." class="form-control" >
+                                            placeholder="link <?=$getAllLinkSingle[1]['name']?> ..." class="form-control" >
                                     </div>
                                 </div>     
                                 <div class="col-lg-6">
                                     <div class="form-group">
-                                        <label for="">Link ứng dụng luyện từ vựng</label><span style="color:red;"></span>
+                                        <label for="">Link <?=$getAllLinkSingle[7]['name']?></label><span style="color:red;"></span>
                                         <input type="text" name="linkudluyentuvung" value="<?=$oneRecode['linkudluyentuvung']?>"  parsley-trigger="change"
-                                            placeholder="link ứng dụng luyện từ vựng ..." class="form-control" >
+                                            placeholder="link <?=$getAllLinkSingle[7]['name']?> ..." class="form-control" >
                                     </div>
                                 </div> 
                             </div>
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="form-group">
-                                        <label for="">Link sách giáo viên tập 2</label><span style="color:red;"></span>
+                                        <label for="">Link <?=$getAllLinkSingle[2]['name']?></label><span style="color:red;"></span>
                                         <input type="text" name="linksachgv2" value="<?=$oneRecode['linksachgv2']?>"  parsley-trigger="change"
-                                            placeholder="link sách giáo viên tập 2 ..." class="form-control" >
+                                            placeholder="link <?=$getAllLinkSingle[2]['name']?> ..." class="form-control" >
                                     </div>
                                 </div>     
                                 <div class="col-lg-6">
                                     <div class="form-group">
-                                        <label for="">Link ứng dụng luyện nghe nói</label><span style="color:red;"></span>
+                                        <label for="">Link <?=$getAllLinkSingle[8]['name']?></label><span style="color:red;"></span>
                                         <input type="text" name="linkudnghenoi" value="<?=$oneRecode['linkudnghenoi']?>"  parsley-trigger="change"
-                                            placeholder="link ứng dụng luyện nghe nói..." class="form-control" >
+                                            placeholder="link <?=$getAllLinkSingle[8]['name']?>..." class="form-control" >
                                     </div>
                                 </div>              
                             </div>
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="form-group">
-                                        <label for="">Link đề kiểm tra</label><span style="color:red;"></span>
+                                        <label for="">Link <?=$getAllLinkSingle[3]['name']?></label><span style="color:red;"></span>
                                         <input type="text" name="linkdekiemtra" value="<?=$oneRecode['linkdekiemtra']?>"  parsley-trigger="change"
-                                            placeholder="link đề kiểm tra ..." class="form-control" >
+                                            placeholder="link <?=$getAllLinkSingle[3]['name']?> ..." class="form-control" >
                                     </div>
                                 </div>     
                                 <div class="col-lg-6">
                                     <div class="form-group">
-                                        <label for="">Link story land</label><span style="color:red;"></span>
+                                        <label for="">Link <?=$getAllLinkSingle[9]['name']?></label><span style="color:red;"></span>
                                         <input type="text" name="linkstoryland" value="<?=$oneRecode['linkstoryland']?>"  parsley-trigger="change"
-                                            placeholder="link story land ..." class="form-control" >
+                                            placeholder="link <?=$getAllLinkSingle[9]['name']?> ..." class="form-control" >
                                     </div>
                                 </div>              
                             </div>
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="form-group">
-                                        <label for="">Link phân phối chương trình</label><span style="color:red;"></span>
+                                        <label for="">Link <?=$getAllLinkSingle[4]['name']?></label><span style="color:red;"></span>
                                         <input type="text" name="linkppct" value="<?=$oneRecode['linkppct']?>"  parsley-trigger="change"
-                                            placeholder="link phân phối chương trình ..." class="form-control" >
+                                            placeholder="link <?=$getAllLinkSingle[4]['name']?> ..." class="form-control" >
                                     </div>
                                 </div>  
                                 <div class="col-lg-6">
@@ -242,9 +242,9 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="form-group">
-                                        <label for="">Link ứng dụng luyện nghe nói</label><span style="color:red;"></span>
+                                        <label for="">Link <?=$getAllLinkSingle[5]['name']?></label><span style="color:red;"></span>
                                         <input type="text" name="linkudluyennghenoi" value="<?=$oneRecode['linkudluyennghenoi']?>"  parsley-trigger="change"
-                                            placeholder="link ứng dụng luyện nghe nói ..." class="form-control" >
+                                            placeholder="link <?=$getAllLinkSingle[5]['name']?> ..." class="form-control" >
                                     </div>
                                 </div>                
                             </div>

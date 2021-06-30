@@ -62,6 +62,7 @@ class Product
     {
         $categoryList = $this->modelCate->listRecords();
         $productList = $this->model->listRecords();
+        $getAllLinkSingle = $this->model->getAllLinkSingle();
         if (isset($_GET['id']) && ($_GET['act'] = 'product')) {
             $oneRecode = $this->model->getDetailProductById($_GET['id']);
             $page_title = "Sửa Sản Phẩm";

@@ -55,14 +55,14 @@
                                     Dành Cho Giáo Viên
                                 </button>
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="<?=$oneproduct['linksachmengv']?>">Sách Mềm giáo viên</a>
-                                    <a class="dropdown-item" href="<?=$oneproduct['linkgv']?>">Sách mềm giáo viên tập 1 </a>
-                                    <a class="dropdown-item" href="<?=$oneproduct['linksachgv2']?>">Sách mềm giáo viên tập 2 </a>
+                                    <a class="dropdown-item" href="<?=$oneproduct['linksachmengv']?>"><?=$getAllLinkSingle[0]['name']?></a>
+                                    <a class="dropdown-item" href="<?=$oneproduct['linkgv']?>"><?=$getAllLinkSingle[1]['name']?></a>
+                                    <a class="dropdown-item" href="<?=$oneproduct['linksachgv2']?>"><?=$getAllLinkSingle[2]['name']?></a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="<?=$oneproduct['linkdekiemtra']?>">Đề kiểm tra</a>
+                                    <a class="dropdown-item" href="<?=$oneproduct['linkdekiemtra']?>"><?=$getAllLinkSingle[3]['name']?></a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="<?=$oneproduct['linkppct']?>">Phân phối chương trình</a>
-                                    <a class="dropdown-item" href="<?=$oneproduct['linkudluyennghenoi']?>">Ứng dụng luyện nghe - nói</a>
+                                    <a class="dropdown-item" href="<?=$oneproduct['linkppct']?>"><?=$getAllLinkSingle[4]['name']?></a>
+                                    <a class="dropdown-item" href="<?=$oneproduct['linkudluyennghenoi']?>"><?=$getAllLinkSingle[5]['name']?></a>
                                 </div>
                             </div>
                             <div class="btn-group">
@@ -71,10 +71,10 @@
                                     Dành Cho Học Sinh
                                 </button>
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="<?=$oneproduct['linksachmemhs']?>">Sách mềm học sinh</a>
-                                    <a class="dropdown-item" href="<?=$oneproduct['linkudluyentuvung']?>">Ứng dụng luyện từ vựng</a>
-                                    <a class="dropdown-item" href="<?=$oneproduct['linkudluyennghenoi']?>">Ứng dụng luyện nghe nói</a>
-                                    <a class="dropdown-item" href="<?=$oneproduct['linkstoryland']?>">Story land</a>
+                                    <a class="dropdown-item" href="<?=$oneproduct['linksachmemhs']?>"><?=$getAllLinkSingle[6]['name']?></a>
+                                    <a class="dropdown-item" href="<?=$oneproduct['linkudluyentuvung']?>"><?=$getAllLinkSingle[7]['name']?></a>
+                                    <a class="dropdown-item" href="<?=$oneproduct['linkudluyennghenoi']?>"><?=$getAllLinkSingle[8]['name']?> </a>
+                                    <a class="dropdown-item" href="<?=$oneproduct['linkstoryland']?>"><?=$getAllLinkSingle[9]['name']?></a>
                                 </div>
                             </div>
                             <br><br>

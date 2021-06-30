@@ -209,7 +209,8 @@ class Home
         $slugPart2      =  $this->model->getSlugByPart($oneproduct['id']);        
      
         $checkOnePart   = $this->model->checkOnePart();
-        
+
+        $getAllLinkSingle = $this->model->getAllLinkSingle();
         if($this->model->getSlugByPart($oneproduct['id']) == ''){
             $slugPart1 = $this->model->getSlugById($oneproduct['id']);
             $slugPart2 =  $this->model->getSlugById($oneproduct['part']);

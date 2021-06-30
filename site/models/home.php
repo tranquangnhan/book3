@@ -862,4 +862,9 @@ class Model_home extends Model_db{
         $sql = "SELECT count(*) AS sodong FROM `book` ORDER BY idcate ASC, class";
         return $this->result1(1, $sql)['sodong'];
     }
+
+    function getAllLinkSingle(){
+        $sql = "SELECT name FROM linksingle";
+        return $this->result1(0,$sql);
+    }
 }
