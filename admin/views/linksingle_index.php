@@ -21,7 +21,7 @@
                                 foreach ($list as $row) {
                                     $stt++;
                                     $linkEdit = '?ctrl=linksingle&act=edit&id='.$row['id'];
-                                    $type = ($row['type'] == 1)? '<div class="text-danger">Học Sinh</div>': '<div class="text-success">Giáo Viên</div>';                                       
+                                    $type = ($row['type'] == 1)? '<div class="text-success ">Học Sinh</div>': '<div class="text-danger">Giáo Viên</div>';                                       
                                     echo '<tr>
                                             <td>'.$stt.'</td>
                                             <td>'.$row['name'].'</td>
