@@ -818,6 +818,11 @@ class Model_home extends Model_db{
         return $this->result1(0, $sql);
     }
 
+    function getSupportResource() {
+        $sql = "SELECT * FROM `supportresources` WHERE class = 0 ORDER BY ordinal ASC";
+        return $this->result1(0, $sql);
+    }
+
     function getSupportResourceBy($class, $form) {
         $sql = "SELECT * FROM `supportresources` WHERE class = ? ORDER BY ordinal ASC limit $form, 9";
         return $this->result1(0, $sql, $class);

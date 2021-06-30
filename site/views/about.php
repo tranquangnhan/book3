@@ -18,7 +18,7 @@
                                     <div class="col-md-6 col-lg-2 col-6 aos-init aos-animate" data-aos="fade-up">
                                         <a href="<?=ROOT_URL?>/giao-vien" class="room">
                                             <figure class="img-wrap m-0 text-center">
-                                                <img src="<?=PATH_URL?>/images/sach bai tap.png" alt="Cơ sở pháp lý 1" class="w-80-center hover-scale img-fluid mb-3">
+                                                <img src="<?=PATH_URL?>images/Bia-Tieng-Anh-1-SHS.png" alt="Cơ sở pháp lý 1" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
                                         </a>
                                     </div>
@@ -26,7 +26,7 @@
                                     <div class="col-md-6 col-lg-2 col-6 aos-init aos-animate" data-aos="fade-up">
                                         <a href="<?=ROOT_URL?>/giao-vien" class="room">
                                             <figure class="img-wrap m-0 text-center">
-                                                <img src="<?=PATH_URL?>/images/Bia-TA2_SBT.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
+                                                <img src="<?=PATH_URL?>images/SHS-2.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
                                         </a>
                                     </div>
@@ -34,22 +34,14 @@
                                     <div class="col-md-6 col-lg-2 col-6 aos-init aos-animate" data-aos="fade-up">
                                         <a href="<?=ROOT_URL?>/giao-vien" class="room">
                                             <figure class="img-wrap m-0 text-center">
-                                                <img src="<?=PATH_URL?>/images/Bia-TA3_SBT.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
+                                                <img src="<?=PATH_URL?>images/ab3.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
                                         </a>
                                     </div>
                                     <div class="col-md-6 col-lg-2 col-6 aos-init aos-animate" data-aos="fade-up">
                                         <a href="<?=ROOT_URL?>/giao-vien" class="room">
                                             <figure class="img-wrap m-0 text-center">
-                                                <img src="<?=PATH_URL?>/images/Bia-TA4_SBT.png" alt="Cơ sở pháp lý 1" class="w-80-center hover-scale img-fluid mb-3">
-                                            </figure>
-                                        </a>
-                                    </div>
-
-                                    <div class="col-md-6 col-lg-2 col-6 aos-init aos-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
-                                            <figure class="img-wrap m-0 text-center">
-                                                <img src="<?=PATH_URL?>/images/Bia-TA5_SBT.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
+                                                <img src="<?=PATH_URL?>images/ab4.png" alt="Cơ sở pháp lý 1" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
                                         </a>
                                     </div>
@@ -57,14 +49,7 @@
                                     <div class="col-md-6 col-lg-2 col-6 aos-init aos-animate" data-aos="fade-up">
                                         <a href="<?=ROOT_URL?>/giao-vien" class="room">
                                             <figure class="img-wrap m-0 text-center">
-                                                <img src="<?=PATH_URL?>/images/Bia-TA6_SBT_1.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
-                                            </figure>
-                                        </a>
-                                    </div>
-                                    <div class="col-md-6 col-lg-2 col-6 aos-init aos-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
-                                            <figure class="img-wrap m-0 text-center">
-                                                <img src="<?=PATH_URL?>/images/Bia-TA7-SBT-1.png" alt="Cơ sở pháp lý 1" class="w-80-center hover-scale img-fluid mb-3">
+                                                <img src="<?=PATH_URL?>images/ab5.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
                                         </a>
                                     </div>
@@ -72,7 +57,14 @@
                                     <div class="col-md-6 col-lg-2 col-6 aos-init aos-animate" data-aos="fade-up">
                                         <a href="<?=ROOT_URL?>/giao-vien" class="room">
                                             <figure class="img-wrap m-0 text-center">
-                                                <img src="<?=PATH_URL?>/images/Bia-TA8-SBT-1.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
+                                                <img src="<?=PATH_URL?>images/SHS-6-2.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 col-lg-2 col-6 aos-init aos-animate" data-aos="fade-up">
+                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
+                                            <figure class="img-wrap m-0 text-center">
+                                                <img src="<?=PATH_URL?>images/ab7.png" alt="Cơ sở pháp lý 1" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
                                         </a>
                                     </div>
@@ -80,14 +72,7 @@
                                     <div class="col-md-6 col-lg-2 col-6 aos-init aos-animate" data-aos="fade-up">
                                         <a href="<?=ROOT_URL?>/giao-vien" class="room">
                                             <figure class="img-wrap m-0 text-center">
-                                                <img src="<?=PATH_URL?>/images/Bia-TA9-SBT-1.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
-                                            </figure>
-                                        </a>
-                                    </div>
-                                    <div class="col-md-6 col-lg-2 col-6 aos-init aos-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
-                                            <figure class="img-wrap m-0 text-center">
-                                                <img src="<?=PATH_URL?>/images/Bia-TA10-SBT-1.png" alt="Cơ sở pháp lý 1" class="w-80-center hover-scale img-fluid mb-3">
+                                                <img src="<?=PATH_URL?>images/ab8.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
                                         </a>
                                     </div>
@@ -95,7 +80,14 @@
                                     <div class="col-md-6 col-lg-2 col-6 aos-init aos-animate" data-aos="fade-up">
                                         <a href="<?=ROOT_URL?>/giao-vien" class="room">
                                             <figure class="img-wrap m-0 text-center">
-                                                <img src="<?=PATH_URL?>/images/Bia-TA11-SBT-1.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
+                                                <img src="<?=PATH_URL?>images/ab9.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6 col-lg-2 col-6 aos-init aos-animate" data-aos="fade-up">
+                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
+                                            <figure class="img-wrap m-0 text-center">
+                                                <img src="<?=PATH_URL?>images/ab10.png" alt="Cơ sở pháp lý 1" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
                                         </a>
                                     </div>
@@ -103,7 +95,15 @@
                                     <div class="col-md-6 col-lg-2 col-6 aos-init aos-animate" data-aos="fade-up">
                                         <a href="<?=ROOT_URL?>/giao-vien" class="room">
                                             <figure class="img-wrap m-0 text-center">
-                                                <img src="<?=PATH_URL?>/images/Bia-TA12-SBT-1.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
+                                                <img src="<?=PATH_URL?>images/ab11.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
+                                            </figure>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-md-6 col-lg-2 col-6 aos-init aos-animate" data-aos="fade-up">
+                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
+                                            <figure class="img-wrap m-0 text-center">
+                                                <img src="<?=PATH_URL?>images/ab12.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
                                         </a>
                                     </div>
@@ -342,7 +342,7 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-6 col-lg-3 aos-init ftco-animate" data-aos="fade-up">
+                                    <!-- <div class="col-md-6 col-lg-3 aos-init ftco-animate" data-aos="fade-up">
                                         <a href="<?=ROOT_URL?>/sach/hoc-sinh" class="room">
                                             <figure class="img-wrap">
                                                 <img src="<?=PATH_IMG_SITE?>/Bia-Tieng-Anh-1-SHS.png" alt="Tài nguyên hỗ trợ bộ sách" class="hover-scale img-fluid mb-3">
@@ -373,19 +373,31 @@
                                                 <p class="p-3">Sách bài tập</p>
                                             </div>
                                         </a>
-                                    </div>
+                                    </div> -->
+
+                                    <?php foreach($sprs as $itemsprs) { ?>
                                     <div class="col-md-6 col-lg-3 aos-init ftco-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
+                                    <?php
+                                        if ($itemsprs['name'] == 'Sách học sinh') { ?>
+                                            <a href="<?=ROOT_URL?>/hoc-sinh" class="room">
+                                        <?php } else if ($itemsprs['name'] == 'Sách giáo viên') { ?>
+                                            <a href="<?=ROOT_URL?>/giao-vien" class="room">
+                                        <?php } else if ($itemsprs['name'] == 'Sách bài tập') { ?> 
+                                            <a href="<?=ROOT_URL?>/sach-giao-khoa" class="room">
+                                        <?php } else { ?>                                      
+                                        <a href="<?=ROOT_URL?>/giao-vien/tai-nguyen" class="room">
+                                        <?php } ?>
                                             <figure class="img-wrap">
-                                                <img src="<?=PATH_URL?>images/tn4.svg" alt="Tài nguyên hỗ trợ bộ sách" class="hover-scale img-fluid mb-3">
+                                                <img src="<?=PATH_IMG_SITE?><?=$itemsprs['img']?>" alt="Tài nguyên hỗ trợ bộ sách" class="hover-scale img-fluid mb-3">
                                             </figure>
                                             <div class="text-center">
-                                                <p class="p-3">Bộ công cụ trình chiếu với bảng tương tác</p>
+                                                <p class="p-3"><?=$itemsprs['name']?></p>
                                             </div>
                                         </a>
                                     </div>
+                                    <?php } ?>
                                 </div>
-                                    <div class="row">
+                                    <!-- <div class="row">
                                         <div class="col-md-6 col-lg-3 aos-init ftco-animate" data-aos="fade-up">
                                         <a href="<?=ROOT_URL?>/giao-vien"  class="room">
                                             <figure class="img-wrap">
@@ -560,7 +572,7 @@
                                             </div>
                                         </a>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>                            
                         </section>
 
@@ -898,224 +910,27 @@
                                     </div>
                                 </div>
                                 <div class="row">
+                                <?php foreach($sprs as $itemsprs) { ?>
                                     <div class="col-md-6 col-lg-3 aos-init ftco-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/sach/hoc-sinh" class="room">
+                                    <?php
+                                        if ($itemsprs['name'] == 'Sách học sinh') { ?>
+                                            <a href="<?=ROOT_URL?>/hoc-sinh" class="room">
+                                        <?php } else if ($itemsprs['name'] == 'Sách giáo viên') { ?>
+                                            <a href="<?=ROOT_URL?>/giao-vien" class="room">
+                                        <?php } else if ($itemsprs['name'] == 'Sách bài tập') { ?> 
+                                            <a href="<?=ROOT_URL?>/sach-giao-khoa" class="room">
+                                        <?php } else { ?>                                      
+                                        <a href="<?=ROOT_URL?>/giao-vien/tai-nguyen" class="room">
+                                        <?php } ?>
                                             <figure class="img-wrap">
-                                                <img src="<?=PATH_IMG_SITE?>Bia-TA3_SHS_2.png" alt="Tài nguyên hỗ trợ bộ sách" class="hover-scale img-fluid mb-3">
+                                                <img src="<?=PATH_IMG_SITE?><?=$itemsprs['img']?>" alt="Tài nguyên hỗ trợ bộ sách" class="hover-scale img-fluid mb-3">
                                             </figure>
                                             <div class="text-center">
-                                                <p class="p-3">Sách học sinh</p>
+                                                <p class="p-3"><?=$itemsprs['name']?></p>
                                             </div>
                                         </a>
                                     </div>
-
-                                    <div class="col-md-6 col-lg-3 aos-init ftco-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/sach/giao-vien" class="room">
-                                            <figure class="img-wrap">
-                                                <img src="<?=PATH_IMG_SITE?>Bia-TA4_SHS_1.png" alt="Tài nguyên hỗ trợ bộ sách" class="hover-scale img-fluid mb-3">
-                                            </figure>
-                                            <div class="text-center">
-                                                <p class="p-3">Sách giáo viên</p>
-                                            </div>
-                                        </a>
-                                    </div>
-
-                                    <div class="col-md-6 col-lg-3 aos-init ftco-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/sach/sach-giao-khoa" class="room">
-                                            <figure class="img-wrap">
-                                                <img src="<?=PATH_IMG_SITE?>Bia-TA3_SBT.png" alt="Tài nguyên hỗ trợ bộ sách" class="hover-scale img-fluid mb-3">
-                                            </figure>
-                                            <div class="text-center">
-                                                <p class="p-3">Sách bài tập</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-md-6 col-lg-3 aos-init ftco-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
-                                            <figure class="img-wrap">
-                                                <img src="<?=PATH_URL?>images/tn4.svg" alt="Tài nguyên hỗ trợ bộ sách" class="hover-scale img-fluid mb-3">
-                                            </figure>
-                                            <div class="text-center">
-                                                <p class="p-3">Bộ công cụ trình chiếu với bảng tương tác</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                    <div class="row">
-                                        <div class="col-md-6 col-lg-3 aos-init ftco-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien"  class="room">
-                                            <figure class="img-wrap">
-                                                <img src="<?=PATH_URL?>images/tn5.svg" alt="Tài nguyên hỗ trợ bộ sách" class="hover-scale img-fluid mb-3">
-                                            </figure>
-                                            <div class="text-center">
-                                                <p class="p-3">Tài liệu mở rộng</p>
-                                            </div>
-                                        </a>
-                                    </div>
-
-                                    <div class="col-md-6 col-lg-3 aos-init ftco-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
-                                            <figure class="img-wrap">
-                                                <img src="<?=PATH_URL?>images/tn6.svg" alt="Tài nguyên hỗ trợ bộ sách" class="hover-scale img-fluid mb-3">
-                                            </figure>
-                                            <div class="text-center">
-                                                <p class="p-3">Trò chơi trực tuyến</p>
-                                            </div>
-                                        </a>
-                                    </div>
-
-                                    <div class="col-md-6 col-lg-3 aos-init ftco-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
-                                            <figure class="img-wrap">
-                                                <img src="<?=PATH_URL?>images/tn7.svg" alt="Tài nguyên hỗ trợ bộ sách" class="hover-scale img-fluid mb-3">
-                                            </figure>
-                                            <div class="text-center">
-                                                <p class="p-3">Tranh từ vựng</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-md-6 col-lg-3 aos-init ftco-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
-                                            <figure class="img-wrap">
-                                                <img src="<?=PATH_URL?>images/tn8.svg" alt="Tài nguyên hỗ trợ bộ sách" class="hover-scale img-fluid mb-3">
-                                            </figure>
-                                            <div class="text-center">
-                                                <p class="p-3">Tranh truyện</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6 col-lg-3 aos-init ftco-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
-                                            <figure class="img-wrap">
-                                                <img src="<?=PATH_URL?>images/tn9.svg" alt="Tài nguyên hỗ trợ bộ sách" class="hover-scale img-fluid mb-3">
-                                            </figure>
-                                            <div class="text-center">
-                                                <p class="p-3">Truyện nâng cao trình độ đọc</p>
-                                            </div>
-                                        </a>
-                                    </div>
-
-                                    <div class="col-md-6 col-lg-3 aos-init ftco-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
-                                            <figure class="img-wrap">
-                                                <img src="<?=PATH_URL?>images/tn10.svg" alt="Tài nguyên hỗ trợ bộ sách" class="hover-scale img-fluid mb-3">
-                                            </figure>
-                                            <div class="text-center">
-                                                <p class="p-3">Từ điển hình</p>
-                                            </div>
-                                        </a>
-                                    </div>
-
-                                    <div class="col-md-6 col-lg-3 aos-init ftco-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
-                                            <figure class="img-wrap">
-                                                <img src="<?=PATH_URL?>images/tn11.svg" alt="Tài nguyên hỗ trợ bộ sách" class="hover-scale img-fluid mb-3">
-                                            </figure>
-                                            <div class="text-center">
-                                                <p class="p-3">File nghe</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-md-6 col-lg-3 aos-init ftco-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
-                                            <figure class="img-wrap">
-                                                <img src="<?=PATH_URL?>images/tn12.svg" alt="Tài nguyên hỗ trợ bộ sách" class="hover-scale img-fluid mb-3">
-                                            </figure>
-                                            <div class="text-center">
-                                                <p class="p-3">Sách điện tử</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6 col-lg-3 aos-init ftco-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
-                                            <figure class="img-wrap">
-                                                <img src="<?=PATH_URL?>images/tn13.svg" alt="Tài nguyên hỗ trợ bộ sách" class="hover-scale img-fluid mb-3">
-                                            </figure>
-                                            <div class="text-center">
-                                                <p class="p-3">Bài giảng điện tử</p>
-                                            </div>
-                                        </a>
-                                    </div>
-
-                                    <div class="col-md-6 col-lg-3 aos-init ftco-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
-                                            <figure class="img-wrap">
-                                                <img src="<?=PATH_URL?>images/tn14.svg" alt="Tài nguyên hỗ trợ bộ sách" class="hover-scale img-fluid mb-3">
-                                            </figure>
-                                            <div class="text-center">
-                                                <p class="p-3">Phân phối chương trình</p>
-                                            </div>
-                                        </a>
-                                    </div>
-
-                                    <div class="col-md-6 col-lg-3 aos-init ftco-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
-                                            <figure class="img-wrap">
-                                                <img src="<?=PATH_URL?>images/tn15.svg" alt="Tài nguyên hỗ trợ bộ sách" class="hover-scale img-fluid mb-3">
-                                            </figure>
-                                            <div class="text-center">
-                                                <p class="p-3">Kế hoạch bài dạy</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-md-6 col-lg-3 aos-init ftco-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
-                                            <figure class="img-wrap">
-                                                <img src="<?=PATH_URL?>images/tn16.svg" alt="Tài nguyên hỗ trợ bộ sách" class="hover-scale img-fluid mb-3">
-                                            </figure>
-                                            <div class="text-center">
-                                                <p class="p-3">Phim tiết dạy minh họa</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6 col-lg-3 aos-init ftco-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
-                                            <figure class="img-wrap">
-                                                <img src="<?=PATH_URL?>images/tn17.svg" alt="Tài nguyên hỗ trợ bộ sách" class="hover-scale img-fluid mb-3">
-                                            </figure>
-                                            <div class="text-center">
-                                                <p class="p-3">Bài kiểm tra tham khảo</p>
-                                            </div>
-                                        </a>
-                                    </div>
-
-                                    <div class="col-md-6 col-lg-3 aos-init ftco-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
-                                            <figure class="img-wrap">
-                                                <img src="<?=PATH_URL?>images/tn18.svg" alt="Tài nguyên hỗ trợ bộ sách" class="hover-scale img-fluid mb-3">
-                                            </figure>
-                                            <div class="text-center">
-                                                <p class="p-3">Tập huấn chuyên môn</p>
-                                            </div>
-                                        </a>
-                                    </div>
-
-                                    <div class="col-md-6 col-lg-3 aos-init ftco-animate" data-aos="fade-up">
-                                        <a href="https://phuongnam.edu.vn/" class="room">
-                                            <figure class="img-wrap">
-                                                <img src="<?=PATH_URL?>images/tn19.svg" alt="Tài nguyên hỗ trợ bộ sách" class="hover-scale img-fluid mb-3">
-                                            </figure>
-                                            <div class="text-center">
-                                                <p class="p-3">Website www.phuongnam.edu.vn</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-md-6 col-lg-3 aos-init ftco-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
-                                            <figure class="img-wrap">
-                                                <img src="<?=PATH_URL?>images/tn20.svg" alt="Tài nguyên hỗ trợ bộ sách" class="hover-scale img-fluid mb-3">
-                                            </figure>
-                                            <div class="text-center">
-                                                <p class="p-3">Diễn đàn sinh hoạt chuyên môn</p>
-                                            </div>
-                                        </a>
-                                    </div>
+                                    <?php } ?>
                                 </div>
                             </div>                            
                         </section>

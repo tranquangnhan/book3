@@ -1,3 +1,5 @@
+<input type="hidden" name="" class="levelType" value="<?=$level?>">
+
 <section class="ftco-section ftco-about img">
     <div class="container">
         <div class="row d-flex">
@@ -39,7 +41,7 @@
                         <div class="row">
                             <div class="col-12" id="nav-chil">
                                 <ul>
-                                    <li><a href="#" class="big filter class" data-type="1" data-class="0">Mầm Non</a></li>
+                                    <li class="<?=($what==1) ? 'active' : ''?> "><a href="#" class="big filter class" data-type="1" data-class="0">Mầm Non</a></li>
                                     <li><a href="#" class="filter class" data-type="1" data-class="1">1</a></li>
                                     <li><a href="#" class="filter class" data-type="1" data-class="2">2</a></li>
                                     <li><a href="#" class="filter class" data-type="1" data-class="3">3</a></li>
@@ -60,10 +62,10 @@
                 <div class="col-lg-12 mb-5 text-center">
                     <div class="w-100">
                         <label class="btn box-shadow-none p-0">
-                            <div id="option1" class="btn show-option product option-active " data-show-op="1">Sách Mềm</div>
+                            <div id="option1" class="btn book show-option product  <?=($what==0) ? 'option-active' : ''?> " data-show-op="1">Sách Mềm</div>
                         </label>
                         <label class="btn box-shadow-none p-0">
-                            <div id="option2" class="btn show-option support-resources" data-show-op="2"> Tài
+                            <div id="option2" class="btn sp_rs show-option support-resources <?=($what==1) ? 'option-active' : ''?> " data-show-op="2"> Tài
                                 nguyên hỗ trợ giảng dạy</div>
                         </label>
                         <label class="btn box-shadow-none p-0">
@@ -77,7 +79,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="option-item active option_1 w-100" data-option="1">
+                    <div class="option-item <?=($what==0) ? 'active' : ''?> option_1 w-100 book" data-option="1">
                         <div class="container">
                             <div class="row product-box">    
                                 <?php 
@@ -150,7 +152,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="option-item option_2 w-100" data-option="2">
+                    <div class="option-item <?=($what==1) ? 'active' : ''?> option_2 w-100" data-option="2">
                         <div class="row spre">
                             <?php 
                             if (isset($mess2)) {
@@ -187,7 +189,7 @@
                                     <input type="hidden" class="pageNumberTeacher" value="<?=$pageNumberResources?>">
                                     <ul class="page-num">
                                             <li><a href="javascript:void(0)" class="pagination-control prev" onclick="moveBack();">&lt;</a></li>                
-                                            <div class="page-list d-inline-block">
+                                            <div class="page-list-sprs d-inline-block">
                                             <?php 
                                             if ($pageNumberResources <= 6) {
                                                 for ($i = 1; $i < $pageNumberResources + 1; $i++) { 
@@ -220,3 +222,5 @@
 
         </div>
 </section>
+
+<input type="hidden" value="<?=$what?>" id="what_">

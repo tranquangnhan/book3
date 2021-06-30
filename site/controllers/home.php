@@ -112,6 +112,7 @@ class Home
     public function about() {
         $css          = "about.css";
         if (isset($_GET['page'])) {
+            $sprs = $this->model->getSupportResource();            
             $css  = "about-page.css";
             $page = $_GET['page'];
             $js   = ["about-page.js"];
@@ -256,6 +257,9 @@ class Home
     }
 
     public function teacher() {
+        if (isset($_GET['what'])) {
+            $what = $_GET['what'];
+        }
         $abouts         = $this->model->getAbouts();
         
         $page_title     = "Giáo Viên - EngBook";
@@ -265,7 +269,7 @@ class Home
         $namePage       = "Giáo Viên";            
         $ajax           = ["product-list.js", "teacher.js"];
         $where          = ' type = 2 ';
-
+        $level          = 13;
         $categories     = $this->model->getCategories();
         $getLastestNews = $this->modelBlogs->getLastestNews();
         $listProduct    = $this->model->getProductLimit($where);        
@@ -286,7 +290,7 @@ class Home
         $limitItem      = 9;
         $pageNumber     = ceil($AmountProduct / $limitItem);        
         $pageNumberResources = ceil($amountSpResources / $limitItem); 
-        
+       
         require_once "views/layout.php";
     }
 
