@@ -122,7 +122,7 @@ $('.filter').click(function(e) {
             $(this).parent().addClass('active');
             getDataSupportResource(keyFilter, 0);
         }
-        
+
         // alert('Phần này không có lọc');
     } else {
         checkReloadPage = true;
@@ -130,7 +130,7 @@ $('.filter').click(function(e) {
             $('.product-box .product-item').remove();
             $('.ftco-loader').addClass('show');
         }
-        
+
         clearTimeout(timeRequest);
 
         var checkType = $(this).attr('data-type');
@@ -211,6 +211,7 @@ function getDataByTypeCheck(checkType) {
 }
 
 function getDataByFilterOb(data, url) {
+    console.log(data);
     $.ajax({
         type: 'POST',
         url: url,
@@ -219,7 +220,7 @@ function getDataByFilterOb(data, url) {
         contentType: false,
         processData: false,
         data: data,
-        success: function(response) {                   
+        success: function(response) {
             if ($('.notice-h3')) {
                 $('.notice-h3').remove();
                 $('.pagina-box').show();
@@ -239,7 +240,7 @@ function getDataByFilterOb(data, url) {
             }
 
             if (response[1] > 0) {
-                response[0].forEach(element => {                    
+                response[0].forEach(element => {
                     var html = htmlProductItem(element, isSanPhamPage);
                     $('.product-box').append(html);
                 });

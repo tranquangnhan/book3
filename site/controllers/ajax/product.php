@@ -35,6 +35,7 @@ require_once "../../../system/config.php";
 
                 $sql        = 'SELECT * FROM `book` ';
 
+               
                 if (count($type) > 0 && $type != "") {
                     if ($where == false) {
                         $sql  .= 'WHERE ';
@@ -47,8 +48,9 @@ require_once "../../../system/config.php";
                     $sql      .= implode(',', $type);
                     $sql      .= ')';
                 }
+            
 
-                if (count($class) > 0 && $class[0] != "") {
+                if (count($class) > 0) {
                     if ($where == false) {
                         $sql  .= 'WHERE ';
                         $where = true;
