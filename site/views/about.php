@@ -3,10 +3,9 @@
         <div class="row">
             <div class="col-12 mb-5">
                 <div class="content-div">
-                    <?php
-                        if (isset($aboutDetail)) {
+                    <?php if (isset($aboutDetail)) {
                             echo $aboutDetail['content'];
-                        } else if (isset($page) && $page == 1) { ?>
+                    } else if (isset($page) && $page == 1) { ?>
                        <section class="section" id="phaply">
                             <div class="container ftco-animate">
                                 <div class="row justify-content-center text-center mb-5">
@@ -996,6 +995,8 @@
                                 </div>
                             </div>
                         </section>
+                    <?php } else if (isset($page) & $page == 3) { ?>
+                        <?php require 'about-other.php'; ?>
                     <?php } else {?>
                     <h1 class="text-center text-uppercase ftco-animate">GIỚI THIỆU VỀ NHÀ XUẤT BẢN GIÁO DỤC VIỆT NAM</h1>
                     <div class="col-8 my-4 mr-0-auto ftco-animate">

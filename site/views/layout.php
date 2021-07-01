@@ -80,10 +80,10 @@
                         <a href="<?=ROOT_URL?>" class="nav-link">Trang Chủ</a>
                     </li>
                     <li class="nav-item dropdown-2 aboutDropdown <?php echo ($viewFile == "views/about.php") ? 'bar-active active' : '' ?>">
-                        <a href="<?=ROOT_URL?>/gioi-thieu" class="nav-link">Giới Thiệu 
-                        </a>
+                        <a href="<?=ROOT_URL?>/gioi-thieu" class="nav-link">Giới Thiệu </a>
                         <ul class="dropdown-hover-2">
                             <li class="about-item"><a href="<?=ROOT_URL?>/gioi-thieu" class="text-uppercase">Giới thiệu chung</a></li>
+                            <li class="about-item"><a href="<?=ROOT_URL?>/gioi-thieu/1" class="text-uppercase">Giới Thiệu 1</a></li>
                             <?php foreach($abouts as $about) { 
                                 if ($about['link'] == '') { ?>
                                     <li class="about-item"><a class="text-uppercase" href="<?=SITE_URL?>?act=about&id=<?=$about['id']?>"><?=$about['name']?></a></li>
@@ -138,6 +138,10 @@
             <img src="<?=PATH_URL?>images/banner2.jpg" alt="" class="img-fluid">
         </section>  
     <?php } else if (isset($page) && $page == 2) { ?> 
+        <section class="header-banner">
+            <img src="<?=PATH_URL?>images/banner1.jpg" alt="" class="img-fluid">
+        </section>  
+    <?php } else if (isset($page) && $page == 3) { ?> 
         <section class="header-banner">
             <img src="<?=PATH_URL?>images/banner1.jpg" alt="" class="img-fluid">
         </section>  

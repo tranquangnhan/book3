@@ -112,10 +112,16 @@ class Home
     public function about() {
         $css          = "about.css";
         if (isset($_GET['page'])) {
-            $sprs = $this->model->getSupportResource();            
-            $css  = "about-page.css";
             $page = $_GET['page'];
-            $js   = ["about-page.js"];
+
+            if ($page == 3) {
+                $css = "about-other.css";
+                $js   = ["about-other.js"];
+            } else {
+                $sprs = $this->model->getSupportResource();            
+                $css  = "about-page.css";
+                $js   = ["about-page.js"];
+            }
         }
         $page_title   = "Giới Thiệu - EngBook";
         $viewFile     = "views/about.php";
