@@ -4,32 +4,40 @@ class lib{
         return trim(strip_tags($str));
     }
 
-    function checkUpLoadImageDateTimeMany($allFile, $dateTime){
-        $pathimg = '../uploads/'. $dateTime . '-';
-        foreach ($allFile['name'] as $file) {
-            $nameimg[] = $file;
-        }
-        foreach($allFile['tmp_name'] as $file){
-            $tmp_name[] = $file;
-        }
-        $imgupload = '';
-        for ($i=0; $i <count($nameimg) ; $i++) { 
-            $temp = preg_split('/[\/\\\\]+/',$nameimg[$i]);
-            $img = $temp[count($temp)-1];
-            $target_file = $pathimg . basename($img);
-            if (move_uploaded_file($tmp_name[$i], $target_file)) {
-                $uploadfile = 'Upload file thành công';
+    function checkUpLoadImageDateTimeMany($allFile){
+        if($allFile['tmp_name'][0] == ''){
+            return '';
+        }else{
+            $dateTime  = time();
+            $pathimg = '../uploads/'. $dateTime . '-';
+            foreach ($allFile['name'] as $file) {
+                $nameimg[] = $file;
             }
-            else{
-                $uploadfile = 'upload file không thành công';
+            foreach($allFile['tmp_name'] as $file){
+                $tmp_name[] = $file;
             }
-            if($i <(count($nameimg) -1)){
-                $imgupload .= $nameimg[$i].',';                
-            }else{
-                $imgupload .= $nameimg[$i];
-            }  
+            $imgupload = '';
+            for ($i=0; $i <count($nameimg) ; $i++) { 
+                $nameimg[$i]= $this->makeCleanTextImg($nameimg[$i]);
+                $temp = preg_split('/[\/\\\\]+/',$nameimg[$i]);
+                $img = $temp[count($temp)-1];
+                $target_file = $pathimg . basename($img);
+                
+                if (move_uploaded_file($tmp_name[$i], $target_file)) {
+                    $uploadfile = 'Upload file thành công';
+                }
+                else{
+                    $uploadfile = 'upload file không thành công';
+                }
+                if($i <(count($nameimg) -1)){
+                    $imgupload .= $dateTime . '-'.$nameimg[$i].',';
+                }else{
+                    $imgupload .= $dateTime . '-'.$nameimg[$i];
+                }  
+            }
+            return $imgupload;
         }
-    return $imgupload;
+       
     }
 
     function checkUpLoadMany($allFile){
@@ -59,6 +67,41 @@ class lib{
         }
     return $imgupload;
     }
+
+    function makeCleanTextImg(string $String)
+    {
+        
+        $String = str_replace("`", "", $String);
+        $String = str_replace("~", "", $String);
+        $String = str_replace("!", "", $String);
+        $String = str_replace("@", "", $String);
+        $String = str_replace("#", "", $String);
+        $String = str_replace("$", "", $String);
+        $String = str_replace("%", "", $String);
+        $String = str_replace("%", "", $String);
+        $String = str_replace("^", "", $String);
+        $String = str_replace("&", "", $String);
+        $String = str_replace("*", "", $String);
+        $String = str_replace("(", "", $String);
+        $String = str_replace(")", "", $String);
+        $String = str_replace("-", "", $String);
+        $String = str_replace("_", "", $String);
+        $String = str_replace("+", "", $String);
+        $String = str_replace("=", "", $String);
+        $String = str_replace("[", "", $String);
+        $String = str_replace("]", "", $String);
+        $String = str_replace(";", "", $String);
+        $String = str_replace(":", "", $String);
+        $String = str_replace('"', "", $String);
+        $String = str_replace("/", "", $String);
+        $String = str_replace("<", "", $String);
+        $String = str_replace(">", "", $String);
+        $String = str_replace("?", "", $String);
+        $String = preg_replace('/\s+/', '', $String);
+        return $String;
+    }
+
+
     function forMatTien($num){
         $num = round($num, 0);
         $formattedNum = number_format($num, 0, ',', '.');

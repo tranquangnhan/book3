@@ -78,5 +78,28 @@
     text-transform: uppercase;
 }
 
+.disabled-link {
+    cursor: default;
+    pointer-events: none;
+    text-decoration: none;
+}
+
+.comming img {
+    opacity: 0.3;
+}
+
+.comming::after {
+    content: "Comming soon";
+    position: absolute;
+    right: 10%;
+    bottom: 48%;
+    width: 150px;
+    height: 30px;
+}
+
+.hero-wrap.hero-wrap-2 {
+    opacity: 0.7;
+}
+
 
 /* end code by nhan */

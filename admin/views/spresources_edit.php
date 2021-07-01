@@ -72,7 +72,7 @@
                             </div>
                                                                                                         
                             <div class="form-group text-right mb-0 mt-5">
-                                <input type="submit" name="them" class="btn btn-primary waves-effect waves-light mr-1" value="Thêm" id='add_supportresources'>
+                                <input type="submit" name="them" class="btn btn-primary waves-effect waves-light mr-1" value="Sửa" id='add_supportresources'>
                                 <a href="<?=ROOT_URL?>/admin/?ctrl=supportresources&act=index" clas="btn btn-secondary waves-effect waves-light">Hủy</a>
                             </div>
                         </form>
