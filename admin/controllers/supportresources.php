@@ -59,20 +59,9 @@ class supportresources
             $img       = $_FILES['img'];                 
             $dateTime  = time();   
 
-            $imgs      = $this->lib->checkUpLoadImageDateTimeMany($img, $dateTime);
+            $imgs  = $this->lib->checkUpLoadImageDateTimeMany($img);
 
-            if ($imgs) {                    
-                $checkIMG = explode(",", $imgs);                
-               
-                for ($i = 0; $i < count($checkIMG); $i++) {
-                    $checkIMG[$i] = explode(".", $checkIMG[$i]);
-                    $checkIMG[$i][1] = strtolower($checkIMG[$i][1]);
-                    if ($checkIMG[$i][1] != "jpg" && $checkIMG[$i][1] != "jpeg" && $checkIMG[$i][1] != "png" && $checkIMG[$i][1] != "gif" && $checkIMG[$i][1] != "webp" && $checkIMG[$i][1] != "svg") {
-                        $checkimg = "Chỉ chấp nhận file .jpg, .jpeg, .png, .svg";
-                        break;
-                    }
-                }
-            }                               
+                             
                                       
             $_SESSION['message'] = "";
 
@@ -80,9 +69,7 @@ class supportresources
                 $_SESSION['message'] = "Bạn chưa nhập tên";
             } else if ($img == "") {
                 $_SESSION['message'] = "Bạn chưa chọn ảnh";
-            } else if ($checkimg) {
-                $_SESSION['message'] = $checkimg;
-            } else if ($link == "") {
+            }  else if ($link == "") {
                 $_SESSION['message'] = "Bạn chưa nhập link";
             }
 
@@ -96,7 +83,6 @@ class supportresources
                     $id = $_GET['id'];
                     settype($id, "int");
                                      
-                    $imgs =   $dateTime . '-' . $imgs;
                     $this->edit($name, $imgs, $link, $id);                    
                 } else {                              
                     $this->store($name, $imgs, $link);

@@ -135,7 +135,7 @@
     <?php 
     if (isset($page) && $page == 1) { ?>
         <section class="header-banner">
-            <img src="<?=PATH_URL?>images/banner2.jpg" alt="" class="img-fluid">
+            <img src="<?=PATH_URL?>images/banner1.jpg" alt="" class="img-fluid">
         </section>  
     <?php } else if (isset($page) && $page == 2) { ?> 
         <section class="header-banner">
