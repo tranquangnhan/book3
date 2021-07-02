@@ -114,8 +114,8 @@ class Home
         $viewFile     = "views/home.php";
         $abouts       = $this->model->getAbouts();
         $video        = $this->model->getAllVideo();
-        $bloglist1    = $this->modelBlogs->getbloglistlimit(' limit 0, 2');
-        $bloglist2    = $this->modelBlogs->getbloglistlimit(' limit 2, 3');        
+        $bloglist1    = $this->modelBlogs->getbloglimit(' limit 0, 2', 1);
+        $bloglist2    = $this->modelBlogs->getbloglimit(' limit 2, 3', 1);        
         require_once "views/layout.php";
     }
 
@@ -159,9 +159,15 @@ class Home
         
         if (isset($_POST['keysearch'])) {
             $key = $_POST['keysearch'];
-            $listProduct   = $this->model->getBookByKeyWordLimit($key);            
-            $AmountProduct = $this->model->getAmountBookByKeyWord($key);  
-            $level = 7;                     
+            if ($key == '') {
+                // $listProduct   = $this->model->getBookByKeyWordLimit($key);            /
+                $AmountProduct = 0;  
+                $level = 7;     
+            } else {                     
+                $listProduct   = $this->model->getBookByKeyWordLimit($key);            
+                $AmountProduct = $this->model->getAmountBookByKeyWord($key);  
+                $level = 7;                     
+            }   
         } else {
             if (isset($_GET['level'])) {            
                 $level = $_GET['level'];

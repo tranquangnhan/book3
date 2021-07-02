@@ -12,13 +12,13 @@
                                     $slug =  $row['slug'];
                                     $linksp = ROOT_URL.'/bai-viet/'.$slug.'-'.$id.'/page-1';
                                     if($_GET['slug'] == $row['slug']){
-                                        echo '  <label class="btn btn-primary active " for="danhmuc'.$row['id'].'">
+                                        echo '  <label class="btn primary-2-active active " for="danhmuc'.$row['id'].'">
                                                     <input type="radio" name="options"  autocomplete="off">
                                                     <a class="text-white" id="danhmuc'.$row['id'].'" href="'.$linksp.'">'.$row['name'].' </a>
                                                 </label>
                                             ';
                                     }else{
-                                        echo '  <label class="btn btn-dark " for="danhmuc'.$row['id'].'>
+                                        echo '  <label class="btn btn-primary-2" for="danhmuc'.$row['id'].'>
                                                     <input type="radio" name="options"  autocomplete="off">
                                                     <a class="text-white" id="danhmuc'.$row['id'].'" href="'.$linksp.'">'.$row['name'].' </a>
                                                 </label>

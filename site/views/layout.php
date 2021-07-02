@@ -36,12 +36,11 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form class="w-100" method="post" action="<?=ROOT_URL?>/san-pham">
+                    <form class="w-100" method="post" class="search-form" action="<?=ROOT_URL?>/san-pham">
                         <div class="row">
                             <div class="col-9 p-r-0">
                                 <div class="form-group">
-                                    <input type="text" name="keysearch" class="form-control" id="" placeholder="Tìm ...">
-
+                                    <input type="text" name="keysearch" class="form-control keysearch" placeholder="Tìm ...">
                                 </div>
                             </div>
                             <div class="col-3">
@@ -83,7 +82,7 @@
                         <a href="<?=ROOT_URL?>/gioi-thieu" class="nav-link">Giới Thiệu </a>
                         <ul class="dropdown-hover-2">
                             <li class="about-item"><a href="<?=ROOT_URL?>/gioi-thieu" class="text-uppercase">Giới thiệu chung</a></li>
-                            <!-- <li class="about-item"><a href="<?=ROOT_URL?>/gioi-thieu/1" class="text-uppercase">Giới Thiệu 1</a></li> -->
+                            <li class="about-item"><a href="<?=ROOT_URL?>/gioi-thieu/1" class="text-uppercase">Giới Thiệu 1</a></li>
                             <?php foreach($abouts as $about) { 
                                 if ($about['link'] == '') { ?>
                                     <li class="about-item"><a class="text-uppercase" href="<?=SITE_URL?>?act=about&id=<?=$about['id']?>"><?=$about['name']?></a></li>
@@ -135,7 +134,7 @@
     <?php 
     if (isset($page) && $page == 1) { ?>
         <section class="header-banner">
-            <img src="<?=PATH_URL?>images/banner1.jpg" alt="" class="img-fluid">
+            <img src="<?=PATH_URL?>images/globalsuccess.jpg" alt="" class="img-fluid">
         </section>  
     <?php } else if (isset($page) && $page == 2) { ?> 
         <section class="header-banner">
@@ -146,7 +145,7 @@
             <img src="<?=PATH_URL?>images/banner1.jpg" alt="" class="img-fluid">
         </section>  
     <?php } else { ?>
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('<?=PATH_URL?>images/bia3.jpg'); ">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('<?=PATH_URL?>images/bia3.jpg'); background-size: 100%;">
         <div class="container">
             <div class="row no-gutters slider-text align-items-end justify-content-center">
                 <div class="col-md-9 ftco-animate pb-5 text-center">

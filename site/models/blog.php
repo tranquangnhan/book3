@@ -177,5 +177,10 @@ class Model_blog extends Model_db{
         $sql = "SELECT * FROM news ORDER BY id DESC $limit";
         return $this->result1(0,$sql);
     }
+
+    function getbloglimit($limit, $cate) {
+        $sql = "SELECT * FROM news WHERE iddm = $cate ORDER BY id DESC $limit";
+        return $this->result1(0,$sql);
+    }
 }
 ?>

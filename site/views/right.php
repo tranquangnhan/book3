@@ -9,7 +9,7 @@
                 <div class="form-group">
                     <div class="row">
                         <div class="col-lg-10 col-md-11 col-sm-11 col-11 p-r-0">
-                        <input type="text"  name="keysearch" class="form-control" placeholder="Search...">
+                        <input type="text"  name="keysearch" class="keysearch form-control" placeholder="Search...">
                     </div>
                     <div class="col-lg-2 col-md-1 col-sm-1 col-1">
                         <button style="background: none;border: none;" type="submit"><span type="submit" class="icon fa fa-search"></button>

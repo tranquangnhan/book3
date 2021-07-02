@@ -6,7 +6,40 @@
                     <?php if (isset($aboutDetail)) {
                             echo $aboutDetail['content'];
                     } else if (isset($page) && $page == 1) { ?>
-                       <section class="section" id="phaply">
+                        <section id="about" class="my-5">
+                            <div class="row justify-content-center text-center mb-5">
+                                <div class="col-md-7">
+                                    <h2 class="title-1 text-uppercase" data-aos="fade-up">Global Success</h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="content-about">
+                                        <p>
+                                        <b>Global Success</b> là bộ sách giáo khoa Tiếng Anh được biên soạn dựa trên Chương trình 
+                                        giáo dục phổ thông môn tiếng Anh (Ban hành kèm theo Thông tư số <b>32/2018/TT-BGDĐT</b>
+                                        ngày 26 tháng 12 năm 2018 của Bộ trưởng Bộ Giáo dục và Đào tạo) và Khung năng lực 
+                                        ngoại ngữ 6 bậc dùng cho Việt Nam của Bộ Giáo dục và Đào tạo.
+                                        </p>
+
+                                        <p>
+                                        Bộ sách do GS.TS. Hoàng Văn Vân là Tổng chủ biên và có sự hợp tác chặt chẽ về 
+                                        chuyên môn và nghiệp vụ giữa <b>Nhà xuất bản Giáo dục Việt Nam</b> với các nhà xuất bản 
+                                        danh tiếng trên thế giới Macmillan Education (ở bậc Tiểu học) và Pearson Education
+                                        (ở bậc Trung học cơ sở và Trung học phổ thông).
+                                        </p>
+                                    </div>
+                                </div>
+<!-- 
+                                <div class="col-6">
+                                    <div class="img">
+                                        <img src="images/globalsuccess.jpg" class="img-fluid banner-img" alt="">
+                                    </div>
+                                </div> -->
+                            </div>
+                        </section>
+
+                       <section class="section" id="">
                             <div class="container ftco-animate">
                                 <!-- <div class="row justify-content-center text-center mb-5">
                                     <div class="col-md-7">
@@ -33,16 +66,16 @@
                                     </div>
 
                                     <div class="col-md-6 col-lg-3 col-6 aos-init aos-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room disabled-link">
-                                            <figure class="img-wrap m-0 text-center comming">
+                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
+                                            <figure class="img-wrap m-0 text-center ">
                                                 <img src="<?=PATH_URL?>images/biasachgt3.png" alt="" class="w-80-center hover-scale img-fluid mb-3 ">
                                             </figure>
                                             <p class="text-center font-weight-bold"> Tài nguyên lớp 3</p>
                                         </a>
                                     </div>
                                     <div class="col-md-6 col-lg-3 col-6 aos-init aos-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
-                                            <figure class="img-wrap m-0 text-center">
+                                        <a href="<?=ROOT_URL?>/giao-vien" class="room ">
+                                            <figure class="img-wrap m-0 text-center comming">
                                                 <img src="<?=PATH_URL?>images/biasachgt4.png" alt="Cơ sở pháp lý 1" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
                                             <p class="text-center font-weight-bold"> Tài nguyên lớp 4</p>
@@ -50,8 +83,8 @@
                                     </div>
 
                                     <div class="col-md-6 col-lg-3 col-6 aos-init aos-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
-                                            <figure class="img-wrap m-0 text-center">
+                                        <a href="<?=ROOT_URL?>/giao-vien" class="room disabled-link">
+                                            <figure class="img-wrap m-0 text-center comming">
                                                 <img src="<?=PATH_URL?>images/biasachgt5.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
                                             <p class="text-center font-weight-bold"> Tài nguyên lớp 5</p>
@@ -127,7 +160,7 @@
                             <div class="container ftco-animate">
                                 <div class="row justify-content-center text-center mb-5">
                                     <div class="col-md-7">
-                                    <h2 class="title-1" data-aos="fade-up">PHƯƠNG PHÁP BIÊN SOẠN</h2>
+                                        <h2 class="title-1" data-aos="fade-up">PHƯƠNG PHÁP BIÊN SOẠN</h2>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -156,7 +189,7 @@
                                     <div class="col-md-6 col-lg-3 aos-init aos-animate" data-aos="fade-up">
                                         <a href="<?=ROOT_URL?>/giao-vien" class="room">
                                             <figure class="img-wrap m-0 text-center">
-                                                <img src="<?=PATH_URL?>/images/approved.svg" alt="" class="w-80-center hover-scale img-fluid mb-3">
+                                                <img src="<?=PATH_URL?>/images/presentation1.svg" alt="" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
                                             <div class="p-3 padding-top-0 text-center">
                                                 <p> Tích hợp các kĩ năng</p>
@@ -168,7 +201,7 @@
                                     <div class="col-md-6 col-lg-3 aos-init aos-animate" data-aos="fade-up">
                                         <a href="<?=ROOT_URL?>/giao-vien" class="room">
                                             <figure class="img-wrap m-0 text-center">
-                                                <img src="<?=PATH_URL?>/images/approved.svg" alt="" class="w-80-center hover-scale img-fluid mb-3">
+                                                <img src="<?=PATH_URL?>/images/webpage.svg" alt="" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
                                             <div class="p-3 padding-top-0 text-center">
                                                 <p> Hệ thống chủ điểm và chủ đề khoa học, thống nhất.</p>
@@ -185,7 +218,7 @@
                             <div class="container ftco-animate">
                                 <div class="row justify-content-center text-center mb-5">
                                     <div class="col-md-7">
-                                    <h2 class="title-1" data-aos="fade-up">PHÁT TRIỂN TOÀN DIỆN KIẾN THỨC VÀ KỸ NĂNG</h2>
+                                    <h2 class="title-1" data-aos="fade-up">PHÁT TRIỂN TOÀN DIỆN <br> KIẾN THỨC VÀ KỸ NĂNG</h2>
                                     </div>
                                 </div>
                                 <div class="row ftco-animate">
@@ -197,26 +230,26 @@
                                                 </div>    
                                             </figure>
                                             <div class="text-center">
-                                                <p class="p-3 color-black m-0">KỸ NĂNG NGÔN NGỮ</p>
-                                                <p class="font-15 hover-color-blue">Phát huy toàn diện bốn kỹ năng nghe, nói, đọc, viết giúp hình thành và phát triển năng lực giao tiếp bằng Tiếng Anh.</p>
+                                                <p class="p-3 fz-1em hover-color-blue m-0">KỸ NĂNG NGÔN NGỮ</p>
+                                                <p class="font-15 fz-1em color-black">Phát huy toàn diện bốn kỹ năng nghe, nói, đọc, viết giúp hình thành và phát triển năng lực giao tiếp bằng Tiếng Anh.</p>
                                             </div>
                                         </a>
                                     </div>
 
                                     <div class="col-md-6 col-lg-3 aos-init ftco-animate" data-aos="fade-up">
-                                    <a href="<?=ROOT_URL?>/giao-vien" class="room">
-                                        <figure class="img-wrap1">
-                                            <div class="hover-scale-white w-100">
-                                                <img src="<?=PATH_URL?>images/diemmanh2.svg" alt="Điểm nổi bật" class="img-fluid mb-3">
-                                            </div>                
-                                        </figure>
-                                        <div class="text-center">
-                                            <p class="p-3 color-black m-0">KIẾN THỨC NGÔN NGỮ</p>
-                                            <p class="font-15 hover-color-blue">Đảm bảo kiến thức ngôn ngữ tiếng Anh bao gồm ngữ âm, từ vững, ngữ pháp.</p>
-                                        </div>
-                                    </a>
+                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
+                                            <figure class="img-wrap1">
+                                                <div class="hover-scale-white w-100">
+                                                    <img src="<?=PATH_URL?>images/diemmanh2.jpg" alt="Điểm nổi bật" class="img-fluid mb-3">
+                                                </div>    
+                                            </figure>
+                                            <div class="text-center">
+                                                <p class="p-3 fz-1em hover-color-blue m-0">KIẾN THỨC NGÔN NGỮ</p>
+                                                <p class="font-15 fz-1em color-black">Đảm bảo kiến thức ngôn ngữ tiếng Anh bao gồm ngữ âm, từ vững, ngữ pháp.</p>
+                                            </div>
+                                        </a>
                                     </div>
-
+                                
                                     <div class="col-md-6 col-lg-3 aos-init ftco-animate" data-aos="fade-up">
                                     <a href="<?=ROOT_URL?>/giao-vien" class="room">
                                         <figure class="img-wrap1">
@@ -225,8 +258,8 @@
                                             </div>
                                         </figure>
                                         <div class="text-center">
-                                            <p class="p-3 color-black m-0">KIẾN THỨC VĂN HÓA</p>
-                                            <p class="font-15 hover-color-blue">Mở rộng kiến thức về văn hóa và con người các nước trên thế giới, xây dựng niềm tự hào về văn hóa dân tộc.</p>
+                                            <p class="p-3 fz-1em hover-color-blue m-0">KIẾN THỨC VĂN HÓA</p>
+                                            <p class="font-15 fz-1em color-black">Mở rộng kiến thức về văn hóa và con người các nước trên thế giới, xây dựng niềm tự hào về văn hóa dân tộc.</p>
                                         </div>
                                     </a>
                                     </div>
@@ -239,8 +272,8 @@
                                             </div>
                                         </figure>
                                         <div class="text-center">
-                                            <p class="p-3 color-black m-0">KĨ NĂNG PHẨM CHẤT THẾ KỶ 21</p>
-                                            <p class="font-15 hover-color-blue">Hình thành, phát triển những năng lực, phẩm chất và kĩ năng học tập, làm việc thế kỷ 21.</p>
+                                            <p class="p-3 hover-color-blue m-0">KĨ NĂNG PHẨM CHẤT <br> THẾ KỶ 21</p>
+                                            <p class="font-15 fz-1em color-black">Hình thành, phát triển những năng lực, phẩm chất và kĩ năng học tập, làm việc thế kỷ 21.</p>
                                         </div>
                                     </a>
                                     </div>
@@ -248,7 +281,94 @@
                                 </div>
                             </div>
                         </section>
-             
+
+                        <section class="section" id="">
+                            <div class="container ftco-animate">
+                                <div class="row justify-content-center text-center mb-5">
+                                    <div class="col-md-7">
+                                    <h2 class="title-1" data-aos="fade-up">DỄ HỌC, DỄ DẠY, DỄ TIẾP CẬN</h2>
+                                    </div>
+                                </div>
+                                <div class="row ftco-animate d-flex justify-content-center fadeInUp ftco-animated">
+                                    <div class="col-lg-10">
+                                        <div class="content-tick d-flex align-items-center ftco-animate">
+                                            <div class="content-tick-icon">
+                                                <img src="<?=PATH_URL?>/images/checked.svg" alt="">
+                                            </div>
+                                            <div class="content-tick-content">
+                                                <p class="fz-1em">  Bám sát khung Chương trình giáo dục phổ thông môn tiếng Anh và Khung năng lực ngoại ngữ 6 bậc dùng cho <br> Việt Nam của Bộ Giáo dục và Đào tạo.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="content-tick d-flex align-items-center ftco-animate">
+                                            <div class="content-tick-icon">
+                                                <img src="<?=PATH_URL?>/images/checked.svg" alt="">
+                                            </div>
+                                            <div class="content-tick-content">
+                                                <p class="fz-1em">Đảm bảo lộ trình học tập xuyên suốt từ lớp 1 đến lớp 12.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="content-tick d-flex align-items-center ftco-animate">
+                                            <div class="content-tick-icon">
+                                                <img src="<?=PATH_URL?>/images/checked.svg" alt="">
+                                            </div>
+                                            <div class="content-tick-content">
+                                                <p class="fz-1em"> Phù hợp với điều kiện dạy và học bộ môn Tiếng Anh trong nhà trường phổ thông Việt Nam.</p>
+                                            </div>
+                                        </div>                                      
+
+                                        <div class="content-tick d-flex align-items-center ftco-animate">
+                                            <div class="content-tick-icon">
+                                                <img src="<?=PATH_URL?>/images/checked.svg" alt="">
+                                            </div>
+                                            <div class="content-tick-content">
+                                                <p class="fz-1em">  Nội dung gần gũi với tư duy tâm lý lứa tuổi của học sinh, kết hợp hài hòa các giá trị văn hóa Việt Nam, khu vực và quốc tế.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="content-tick d-flex align-items-center ftco-animate">
+                                            <div class="content-tick-icon">
+                                                <img src="<?=PATH_URL?>/images/checked.svg" alt="">
+                                            </div>
+                                            <div class="content-tick-content">
+                                                <p class="fz-1em"> Tích hợp liên môn tương quan với các môn học khác trong Chương trình Giáo dục Phổ thông 2018.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="content-tick d-flex align-items-center ftco-animate">
+                                            <div class="content-tick-icon">
+                                                <img src="<?=PATH_URL?>/images/checked.svg" alt="">
+                                            </div>
+                                            <div class="content-tick-content">
+                                                <p class="fz-1em"> Hệ thống kiến thức đảm bảo cho học sinh đáp ứng các kì thi trong nước và quốc tế.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="content-tick d-flex align-items-center ftco-animate">
+                                            <div class="content-tick-icon">
+                                                <img src="<?=PATH_URL?>/images/checked.svg" alt="">
+                                            </div>
+                                            <div class="content-tick-content">
+                                                <p class="fz-1em">  Tài nguyên đi kèm phong phú và đa dạng, cập nhật thường xuyên.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="content-tick d-flex align-items-center ftco-animate">
+                                            <div class="content-tick-icon">
+                                                <img src="<?=PATH_URL?>/images/checked.svg" alt="">
+                                            </div>
+                                            <div class="content-tick-content">
+                                                <p class="fz-1em">  Hệ thống tập huấn, đào tạo, bồi dưỡng, hỗ trợ đầy đủ và đồng bộ.</p>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </section>
 
                         <section class="section" id="tainguyen">
                             <div class="container ftco-animate">
@@ -450,7 +570,7 @@
                         <!-- 
                         <section class="py-5" id="">
                             <div class="container ftco-animate">
-                                <div class="row justify-content-center text-center mb-5 ftco-animate fadeInUp ftco-animated">
+                                <div class="row justify-content-center text-center mb-5 ftco-animate">
                                     <div class="col-md-12">
                                         <h2 class="title-1" data-aos="fade-up">SÁCH SỐ</h2>
                                     </div>
@@ -808,7 +928,7 @@
 
                         <section class="py-5" id="">
                             <div class="container ftco-animate">
-                                <div class="row justify-content-center text-center mb-5 ftco-animate fadeInUp ftco-animated">
+                                <div class="row justify-content-center text-center mb-5 ftco-animate">
                                     <div class="col-md-12">
                                         <h2 class="title-1" data-aos="fade-up">SÁCH SỐ</h2>
                                     </div>
