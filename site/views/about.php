@@ -5,21 +5,7 @@
                 <div class="content-div">
                     <?php if (isset($aboutDetail)) {
                             echo $aboutDetail['content'];
-<<<<<<< HEAD
                     } else if (isset($page) && $page == 1) { ?>
-=======
-                        } else if (isset($page) && $page == 1) { ?>
-                        <div class="row d-flex justify-content-center">
-                            <div class="col-lg-9">
-                                <h2 class="title-1 text-center" data-aos="fade-up">GIỚI THIỆU</h2>
-                                <p>
-                                <strong>Global Success</strong>  là bộ sách giáo khoa Tiếng Anh được biên soạn dựa trên <i>Chương trình giáo dục phổ thông môn tiếng Anh</i> (Ban hành kèm theo Thông tư số <strong>32/2018/TT-BGDĐT</strong>  ngày 26 tháng 12 năm 2018 của Bộ trưởng Bộ Giáo dục và Đào tạo) và <i>Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam</i> của Bộ Giáo dục và Đào tạo.<br>
-                                 Bộ sách do GS.TS. Hoàng Văn Vân là Tổng chủ biên và có sự hợp tác chặt chẽ về chuyên môn và nghiệp vụ giữa <strong>Nhà xuất bản Giáo dục Việt Nam</strong>  với các nhà xuất bản danh tiếng trên thế giới Macmillan Education (ở bậc Tiểu học) và Pearson Education (ở bậc Trung học cơ sở và Trung học phổ thông).
-                                </p>
-                            </div>
-                        </div>
-                        
->>>>>>> 636a8496d9182d7eb1b97b705228db92df70c43b
                        <section class="section" id="phaply">
                             <div class="container ftco-animate">
                                 <!-- <div class="row justify-content-center text-center mb-5">

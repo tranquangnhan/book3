@@ -1,12 +1,12 @@
 <div class="my-5">
-    <div class="first-title mt-4">
+    <div class="first-title mt-4 ftco-animate">
         <div class="col-md-12 heading-section text-center ftco-animate fadeInUp ftco-animated">
             <h2 class="mb-4 text-uppercase">BỘ SÁCH GIÁO KHOA TIẾNG ANH <br> GLOBAL SUCCESS</h2>
         </div>
     </div>
 
     <section>
-        <div class="container my-5">
+        <div class="container my-5 ftco-animate">
             <div class="button-title text-center">
                 <a href="javascript:void(0)" class="text-uppercase">TIẾNG ANH 1</a>
             </div>
@@ -14,10 +14,10 @@
     </section>
 
     <section>
-        <div class="container my-5">
+        <div class="container my-5 ftco-animate">
             <div class="book">
                 <div class="row">
-                    <div class="col-xl-4">
+                    <div class="col-xl-4 ftco-animate">
                         <a href="">
                             <div class="book-box d-flex align-items-center" style="background-image: url('<?=PATH_URL?>images/sach hoc sinh.png');">
                                 <div class="content">
@@ -28,7 +28,7 @@
                         </a>
                     </div>
                     
-                    <div class="col-xl-4">
+                    <div class="col-xl-4 ftco-animate">
                     <a href="">
                             <div class="book-box d-flex align-items-center" style="background-image: url('<?=PATH_URL?>images/sach bai tap.png');">
                                 <div class="content">
@@ -39,7 +39,7 @@
                         </a>
                     </div>
 
-                    <div class="col-xl-4">
+                    <div class="col-xl-4 ftco-animate">
                     <a href="">
                             <div class="book-box d-flex align-items-center" style="background-image: url('<?=PATH_URL?>images/sach giao vien.png');">
                                 <div class="content">
@@ -58,7 +58,7 @@
         <div class="container mb-5">
             <div class="type">
                 <div class="row">
-                    <div class="col-xl-6">
+                    <div class="col-xl-6 ftco-animate">
                         <div class="btn-type teacher" data-type="0">
                             <div class="show">
                                 <span class="text-uppercase show-title">DÀNH CHO GIÁO VIÊN
@@ -67,7 +67,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6">
+                    <div class="col-xl-6 ftco-animate">
                         <div class="btn-type student" data-type="1">
                             <div class="show">
                                 <span class="text-uppercase show-title">DÀNH CHO HỌC SINH
