@@ -55,6 +55,16 @@ class Home
             case "updateSlug":
                 $this->updateSlug();
                 break;
+            case "aboutorther1":
+                $this->aboutOrther1();
+                break;
+            case "aboutorther2":
+                $this->aboutOrther2();
+                break;
+            case "aboutorther3":
+                $this->aboutOrther3();
+                break;
+            
         }
 
     }
@@ -374,6 +384,30 @@ class Home
         $viewFile     = "views/blog-detail.php";     
         $css          = "blog-detail.css";         
         $namePage     = "Tin Tức";
+        require_once "views/layout.php";
+    }
+
+    public function aboutOrther1(){
+        $page_title   = "Tin Tức - EngBook";
+        $js             = ["about-other.js"];
+        $viewFile     = "views/about-orther1.php";    
+        $css          = "about-other.css";   
+        require_once "views/layout.php";
+    }
+
+    public function aboutOrther2(){
+        $page_title   = "Tin Tức - EngBook";
+        $js             = ["about-other.js"];
+        $viewFile     = "views/about-orther2.php";    
+        $css          = "about-other.css";     
+        require_once "views/layout.php";
+    }
+
+    public function aboutOrther3(){
+        $page_title   = "Tin Tức - EngBook";
+        $js             = ["about-other.js"];
+        $viewFile     = "views/about-orther3.php";    
+        $css          = "about-other.css";     
         require_once "views/layout.php";
     }
 

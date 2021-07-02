@@ -22,6 +22,10 @@ RewriteRule ^giao-vien/tai-nguyen$ /book3/site/?act=teacher&what=1 [L]
 RewriteRule ^phu-huynh$ /book3/site/?act=parent [L]
 RewriteRule ^bai-viet$ /book3/site/?act=blog [L]
 RewriteRule ^lien-he$ /book3/site/?act=contact [L]
+RewriteRule ^about/1$ /book3/site/?act=aboutorther1 [L]
+RewriteRule ^about/2$ /book3/site/?act=aboutorther2 [L]
+RewriteRule ^about/3$ /book3/site/?act=aboutorther3 [L]
+
 
 RewriteRule ^sach/mam-non$ /book3/site/?act=products&level=1 [L]
 RewriteRule ^sach/tieu-hoc$ /book3/site/?act=products&level=2 [L]

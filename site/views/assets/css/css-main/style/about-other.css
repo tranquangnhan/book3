@@ -2,7 +2,11 @@
     background: var(--color-main);
     color: white;
     padding: .5em 1.4em;
+<<<<<<< HEAD
+    border-radius: 50px;
+=======
     border-radius: 14px;
+>>>>>>> 95021281ac8e34705b6e6bcf765ec934f60eab7f
     font-size: 2em;
     font-weight: 800;
 }
@@ -22,13 +26,21 @@
     transition: 0.3s;
     position: relative;
     z-index: 10;
+<<<<<<< HEAD
+    text-align: -webkit-center;
+=======
+>>>>>>> 95021281ac8e34705b6e6bcf765ec934f60eab7f
 }
 
 .content h3 {
     font-weight: bolder;
     margin-bottom: 0px;
     padding: 0px;
+<<<<<<< HEAD
+    color: var(--color-main);
+=======
 
+>>>>>>> 95021281ac8e34705b6e6bcf765ec934f60eab7f
 }
 
 .book-box {
@@ -36,8 +48,14 @@
     cursor: pointer;
 }
 
+<<<<<<< HEAD
+.book-box:hover .content {
+    transform: translateY(0px);
+    text-align: -webkit-center;
+=======
 .book-box:hover .content{
     transform: translateY(0px);
+>>>>>>> 95021281ac8e34705b6e6bcf765ec934f60eab7f
 }
 
 .book-box:hover {
@@ -61,8 +79,13 @@
     opacity: 0.8;
 }
 
+<<<<<<< HEAD
+.type {
+    padding-top: 120px;
+=======
 .type {    
     padding-top: 120px;  
+>>>>>>> 95021281ac8e34705b6e6bcf765ec934f60eab7f
 }
 
 .btn-type {
@@ -84,7 +107,11 @@
 
 .show-down {
     /* background: var(--color-main);     */
+<<<<<<< HEAD
+    background: rgb(43 99 159);
+=======
     background: rgb(32, 82, 173);
+>>>>>>> 95021281ac8e34705b6e6bcf765ec934f60eab7f
     width: 100%;
     height: 100%;
     position: relative;
@@ -134,25 +161,43 @@
     width: 0%;
     height: 0px;
     transform: translate(70px, -70px);
+<<<<<<< HEAD
+    margin-top: 0 !important;
+}
+
+@keyframes showtype {
+    0% {
+=======
 }
 
 @keyframes showtype {
     0% {        
+>>>>>>> 95021281ac8e34705b6e6bcf765ec934f60eab7f
         width: 0%;
         height: 0px;
         transform: translate(70px, -70px);
     }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 95021281ac8e34705b6e6bcf765ec934f60eab7f
     50% {
         width: 5%;
         height: 5%;
         transform: translate(0px, 0px);
     }
+<<<<<<< HEAD
+    100% {
+        width: 100%;
+        height: 100%;
+        transform: translate(0px, 0px);
+=======
 
     100% {
         width: 100%;
         height: 100%;     
         transform: translate(0px, 0px);   
+>>>>>>> 95021281ac8e34705b6e6bcf765ec934f60eab7f
     }
 }
 
@@ -169,18 +214,29 @@
 }
 
 @keyframes hidetype {
+<<<<<<< HEAD
+    0% {
+        width: 100%;
+        height: 100%;
+        transform: translate(0px, 0px);
+    }
+=======
     0% {        
         width: 100%;
         height: 100%;
         transform: translate(0px, 0px);   
     }
 
+>>>>>>> 95021281ac8e34705b6e6bcf765ec934f60eab7f
     50% {
         width: 5%;
         height: 5%;
         transform: translate(0px, 0px);
     }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 95021281ac8e34705b6e6bcf765ec934f60eab7f
     100% {
         width: 0%;
         height: 0px;
@@ -194,30 +250,51 @@
 
 .type-button {
     text-align: center;
+<<<<<<< HEAD
+    line-height: 40px;
+    width: 280px;
+    border: none;
+    border-radius: 10%;
+    height: 280px;
+=======
     min-height: 40px;
     line-height: 40px;
     width: 100%;
     border: none;
     border-radius: 3px;
     height: 100%;
+>>>>>>> 95021281ac8e34705b6e6bcf765ec934f60eab7f
     background: rgb(239, 239, 239);
     padding-top: 1em;
 }
 
 .sprs .img {
+<<<<<<< HEAD
+    width: 70%;
+    /* height: 70%; */
+}
+
+.project-wrap {
+    margin-bottom: 0px;
+=======
     width: 45%;
     height: 90px;
 }
 
 .project-wrap {
     margin-bottom: 0px;    
+>>>>>>> 95021281ac8e34705b6e6bcf765ec934f60eab7f
     background: none;
     box-shadow: none!important;
     width: 100%;
     position: relative;
     border-top: none;
     padding-top: 15px;
+<<<<<<< HEAD
+    padding: 15px 30px 8px 30px;
+=======
     padding: 15px 30px 8px 30px;    
+>>>>>>> 95021281ac8e34705b6e6bcf765ec934f60eab7f
 }
 
 .student .show-down {
@@ -233,4 +310,25 @@
 
 .text h3 {
     margin-bottom: 0px !important;
+<<<<<<< HEAD
+}
+
+.rectl {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 50px solid #2b639f;
+    margin-left: 220px;
+}
+
+.rectr {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 50px solid #2b639f;
+    margin-left: 860px;
+=======
+>>>>>>> 95021281ac8e34705b6e6bcf765ec934f60eab7f
 }

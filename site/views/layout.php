@@ -83,7 +83,7 @@
                         <a href="<?=ROOT_URL?>/gioi-thieu" class="nav-link">Giới Thiệu </a>
                         <ul class="dropdown-hover-2">
                             <li class="about-item"><a href="<?=ROOT_URL?>/gioi-thieu" class="text-uppercase">Giới thiệu chung</a></li>
-                            <li class="about-item"><a href="<?=ROOT_URL?>/gioi-thieu/1" class="text-uppercase">Giới Thiệu 1</a></li>
+                            <!-- <li class="about-item"><a href="<?=ROOT_URL?>/gioi-thieu/1" class="text-uppercase">Giới Thiệu 1</a></li> -->
                             <?php foreach($abouts as $about) { 
                                 if ($about['link'] == '') { ?>
                                     <li class="about-item"><a class="text-uppercase" href="<?=SITE_URL?>?act=about&id=<?=$about['id']?>"><?=$about['name']?></a></li>
@@ -193,8 +193,10 @@ if (file_exists($viewFile)) {
                             <ul>
                                 <li><span class="icon fa fa-map-marker"></span><span class="text">Tòa nhà VP HEID, ngõ
                                         12 Láng Hạ, Thành Công, Ba Đình, Hà Nội</span></li>
-                                <li><span class="icon fa fa-phone"></span><span class="text">+84 243 512
-                                        2222</span></li>
+                                <li><span class="icon fa fa-phone"></span><span class="text">Bộ phận kinh doanh: 0243 512
+                                        2636</span></li>
+                                <li><span class="icon fa fa-phone"></span><span class="text">Hỗ trợ Sách Mềm: 0243 512
+                                2222</span></li>
                                 <li><span class="icon fa fa-paper-plane"></span><span
                                         class="text">lienhe@sachmem.vn</span></li>
                             </ul>

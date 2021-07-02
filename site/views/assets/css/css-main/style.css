@@ -2,6 +2,10 @@ img {
     max-width: 100%;
 }
 
+.colormain {
+    color: var(--color-main)
+}
+
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -49,7 +53,7 @@ img {
 }
 
 ::-webkit-scrollbar-thumb {
-    border-radius: 5px; 
+    border-radius: 5px;
     background: #cacaca;
 }
 
@@ -15129,14 +15133,14 @@ button.navbar-toggler {
     color: var(--color-main);
 }
 
-
 .btn-primary-2 {
     background: var(--color-main) !important;
     border: 1px solid var(--color-main) !important;
     color: #fff !important;
 }
 
-.btn-primary-2:hover, .primary-2-active:hover {
+.btn-primary-2:hover,
+.primary-2-active:hover {
     box-shadow: 0 0 0 0.2rem rgb(0 65 135 / 25%);
 }
 
@@ -15153,7 +15157,6 @@ button.navbar-toggler {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 }
-
 
 ._2p3a {
     margin: 0 auto;
