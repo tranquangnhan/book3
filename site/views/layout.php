@@ -80,10 +80,10 @@
                         <a href="<?=ROOT_URL?>" class="nav-link">Trang Chủ</a>
                     </li>
                     <li class="nav-item dropdown-2 aboutDropdown <?php echo ($viewFile == "views/about.php") ? 'bar-active active' : '' ?>">
-                        <a href="<?=ROOT_URL?>/gioi-thieu" class="nav-link">Giới Thiệu 
-                        </a>
+                        <a href="<?=ROOT_URL?>/gioi-thieu" class="nav-link">Giới Thiệu </a>
                         <ul class="dropdown-hover-2">
                             <li class="about-item"><a href="<?=ROOT_URL?>/gioi-thieu" class="text-uppercase">Giới thiệu chung</a></li>
+                            <!-- <li class="about-item"><a href="<?=ROOT_URL?>/gioi-thieu/1" class="text-uppercase">Giới Thiệu 1</a></li> -->
                             <?php foreach($abouts as $about) { 
                                 if ($about['link'] == '') { ?>
                                     <li class="about-item"><a class="text-uppercase" href="<?=SITE_URL?>?act=about&id=<?=$about['id']?>"><?=$about['name']?></a></li>
@@ -141,6 +141,10 @@
         <section class="header-banner">
             <img src="<?=PATH_URL?>images/banner1.jpg" alt="" class="img-fluid">
         </section>  
+    <?php } else if (isset($page) && $page == 3) { ?> 
+        <section class="header-banner">
+            <img src="<?=PATH_URL?>images/banner1.jpg" alt="" class="img-fluid">
+        </section>  
     <?php } else { ?>
     <section class="hero-wrap hero-wrap-2" style="background-image: url('<?=PATH_URL?>images/bia3.jpg'); ">
         <div class="container">
@@ -189,8 +193,10 @@ if (file_exists($viewFile)) {
                             <ul>
                                 <li><span class="icon fa fa-map-marker"></span><span class="text">Tòa nhà VP HEID, ngõ
                                         12 Láng Hạ, Thành Công, Ba Đình, Hà Nội</span></li>
-                                <li><span class="icon fa fa-phone"></span><span class="text">+84 243 512
-                                        2222</span></li>
+                                <li><span class="icon fa fa-phone"></span><span class="text">Bộ phận kinh doanh: 0243 512
+                                        2636</span></li>
+                                <li><span class="icon fa fa-phone"></span><span class="text">Hỗ trợ Sách Mềm: 0243 512
+                                2222</span></li>
                                 <li><span class="icon fa fa-paper-plane"></span><span
                                         class="text">lienhe@sachmem.vn</span></li>
                             </ul>

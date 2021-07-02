@@ -3,20 +3,9 @@
         <div class="row">
             <div class="col-12 mb-5">
                 <div class="content-div">
-                    <?php
-                        if (isset($aboutDetail)) {
+                    <?php if (isset($aboutDetail)) {
                             echo $aboutDetail['content'];
-                        } else if (isset($page) && $page == 1) { ?>
-                        <div class="row d-flex justify-content-center">
-                            <div class="col-lg-9">
-                                <h2 class="title-1 text-center" data-aos="fade-up">GIỚI THIỆU</h2>
-                                <p>
-                                <strong>Global Success</strong>  là bộ sách giáo khoa Tiếng Anh được biên soạn dựa trên <i>Chương trình giáo dục phổ thông môn tiếng Anh</i> (Ban hành kèm theo Thông tư số <strong>32/2018/TT-BGDĐT</strong>  ngày 26 tháng 12 năm 2018 của Bộ trưởng Bộ Giáo dục và Đào tạo) và <i>Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam</i> của Bộ Giáo dục và Đào tạo.<br>
-                                 Bộ sách do GS.TS. Hoàng Văn Vân là Tổng chủ biên và có sự hợp tác chặt chẽ về chuyên môn và nghiệp vụ giữa <strong>Nhà xuất bản Giáo dục Việt Nam</strong>  với các nhà xuất bản danh tiếng trên thế giới Macmillan Education (ở bậc Tiểu học) và Pearson Education (ở bậc Trung học cơ sở và Trung học phổ thông).
-                                </p>
-                            </div>
-                        </div>
-                        
+                    } else if (isset($page) && $page == 1) { ?>
                        <section class="section" id="phaply">
                             <div class="container ftco-animate">
                                 <!-- <div class="row justify-content-center text-center mb-5">
@@ -26,7 +15,7 @@
                                 </div> -->
                                 <div class="row">
                                     <div class="col-md-6 col-lg-3 col-6 aos-init aos-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room ">
+                                        <a href="<?=ROOT_URL?>/about/1" class="room ">
                                             <figure class="img-wrap m-0 text-center">
                                                 <img src="<?=PATH_URL?>images/biasachgt1.png" alt="Cơ sở pháp lý 1" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
@@ -35,7 +24,7 @@
                                     </div>
 
                                     <div class="col-md-6 col-lg-3 col-6 aos-init aos-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
+                                        <a href="<?=ROOT_URL?>/about/2" class="room">
                                             <figure class="img-wrap m-0 text-center">
                                                 <img src="<?=PATH_URL?>images/biasachgt2.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
@@ -52,8 +41,8 @@
                                         </a>
                                     </div>
                                     <div class="col-md-6 col-lg-3 col-6 aos-init aos-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
-                                            <figure class="img-wrap m-0 text-center">
+                                        <a href="<?=ROOT_URL?>/giao-vien" class="room disabled-link">
+                                            <figure class="img-wrap m-0 text-center comming">
                                                 <img src="<?=PATH_URL?>images/biasachgt4.png" alt="Cơ sở pháp lý 1" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
                                             <p class="text-center font-weight-bold"> Tài nguyên lớp 4</p>
@@ -61,8 +50,8 @@
                                     </div>
 
                                     <div class="col-md-6 col-lg-3 col-6 aos-init aos-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
-                                            <figure class="img-wrap m-0 text-center">
+                                        <a href="<?=ROOT_URL?>/giao-vien" class="room disabled-link">
+                                            <figure class="img-wrap m-0 text-center comming">
                                                 <img src="<?=PATH_URL?>images/biasachgt5.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
                                             <p class="text-center font-weight-bold"> Tài nguyên lớp 5</p>
@@ -70,7 +59,7 @@
                                     </div>
 
                                     <div class="col-md-6 col-lg-3 col-6 aos-init aos-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
+                                        <a href="<?=ROOT_URL?>/about/3" class="room">
                                             <figure class="img-wrap m-0 text-center">
                                                 <img src="<?=PATH_URL?>images/biasachgt6.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
@@ -259,7 +248,33 @@
                                 </div>
                             </div>
                         </section>
-             
+
+
+                        <section class="section" id="diemmanh">
+                            <div class="container ftco-animate">
+                                <div class="row justify-content-center text-center mb-5">
+                                    <div class="col-md-7">
+                                    <h2 class="title-1" data-aos="fade-up">DỄ HỌC, DỄ DẠY, DỄ TIẾP CẬN</h2>
+                                    </div>
+                                </div>
+                                <div class="row ftco-animate d-flex justify-content-center">
+                                    <div class="col-lg-10">
+                                        <p><i class="fa fa-check colormain" ></i>  Bám sát khung Chương trình giáo dục phổ thông môn tiếng Anh và Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam của Bộ Giáo dục và Đào tạo.</p>
+                                        <p><i class="fa fa-check colormain"></i>  Đảm bảo lộ trình học tập xuyên suốt từ lớp 1 đến lớp 12.</p>
+                                        <p><i class="fa fa-check colormain"></i>    Phù hợp với điều kiện dạy và học bộ môn Tiếng Anh trong nhà trường phổ thông Việt Nam.</p>
+                                        <p><i class="fa fa-check colormain"></i>  Nội dung gần gũi với tư duy tâm lý lứa tuổi của học sinh, kết hợp hài hòa các giá trị văn hóa Việt Nam, khu vực và quốc tế.</p>
+                                        <p><i class="fa fa-check colormain"></i>     Tích hợp liên môn tương quan với các môn học khác trong Chương trình Giáo dục Phổ thông 2018.</p>
+                                        <p><i class="fa fa-check colormain"></i>   Hệ thống kiến thức đảm bảo cho học sinh đáp ứng các kì thi trong nước và quốc tế.</p>
+                                        <p><i class="fa fa-check colormain"></i>   Tài nguyên đi kèm phong phú và đa dạng, cập nhật thường xuyên.</p>
+                                        <p><i class="fa fa-check colormain"></i>   Hệ thống tập huấn, đào tạo, bồi dưỡng, hỗ trợ đầy đủ và đồng bộ. </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </section>
+
+
+
 
                         <section class="section" id="tainguyen">
                             <div class="container ftco-animate">
@@ -841,6 +856,8 @@
                                 </div>
                             </div>
                         </section>
+                    <?php } else if (isset($page) & $page == 3) { ?>
+                        <?php require 'about-other.php'; ?>
                     <?php } else {?>
                     <h1 class="text-center text-uppercase ftco-animate">GIỚI THIỆU VỀ NHÀ XUẤT BẢN GIÁO DỤC VIỆT NAM</h1>
                     <div class="col-8 my-4 mr-0-auto ftco-animate">

@@ -1,0 +1,252 @@
+.button-title.text-center a {
+    background: var(--color-main);
+    color: white;
+    padding: .5em 1.4em;
+    border-radius: 50px;
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.book-box {
+    width: 100%;
+    min-height: 500px;
+    max-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    margin: 0 auto;
+    transform: translateY(300px);
+    transition: 0.3s;
+    position: relative;
+    z-index: 10;
+    text-align: -webkit-center;
+}
+
+.content h3 {
+    font-weight: bolder;
+    margin-bottom: 0px;
+    padding: 0px;
+    color: var(--color-main);
+}
+
+.book-box {
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.book-box:hover .content {
+    transform: translateY(0px);
+    text-align: -webkit-center;
+}
+
+.book-box:hover {
+    transform: scale(1.04);
+}
+
+.book-box::before {
+    content: '';
+    background: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.book-box:hover::before {
+    opacity: 0.8;
+}
+
+.type {
+    padding-top: 120px;
+}
+
+.btn-type {
+    padding: 15px;
+    background: var(--color-main);
+    color: white;
+    font-weight: 700;
+    border-radius: 14px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+}
+
+.show-title i {
+    font-size: .9em;
+    padding: 0 0.4em;
+}
+
+.show-down {
+    /* background: var(--color-main);     */
+    background: rgb(43 99 159);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 1em;
+    color: white;
+    border-radius: 3px;
+}
+
+.show-down.hide {
+    width: 0%;
+    height: 0%;
+}
+
+.triangle {
+    position: absolute;
+    top: -10px;
+}
+
+.triangle::before {
+    position: absolute;
+    content: '';
+    background: red;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+}
+
+.triangle::after {
+    position: absolute;
+    content: '';
+    background: white;
+    width: 50px;
+    height: 100px;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+}
+
+.show-down {
+    overflow: auto;
+}
+
+.teacher .show-down {
+    transition: 0.4s;
+    width: 0%;
+    height: 0px;
+    transform: translate(70px, -70px);
+    margin-top: 0 !important;
+}
+
+@keyframes showtype {
+    0% {
+        width: 0%;
+        height: 0px;
+        transform: translate(70px, -70px);
+    }
+    50% {
+        width: 5%;
+        height: 5%;
+        transform: translate(0px, 0px);
+    }
+    100% {
+        width: 100%;
+        height: 100%;
+        transform: translate(0px, 0px);
+    }
+}
+
+.showtype {
+    animation-name: showtype;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+}
+
+.hidetype {
+    animation-name: hidetype;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hidetype {
+    0% {
+        width: 100%;
+        height: 100%;
+        transform: translate(0px, 0px);
+    }
+    50% {
+        width: 5%;
+        height: 5%;
+        transform: translate(0px, 0px);
+    }
+    100% {
+        width: 0%;
+        height: 0px;
+        transform: translate(70px, -70px);
+    }
+}
+
+.content-type {
+    padding: 2em;
+}
+
+.type-button {
+    text-align: center;
+    line-height: 40px;
+    width: 280px;
+    border: none;
+    border-radius: 10%;
+    height: 280px;
+    background: rgb(239, 239, 239);
+    padding-top: 1em;
+}
+
+.sprs .img {
+    width: 70%;
+    /* height: 70%; */
+}
+
+.project-wrap {
+    margin-bottom: 0px;
+    background: none;
+    box-shadow: none!important;
+    width: 100%;
+    position: relative;
+    border-top: none;
+    padding-top: 15px;
+    padding: 15px 30px 8px 30px;
+}
+
+.student .show-down {
+    transition: 0.4s;
+    width: 0%;
+    height: 0px;
+    transform: translate(-70px, -70px);
+}
+
+.text {
+    padding-top: 10px 10px;
+}
+
+.text h3 {
+    margin-bottom: 0px !important;
+}
+
+.rectl {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 50px solid #2b639f;
+    margin-left: 220px;
+}
+
+.rectr {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 50px solid #2b639f;
+    margin-left: 860px;
+}
