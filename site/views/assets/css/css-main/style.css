@@ -11769,7 +11769,7 @@ h5,
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 
 .hero-wrap .overlay {
@@ -14714,7 +14714,7 @@ nav#ftco-navbar {
 }
 
 .bg-image-fix {
-    background-size: cover !important;
+    background-size: 100% !important;
     background-repeat: no-repeat !important;
 }
 
@@ -15172,4 +15172,8 @@ button.navbar-toggler {
 
 .mobile {
     display: none;
+}
+
+.newss {
+    min-height: 170px;
 }

@@ -10,6 +10,9 @@ require_once "../../../system/config.php";
 
     switch ($_POST['action']) {
         case 'getData':
+            if (isset($_POST['level'])) {
+                $level = $_POST['level'];
+            }
             $array      = array();   
             $filter     = $_POST['filterOb'];
             $data       = json_decode($filter);            
@@ -85,6 +88,32 @@ require_once "../../../system/config.php";
                     $sql .= implode(',', $idcate);
                     $sql .= ')';
                 }
+
+                if (isset($level) && $level > 1 && $level != 6 && $level != 7) {
+                    if ($class == '' || $class == []) {
+                        if ($where == false) {
+                            $sql  .= 'WHERE ';
+                            $where = true;
+                        } 
+                        $sqlCheck = true;
+                        $justClass = true;
+                        if ($notOr == false) {
+                            $sql  .= ' AND ';
+                        } else {
+                            $notOr = false;
+                        }
+
+                        if ($level == 2) {                               
+                            $sql .= 'class in (1, 2, 3, 4, 5)';
+                        } else if ($level == 3) {                               
+                            $sql .= 'class in (6, 7, 8, 9)';
+                        } else if ($level == 4) {
+                            $sql .= 'class in (10, 11, 12)';
+
+                        }
+                    }
+                }
+
                 if ($sqlCheck === true || $form > 0) {
                     $amountProduct = $model->getAmountProduct($sql);
                     $amountProduct = count($amountProduct);
@@ -98,15 +127,28 @@ require_once "../../../system/config.php";
 
                 if ($sqlCheck === true || $form > 0) {
                     $dataProducts = $model->getProductsBySql($sql);
-                    
-                } else {                                           
-                    $dataProducts = $model->getProductDefault($form);
-                    $amountProduct = $model->getAmountProductDefault();
-                    
+                
+                } else {      
+                    if (isset($level) && $level > 1 && $level != 6 && $level != 7) {
+                        if ($level == 2) {
+                            $dataProducts = $model->getProductByClass($form, '(1, 2, 3, 4, 5)');
+                            $amountProduct = $model->getAmountProductByClass('(1, 2, 3, 4, 5)');
+                        } else if ($level == 3) {
+                            $dataProducts = $model->getProductByClass($form, '(6, 7, 8, 9)');
+                            $amountProduct = $model->getAmountProductByClass('(6, 7, 8, 9)');
+                        } else if ($level == 4) {
+                            $dataProducts = $model->getProductByClass($form, '(10, 11, 12)');
+                            $amountProduct = $model->getAmountProductByClass('(10, 11, 12)');
+                        }
+                    } else {                    
+                        $dataProducts = $model->getProductDefault($form);
+                        $amountProduct = $model->getAmountProductDefault();
+                    }
                     // $dataProducts = '';
                 }
 
                 echo json_encode([$dataProducts, $amountProduct, $sql, $form]);                         
+                // echo json_encode($sql);
             }
             break;    
         case "getDataSpResources": 

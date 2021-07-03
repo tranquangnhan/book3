@@ -48,7 +48,7 @@
                                 </div> -->
                                 <div class="row">
                                     <div class="col-md-6 col-lg-3 col-6 aos-init aos-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/about/1" class="room ">
+                                        <a href="<?=ROOT_URL?>/about/tieng-anh-1" class="room ">
                                             <figure class="img-wrap m-0 text-center">
                                                 <img src="<?=PATH_URL?>images/biasachgt1.png" alt="Cơ sở pháp lý 1" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
@@ -57,7 +57,7 @@
                                     </div>
 
                                     <div class="col-md-6 col-lg-3 col-6 aos-init aos-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/about/2" class="room">
+                                        <a href="<?=ROOT_URL?>/about/tieng-anh-2" class="room">
                                             <figure class="img-wrap m-0 text-center">
                                                 <img src="<?=PATH_URL?>images/biasachgt2.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
@@ -92,7 +92,7 @@
                                     </div>
 
                                     <div class="col-md-6 col-lg-3 col-6 aos-init aos-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/about/6" class="room">
+                                        <a href="<?=ROOT_URL?>/about/tieng-anh-6" class="room">
                                             <figure class="img-wrap m-0 text-center">
                                                 <img src="<?=PATH_URL?>images/biasachgt6.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>

@@ -76,15 +76,40 @@ $('#carosel6').owlCarousel({
     loop: true,
     margin: 10,
     nav: false,
+    dots: false,
+    autoplayHoverPause: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
     responsive: {
         0: {
             items: 1
         },
         600: {
-            items: 3
+            items: 1
         },
         1000: {
-            items: 3
+            items: 1
         }
     }
-})
+});
+
+$('#carosel7').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: false,
+    dots: false,
+    autoplayHoverPause: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 1
+        },
+        1000: {
+            items: 1
+        }
+    }
+});

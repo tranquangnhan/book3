@@ -104,10 +104,9 @@ $('.btn.show-option').click(function(e) {
 
 $('.filter').click(function(e) {
     e.preventDefault();
-    if ($('.support-resources').hasClass('option-active')) {
+    if ($('.support-resources').hasClass('option-active')) { // tài nguyên hỗ trợ
         if ($(this).parent().hasClass('active')) {
-            // $(this).parent().removeClass('active');
-            // getDataSupportResource(100, 0);
+            // active thì không chạy
         } else {
             checkReloadPage = true;
             if ($('.ftco-loader.teacher').hasClass('show') == false) {
@@ -123,8 +122,7 @@ $('.filter').click(function(e) {
             getDataSupportResource(keyFilter, 0);
         }
 
-        // alert('Phần này không có lọc');
-    } else {
+    } else {  // lọc sản phẩm
         checkReloadPage = true;
         if ($('.ftco-loader').hasClass('show') == false) {
             $('.product-box .product-item').remove();
@@ -221,6 +219,7 @@ function getDataByFilterOb(data, url) {
         processData: false,
         data: data,
         success: function(response) {
+            console.log(response);
             if ($('.notice-h3')) {
                 $('.notice-h3').remove();
                 $('.pagina-box').show();
@@ -280,6 +279,7 @@ function setDataAndRequest(filterOb, form, url) {
 
     dataSend.append('filterOb', dataToSring);
     dataSend.append('form', form);
+    dataSend.append('level', level);
     dataSend.append('action', 'getData');
 
 

@@ -82,8 +82,7 @@
                     <li class="nav-item dropdown-2 aboutDropdown <?php echo ($viewFile == "views/about.php") ? 'bar-active active' : '' ?>">
                         <a href="<?=ROOT_URL?>/gioi-thieu" class="nav-link">Giới Thiệu </a>
                         <ul class="dropdown-hover-2">
-                            <li class="about-item"><a href="<?=ROOT_URL?>/gioi-thieu" class="text-uppercase">Giới thiệu chung</a></li>
-                            <li class="about-item"><a href="<?=ROOT_URL?>/gioi-thieu/1" class="text-uppercase">Giới Thiệu 1</a></li>
+                            <li class="about-item"><a href="<?=ROOT_URL?>/gioi-thieu" class="text-uppercase">Giới thiệu chung</a></li>                            
                             <?php foreach($abouts as $about) { 
                                 if ($about['link'] == '') { ?>
                                     <li class="about-item"><a class="text-uppercase" href="<?=SITE_URL?>?act=about&id=<?=$about['id']?>"><?=$about['name']?></a></li>
@@ -145,6 +144,10 @@
         <section class="header-banner">
             <img src="<?=PATH_URL?>images/banner1.jpg" alt="" class="img-fluid">
         </section>  
+    <?php } else if (isset($aboutOther) && $aboutOther == true) { ?>
+        <section class="header-banner">
+            <img src="<?=PATH_URL?>images/globalsuccess.jpg" alt="" class="img-fluid">
+        </section> 
     <?php } else { ?>
     <section class="hero-wrap hero-wrap-2" style="background-image: url('<?=PATH_URL?>images/bia3.jpg'); background-size: 100%;">
         <div class="container">

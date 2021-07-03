@@ -218,7 +218,7 @@
                     </div>
                 </div>
             </div>
-            <?php require 'right.php'; ?>
+            
 
         </div>
 </section>

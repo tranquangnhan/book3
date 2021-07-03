@@ -282,7 +282,7 @@
                             $link  = ROOT_URL."/bai-viet/".$blog1['slug'].'-'.$blog1['iddm'];    
                         ?>
                         <div class="w-100 right-item-video ftco-animate">
-                            <div class="row">
+                            <div class="row newss">
                                 <a href="<?=$link?>" class="col-4 p-0 bg-image-fix"  style="background: url(<?=$img?>);"></a>
                                 <div class="col-8">
                                     <a href="<?=$link?>"><h4 class="m-0 p-0 title-1 limit-content-3"> <?=$blog1['name']?>

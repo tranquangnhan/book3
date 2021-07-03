@@ -872,4 +872,14 @@ class Model_home extends Model_db{
         $sql = "SELECT name FROM linksingle";
         return $this->result1(0,$sql);
     }
+
+    function getProductByClass($form, $class) {
+        $sql = "SELECT * FROM `book` WHERE class = $class ORDER BY idcate ASC, class limit $form, 9";
+        return $this->result1(0, $sql);
+    }
+
+    function getAmountProductByClass($class) {
+        $sql = "SELECT * FROM `book` WHERE class in $class";
+        return $this->result1(0, $sql);
+    }
 }
