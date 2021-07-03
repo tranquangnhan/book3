@@ -52,6 +52,7 @@
     </div>
     
     </section>
+    <!--end slide  -->
 
 
     <!-- 
@@ -95,7 +96,6 @@
             </div>
         </div>
     </section> -->
-
     <section>
         <div class="container mb-5">
             <div class="type">
