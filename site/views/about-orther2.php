@@ -8,7 +8,7 @@
     <section>
         <div class="container my-5 ftco-animate">
             <div class="button-title text-center">
-                <a href="javascript:void(0)" class="text-uppercase">TIẾNG ANH 1</a>
+                <a href="javascript:void(0)" class="text-uppercase">TIẾNG ANH 2</a>
             </div>
         </div>
     </section>

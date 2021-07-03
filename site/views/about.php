@@ -48,7 +48,7 @@
                                 </div> -->
                                 <div class="row">
                                     <div class="col-md-6 col-lg-3 col-6 aos-init aos-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room ">
+                                        <a href="<?=ROOT_URL?>/about/1" class="room ">
                                             <figure class="img-wrap m-0 text-center">
                                                 <img src="<?=PATH_URL?>images/biasachgt1.png" alt="Cơ sở pháp lý 1" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
@@ -57,7 +57,7 @@
                                     </div>
 
                                     <div class="col-md-6 col-lg-3 col-6 aos-init aos-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
+                                        <a href="<?=ROOT_URL?>/about/2" class="room">
                                             <figure class="img-wrap m-0 text-center">
                                                 <img src="<?=PATH_URL?>images/biasachgt2.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
@@ -66,8 +66,8 @@
                                     </div>
 
                                     <div class="col-md-6 col-lg-3 col-6 aos-init aos-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
-                                            <figure class="img-wrap m-0 text-center ">
+                                        <a href="<?=ROOT_URL?>/giao-vien" class="room disabled-link">
+                                            <figure class="img-wrap m-0 text-center comming">
                                                 <img src="<?=PATH_URL?>images/biasachgt3.png" alt="" class="w-80-center hover-scale img-fluid mb-3 ">
                                             </figure>
                                             <p class="text-center font-weight-bold"> Tài nguyên lớp 3</p>
@@ -92,7 +92,7 @@
                                     </div>
 
                                     <div class="col-md-6 col-lg-3 col-6 aos-init aos-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
+                                        <a href="<?=ROOT_URL?>/about/3" class="room">
                                             <figure class="img-wrap m-0 text-center">
                                                 <img src="<?=PATH_URL?>images/biasachgt6.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
