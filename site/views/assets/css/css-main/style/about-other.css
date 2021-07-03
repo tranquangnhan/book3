@@ -291,9 +291,12 @@
 .project-wrap .text {
     color: var(--color-main);
     height: 80px;
-    line-height: 80px;   
+    line-height: 80px;
 }
 
-.project-wrap .text h3 a{
-    color: var(--color-main);      
+.project-wrap .text h3 a {
+    color: var(--color-main);
 }
+
+
+/* sua code */
