@@ -68,8 +68,29 @@
     transition: 0.2s;
 }
 
+.btn-hover-detail {
+    content: 'Xem chi tiết';
+    background: var(--color-main);
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% - 70px);
+    width: 140px;
+    height: 40px;
+    z-index: 2;
+    opacity: 0;
+    transition: 0.2s;
+    text-align: center;
+    color: white;
+    border-radius: 12px;
+    line-height: 40px;
+}
+
 .book-box:hover::before {
     opacity: 0.8;
+}
+
+.book-box:hover .btn-hover-detail {
+    opacity: 1;
 }
 
 .type {
@@ -214,8 +235,8 @@
     border-radius: 16px;
     height: 100%;
     background: rgb(239, 239, 239);
-    padding-top: 1em;
-    min-height: 230px;
+    /* padding-top: 1em; */
+    /* min-height: 230px; */
 }
 
 .sprs .img {
@@ -265,4 +286,14 @@
     border-right: 100px solid transparent;
     border-bottom: 50px solid #2b639f;
     margin-left: 860px;
+}
+
+.project-wrap .text {
+    color: var(--color-main);
+    height: 80px;
+    line-height: 80px;   
+}
+
+.project-wrap .text h3 a{
+    color: var(--color-main);      
 }
