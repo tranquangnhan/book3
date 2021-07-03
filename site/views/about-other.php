@@ -30,7 +30,7 @@
                     </div>
                     
                     <div class="col-xl-4 col-lg-4 col-md-4 col-4 ftco-animate">
-                    <a href="">
+                        <a href="">
                             <div class="book-box d-flex align-items-center" style="background-image: url('<?=PATH_URL?>images/sach bai tap.png'); background-size: contain;">
                                 <div class="btn-hover-detail">Xem chi tiết</div>
                                 <div class="content">
@@ -42,7 +42,7 @@
                     </div>
 
                     <div class="col-xl-4 col-lg-4 col-md-4 col-4 ftco-animate">
-                    <a href="">
+                        <a href="">
                             <div class="book-box d-flex align-items-center" style="background-image: url('<?=PATH_URL?>images/sach giao vien.png'); background-size: contain;">
                                 <div class="btn-hover-detail">Xem chi tiết</div>
                                 <div class="content">

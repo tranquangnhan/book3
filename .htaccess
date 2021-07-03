@@ -24,7 +24,7 @@ RewriteRule ^bai-viet$ /book3/site/?act=blog [L]
 RewriteRule ^lien-he$ /book3/site/?act=contact [L]
 RewriteRule ^about/1$ /book3/site/?act=aboutorther1 [L]
 RewriteRule ^about/2$ /book3/site/?act=aboutorther2 [L]
-RewriteRule ^about/3$ /book3/site/?act=aboutorther3 [L]
+RewriteRule ^about/6$ /book3/site/?act=aboutorther3 [L]
 
 
 RewriteRule ^sach/mam-non$ /book3/site/?act=products&level=1 [L]

@@ -14,6 +14,48 @@
     </section>
 
     <section>
+    <div class="owl-carousel owl-theme" id="carosel6">
+        <div class="item">
+            <a href="">
+                <div class="book-box d-flex align-items-center" style="background-image: url('<?=PATH_URL?>images/sach hoc sinh.png'); background-size: contain;">
+                    <div class="btn-hover-detail">Xem chi tiết</div>
+                    <div class="content">
+                        <h3 class="text-uppercase">SÁCH HỌC SINH</h3>
+                        <a href=""><h6>(Bấm để xem chi tiết)</h6></a>
+                    </div>
+                </div>
+            </a>
+        </div>
+        
+        <div class="item">
+            <a href="">
+                <div class="book-box d-flex align-items-center" style="background-image: url('<?=PATH_URL?>images/sach bai tap.png'); background-size: contain;">
+                    <div class="btn-hover-detail">Xem chi tiết</div>
+                    <div class="content">
+                        <h3 class="text-uppercase">SÁCH BÀI TẬP</h3>
+                        <a href=""><h6>(Bấm để xem chi tiết)</h6></a>
+                    </div>
+                </div>
+            </a>     
+        </div>
+        <div class="item">
+            <a href="">
+                <div class="book-box d-flex align-items-center" style="background-image: url('<?=PATH_URL?>images/sach giao vien.png'); background-size: contain;">
+                    <div class="btn-hover-detail">Xem chi tiết</div>
+                    <div class="content">
+                        <h3 class="text-uppercase">SÁCH GIÁO VIÊN</h3>
+                        <a href=""><h6>(Bấm để xem chi tiết)</h6></a>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    
+    </section>
+
+
+    <!-- 
+    <section>
         <div class="container my-5 ftco-animate">
             <div class="book">
                 <div class="row">
@@ -52,7 +94,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section>
         <div class="container mb-5">
@@ -87,7 +129,7 @@
                                 <!-- <div class="triangle"></div> -->
                                 <div class="content-type">
                                     <div class="row mt-2">
-                                        <div class="col-xl-3">                                          
+                                        <div class="col-xl-4">                                          
                                             <div class="type-button">
                                                 <div class="project-wrap text-center sprs">
                                                     <a href="youtube.com" class="img" style="background-image: url('/book3/uploads//Logo-SM-(New).png');">
@@ -98,7 +140,7 @@
                                                 </div>
                                             </div> 
                                         </div>
-                                        <div class="col-xl-3">
+                                        <div class="col-xl-4">
                                             <div class="type-button">
                                                 <div class="project-wrap text-center sprs">
                                                     <a href="youtube.com" class="img" style="background-image: url('/book3/uploads//sach giao vien.png');">
@@ -109,7 +151,7 @@
                                                 </div>
                                             </div>                                  
                                         </div>
-                                        <div class="col-xl-3">
+                                        <div class="col-xl-4">
                                             <div class="type-button">
                                                 <div class="project-wrap text-center sprs">
                                                     <a href="youtube.com" class="img" style="background-image: url('/book3/uploads//logo-main-cat-1.png');">
@@ -120,7 +162,10 @@
                                                 </div>
                                             </div>                                  
                                         </div>
-                                        <div class="col-xl-3">
+                                       
+                                    </div>
+                                    <div class="row mt-5">
+                                        <div class="col-xl-4">
                                             <div class="type-button">
                                                 <div class="project-wrap text-center sprs">
                                                     <a href="youtube.com" class="img" style="background-image: url('/book3/uploads//1624608386-plan.svg');">
@@ -131,9 +176,7 @@
                                                 </div>
                                             </div>                                  
                                         </div>
-                                    </div>
-                                    <div class="row mt-5">
-                                        <div class="col-xl-3">
+                                        <div class="col-xl-4">
                                             <div class="type-button">
                                                 <div class="project-wrap text-center sprs">
                                                     <a href="youtube.com" class="img" style="background-image: url('/book3/uploads//online-learning.svg');">
@@ -144,7 +187,9 @@
                                                 </div>
                                             </div>                                  
                                         </div>
-                                        <div class="col-xl-3">
+
+                                         
+                                        <div class="col-xl-4">
                                             <div class="type-button">
                                                 <div class="project-wrap text-center sprs">
                                                     <a href="youtube.com" class="img" style="background-image: url('/book3/uploads//exam.svg');">
@@ -155,7 +200,12 @@
                                                 </div>
                                             </div>                                  
                                         </div>
-                                        <div class="col-xl-3">
+
+                                    </div>
+
+                                    <div class="row mt-5">
+                                      
+                                        <div class="col-xl-4">
                                             <div class="type-button">
                                                 <div class="project-wrap text-center sprs">
                                                     <a href="youtube.com" class="img" style="background-image: url('/book3/uploads//bo the tu.png');">
@@ -166,7 +216,7 @@
                                                 </div>
                                             </div>                                  
                                         </div>
-                                        <div class="col-xl-3">
+                                        <div class="col-xl-4">
                                             <div class="type-button">
                                                 <div class="project-wrap text-center sprs">
                                                     <a href="youtube.com" class="img" style="background-image: url('/book3/uploads//bo quan roi.png');">
@@ -177,9 +227,8 @@
                                                 </div>
                                             </div>                                  
                                         </div>
-                                    </div>
-                                    <div class="row mt-5">
-                                        <div class="col-xl-3">
+
+                                        <div class="col-xl-4">
                                             <div class="type-button">
                                                 <div class="project-wrap text-center sprs">
                                                     <a href="youtube.com" class="img" style="background-image: url('/book3/uploads//tranh tinh huong.png');">
@@ -190,7 +239,13 @@
                                                 </div>
                                             </div>                                  
                                         </div>
-                                        <div class="col-xl-3">
+                                        
+                                    </div>
+
+
+                                    <div class="row mt-5">
+                                        
+                                        <div class="col-xl-4">
                                             <div class="type-button">
                                                 <div class="project-wrap text-center sprs">
                                                     <a href="youtube.com" class="img" style="background-image: url('/book3/uploads//1624608322-illustration.svg');">
@@ -201,7 +256,7 @@
                                                 </div>
                                             </div>                                  
                                         </div>
-                                        <div class="col-xl-3">
+                                        <div class="col-xl-4">
                                             <div class="type-button">
                                                 <div class="project-wrap text-center sprs">
                                                     <a href="youtube.com" class="img" style="background-image: url('/book3/uploads//mortarboard.svg');">
@@ -212,7 +267,7 @@
                                                 </div>
                                             </div>                                  
                                         </div>
-                                        <div class="col-xl-3">
+                                        <div class="col-xl-4">
                                             <div class="type-button">
                                                 <div class="project-wrap text-center sprs">
                                                     <a href="youtube.com" class="img" style="background-image: url('/book3/uploads//strl.jpg');">
@@ -236,7 +291,7 @@
                                 </div>
                                 <div class="content-type">
                                     <div class="row">
-                                        <div class="col-xl-3">                                          
+                                        <div class="col-xl-4">                                          
                                             <div class="type-button">
                                                 <div class="project-wrap text-center sprs">
                                                     <a href="youtube.com" class="img" style="background-image: url('/book3/uploads//Logo-SM-(New).png');">
@@ -247,7 +302,7 @@
                                                 </div>
                                             </div> 
                                         </div>
-                                        <div class="col-xl-3">                                          
+                                        <div class="col-xl-4">                                          
                                             <div class="type-button">
                                                 <div class="project-wrap text-center sprs">
                                                     <a href="youtube.com" class="img" style="background-image: url('/book3/uploads//strl.jpg');">
@@ -258,7 +313,7 @@
                                                 </div>
                                             </div> 
                                         </div>
-                                        <div class="col-xl-3">                                          
+                                        <div class="col-xl-4">                                          
                                             <div class="type-button">
                                                 <div class="project-wrap text-center sprs">
                                                     <a href="youtube.com" class="img" style="background-image: url(https://s.sachmem.vn/public/temp-sm-questions/image/ungdung_phanmem_icon4_tcc3.svg);">
@@ -269,7 +324,10 @@
                                                 </div>
                                             </div> 
                                         </div>
-                                        <div class="col-xl-3">                                          
+                                       
+                                    </div>
+                                    <div class="row mt-5">
+                                        <div class="col-xl-4">                                          
                                             <div class="type-button">
                                                 <div class="project-wrap text-center sprs">
                                                     <a href="youtube.com" class="img" style="background-image: url(https://s.sachmem.vn/public/temp-sm-questions/image/ungdung_phanmem_icon2_tcc3.svg);">

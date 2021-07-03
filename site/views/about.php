@@ -92,7 +92,7 @@
                                     </div>
 
                                     <div class="col-md-6 col-lg-3 col-6 aos-init aos-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/about/3" class="room">
+                                        <a href="<?=ROOT_URL?>/about/6" class="room">
                                             <figure class="img-wrap m-0 text-center">
                                                 <img src="<?=PATH_URL?>images/biasachgt6.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>

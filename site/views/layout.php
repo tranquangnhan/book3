@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="<?=PATH_URL?>css/css-main/style.css">
     <link rel="stylesheet" href="<?=PATH_URL?>css/css-main/custom.css">
     <link rel="stylesheet" href="<?=PATH_URL?>css/css-main/reponsive/home.css">
+
     <?php if (isset($css)) {?>
         <link rel="stylesheet" href="<?=PATH_URL?>css/css-main/style/<?=$css?>">
     <?php }?>
@@ -228,7 +229,6 @@ if (file_exists($viewFile)) {
             <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" />
         </svg>
     </div>
-
 
     <script src="<?=PATH_URL?>js/js-main/jquery.min.js"></script>
     <script src="<?=PATH_URL?>js/js-main/jquery-migrate-3.0.1.min.js"></script>

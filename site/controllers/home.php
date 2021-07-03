@@ -394,6 +394,7 @@ class Home
     }
 
     public function aboutOrther1(){
+        $abouts         = $this->model->getAbouts();
         $page_title   = "Tin Tức - EngBook";
         $js             = ["about-other.js"];
         $viewFile     = "views/about-orther1.php";    
@@ -402,6 +403,7 @@ class Home
     }
 
     public function aboutOrther2(){
+        $abouts         = $this->model->getAbouts();
         $page_title   = "Tin Tức - EngBook";
         $js             = ["about-other.js"];
         $viewFile     = "views/about-orther2.php";    
@@ -410,6 +412,7 @@ class Home
     }
 
     public function aboutOrther3(){
+        $abouts         = $this->model->getAbouts();
         $page_title   = "Tin Tức - EngBook";
         $js             = ["about-other.js"];
         $viewFile     = "views/about-orther3.php";    

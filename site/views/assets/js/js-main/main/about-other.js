@@ -1,7 +1,7 @@
 var checkClick = false;
-$('.btn-type').click(function (e) { 
+$('.btn-type').click(function(e) {
     e.preventDefault();
-    if (checkClick == false) {    
+    if (checkClick == false) {
         checkClick = true;
         var type = $(this).attr('data-type');
         var student = $('.student .show-down');
@@ -10,7 +10,7 @@ $('.btn-type').click(function (e) {
             if (student.hasClass('showtype')) {
                 student.removeClass('showtype');
                 student.addClass('hidetype');
-                
+
                 setTimeout(() => {
                     student.removeClass('hidetype');
                     teacherRun();
@@ -18,14 +18,14 @@ $('.btn-type').click(function (e) {
             } else {
                 teacherRun();
             }
-            
-        } 
+
+        }
 
         if (type == 1) {
             if (techer.hasClass('showtype')) {
                 techer.removeClass('showtype');
                 techer.addClass('hidetype');
-                
+
                 setTimeout(() => {
                     techer.removeClass('hidetype');
                     studentRun();
@@ -33,10 +33,10 @@ $('.btn-type').click(function (e) {
             } else {
                 studentRun();
             }
-            
+
         }
         setTimeout(() => {
-            checkClick = false; 
+            checkClick = false;
         }, 610);
     }
 });
@@ -47,12 +47,12 @@ function studentRun() {
     if (student.hasClass('showtype')) { // show
         student.removeClass('showtype');
         student.addClass('hidetype');
-        
+
         setTimeout(() => {
             student.removeClass('hidetype');
         }, 600);
-    } else {                
-        $('.student .show-down').addClass('showtype');                   
+    } else {
+        $('.student .show-down').addClass('showtype');
     }
 }
 
@@ -62,11 +62,29 @@ function teacherRun() {
     if (techer.hasClass('showtype')) { // show
         techer.removeClass('showtype');
         techer.addClass('hidetype');
-        
+
         setTimeout(() => {
             techer.removeClass('hidetype');
         }, 600);
-    } else {                
-        $('.teacher .show-down').addClass('showtype');                   
+    } else {
+        $('.teacher .show-down').addClass('showtype');
     }
 }
+
+
+$('#carosel6').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: false,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 3
+        },
+        1000: {
+            items: 3
+        }
+    }
+})
