@@ -13,7 +13,7 @@
 }
 
 .title-1 {
-    font-size: 48px;
+    font-size: 3em;
     font-weight: 600;
     line-height: 1.4;
     color: var(--color-main);
@@ -139,7 +139,7 @@ figure.img-wrap img {
 
 .content-tick-icon {
     display: inline-block;
-    width: 5%;
+    width: 45px;
     margin-right: 1%;
     background: white;
     text-align: center;
@@ -214,3 +214,33 @@ figure.img-wrap img {
     border-right: 8px solid var(--color-main);
     border-bottom: 8px solid var(--color-main);
 } */
+
+
+/* reponsive */
+
+@media screen and (max-width: 1200px) { 
+  
+}
+@media screen and (max-width: 992px) {
+   
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .title-1 {
+        font-size: 2em;        
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    .content-tick {
+        height: auto;
+        padding: 4px 15px;
+    }
+
+    .title-1 {
+        font-size: 2em;        
+    }
+}
+

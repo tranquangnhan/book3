@@ -729,7 +729,7 @@ class Model_home extends Model_db{
     }
 
     function getProductStudent() {
-        $sql = "SELECT * FROM `book` WHERE type = 1";
+        $sql = "SELECT * FROM `book` WHERE type = 1 AND sachmem = 1";
         return $this->result1(0, $sql);
     }
 
@@ -765,12 +765,12 @@ class Model_home extends Model_db{
 
 
     function getProductTeacher() {
-        $sql = "SELECT * FROM `book` WHERE type = 2";
+        $sql = "SELECT * FROM `book` WHERE type in (1,2) AND sachmem = 1";
         return $this->result1(0, $sql);
     }
 
     function getProductLimit($where) {
-        $sql = "SELECT * FROM `book` WHERE $where ORDER BY class ASC limit 0, 9";
+        $sql = "SELECT * FROM `book` WHERE $where AND sachmem = 1 ORDER BY class ASC limit 0, 9";
         return $this->result1(0, $sql);        
     }
 

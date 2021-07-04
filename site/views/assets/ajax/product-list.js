@@ -60,7 +60,7 @@ if (level == 1) {
     ];
 } else if (level == 13) {
     filterOb = [
-        { 'type': [2] },
+        { 'type': [1, 2] },
         { 'class': [] },
         { 'category': [] }
     ];
@@ -71,7 +71,6 @@ if (level == 1) {
         { 'category': [] }
     ];
 }
-
 var checkReloadPage = false;
 
 var timeRequest;
@@ -150,7 +149,7 @@ $('.filter').click(function(e) {
                 $(this).parent().addClass('active');
                 filterOb[1].class[0] = keyFilter;
             }
-        } else {
+        } else {            
             var keyFilter = $(this).val();
             var data = getDataByTypeCheck(checkType);
 
@@ -182,6 +181,7 @@ $('.filter').click(function(e) {
                 $(this).parent().addClass('primary-2-active');
             }
         }
+
         var url = `${baseUrlSite}/site/controllers/ajax/product.php`;
         timeRequest = setTimeout(
             function() {
@@ -209,7 +209,6 @@ function getDataByTypeCheck(checkType) {
 }
 
 function getDataByFilterOb(data, url) {
-    console.log(data);
     $.ajax({
         type: 'POST',
         url: url,
@@ -276,8 +275,9 @@ function setDataAndRequest(filterOb, form, url) {
     var dataToSring = JSON.stringify(filterOb);
 
     var dataSend = new FormData();
-
+    
     dataSend.append('filterOb', dataToSring);
+    dataSend.append('checkSachMem', obj.sachmem);
     dataSend.append('form', form);
     dataSend.append('level', level);
     dataSend.append('action', 'getData');

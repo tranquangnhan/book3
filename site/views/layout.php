@@ -80,7 +80,17 @@
                         <a href="<?=ROOT_URL?>" class="nav-link">Trang Chủ</a>
                     </li>
                     <li class="nav-item dropdown-2 aboutDropdown <?php echo ($viewFile == "views/about.php") ? 'bar-active active' : '' ?>">
-                        <a href="<?=ROOT_URL?>/gioi-thieu" class="nav-link">Giới Thiệu </a>
+                        <a href="<?=ROOT_URL?>/gioi-thieu" class="nav-link dropdown-notdesk-click">Giới Thiệu </a>
+                        <ul class="dropdown-notdesk">
+                            <li class="dropdown-notdesk-item"><a href="<?=ROOT_URL?>/gioi-thieu" class="text-uppercase">Giới thiệu chung</a></li>                            
+                            <?php foreach($abouts as $about) { 
+                                if ($about['link'] == '') { ?>
+                                    <li class="dropdown-notdesk-item"><a class="text-uppercase" href="<?=SITE_URL?>?act=about&id=<?=$about['id']?>"><?=$about['name']?></a></li>
+                                <?php } else { ?>
+                                    <li class="dropdown-notdesk-item"><a class="text-uppercase" href="<?=$about['link']?>"><?=$about['name']?></a></li>
+                            <?php }
+                            } ?>  
+                        </ul>
                         <ul class="dropdown-hover-2">
                             <li class="about-item"><a href="<?=ROOT_URL?>/gioi-thieu" class="text-uppercase">Giới thiệu chung</a></li>                            
                             <?php foreach($abouts as $about) { 
@@ -94,7 +104,13 @@
                     </li>
 
                     <li class="nav-item dropdown-2 <?php echo ($viewFile == "views/product-list.php" || $viewFile == "views/product-detail.php") ? 'bar-active active' : '' ?>">
-                        <a href="<?=ROOT_URL?>/san-pham" class="nav-link">Sản Phẩm</a>
+                        <a href="<?=ROOT_URL?>/san-pham" class="nav-link dropdown-notdesk-click">Sản Phẩm</a>
+                        <ul class="dropdown-notdesk sanpham">
+                            <li class="dropdown-notdesk-item"><a href="<?=ROOT_URL?>/sach/mam-non">MẦM NON</a></li>
+                            <li class="dropdown-notdesk-item"><a href="<?=ROOT_URL?>/sach/tieu-hoc">TIỂU HỌC</a></li>
+                            <li class="dropdown-notdesk-item"><a href="<?=ROOT_URL?>/sach/thcs">TRUNG HỌC CƠ SỞ</a></li>
+                            <li class="dropdown-notdesk-item"><a href="<?=ROOT_URL?>/sach/thpt">TRUNG HỌC PHỔ THÔNG</a></li>
+                        </ul>
                         <ul class="dropdown-hover-2 sanpham">
                             <li><a href="<?=ROOT_URL?>/sach/mam-non">MẦM NON</a></li>
                             <li><a href="<?=ROOT_URL?>/sach/tieu-hoc">TIỂU HỌC</a></li>

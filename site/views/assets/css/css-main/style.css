@@ -14962,7 +14962,7 @@ button.navbar-toggler {
 
 .dropdown-2:hover>.dropdown-hover-2 li:nth-child(1) {
     animation: rotaX 300ms ease-in-out forwards;
-    animation-delay: -150ms;
+    animation-delay: -50ms;
 }
 
 .dropdown-2:hover>.dropdown-hover-2 li:nth-child(2) {
@@ -14972,17 +14972,17 @@ button.navbar-toggler {
 
 .dropdown-2:hover>.dropdown-hover-2 li:nth-child(3) {
     animation: rotaX 300ms ease-in-out forwards;
-    animation-delay: 150ms;
+    animation-delay: 50ms;
 }
 
 .dropdown-2:hover>.dropdown-hover-2 li:nth-child(4) {
     animation: rotaX 300ms ease-in-out forwards;
-    animation-delay: 300ms;
+    animation-delay: 100ms;
 }
 
 .dropdown-2:hover>.dropdown-hover-2 li:nth-child(5) {
     animation: rotaX 300ms ease-in-out forwards;
-    animation-delay: 450ms;
+    animation-delay: 150ms;
 }
 
 @keyframes rotaX {
@@ -15176,4 +15176,30 @@ button.navbar-toggler {
 
 .newss {
     min-height: 170px;
+}
+
+.dropdown-notdesk {
+    border-radius: 5px;
+    padding: 0;
+    background: var(--color-main);
+    display: none;
+    margin-top: .1em;
+}
+
+.dropdown-notdesk li a {
+    color: white;
+    font-size: .8em;
+    font-weight: 500;
+}
+
+.dropdown-notdesk li {
+    list-style: none;
+    padding: 0.3em 1em;
+    border-radius: 5px;
+    background: var(--color-main);
+    width: 100% !important;
+}
+
+.dropdown-notdesk li:hover {
+    background: #07203b !important;
 }

@@ -13,6 +13,10 @@ require_once "../../../system/config.php";
             if (isset($_POST['level'])) {
                 $level = $_POST['level'];
             }
+
+            if (isset($_POST['checkSachMem'])) {
+                $checkSachMem = $_POST['checkSachMem'];
+            }
             $array      = array();   
             $filter     = $_POST['filterOb'];
             $data       = json_decode($filter);            
@@ -90,7 +94,7 @@ require_once "../../../system/config.php";
                 }
 
                 if (isset($level) && $level > 1 && $level != 6 && $level != 7) {
-                    if ($class == '' || $class == []) {
+                    if ($class == '' && $class == [] && $checkSachMem == false) {
                         if ($where == false) {
                             $sql  .= 'WHERE ';
                             $where = true;
@@ -114,10 +118,27 @@ require_once "../../../system/config.php";
                     }
                 }
 
+                if ($checkSachMem == true) {
+                    if ($where == false) {
+                        $sql  .= 'WHERE ';
+                        $where = true;
+                    } 
+                    $sqlCheck = true;
+                    $justClass = true;
+                    if ($notOr == false) {
+                        $sql  .= ' AND ';
+                    } else {
+                        $notOr = false;
+                    }
+
+                    $sql .= 'sachmem = 1';
+                }
+
                 if ($sqlCheck === true || $form > 0) {
                     $amountProduct = $model->getAmountProduct($sql);
                     $amountProduct = count($amountProduct);
                 }
+
                 if ($justClass == true) {
                     $sql .= ' ORDER BY idcate ASC, class ';
                 } else {            
@@ -144,11 +165,9 @@ require_once "../../../system/config.php";
                         $dataProducts = $model->getProductDefault($form);
                         $amountProduct = $model->getAmountProductDefault();
                     }
-                    // $dataProducts = '';
                 }
-
-                echo json_encode([$dataProducts, $amountProduct, $sql, $form]);                         
-                // echo json_encode($sql);
+                                
+                echo json_encode([$dataProducts, $amountProduct, $sql, $form]);                                     
             }
             break;    
         case "getDataSpResources": 
@@ -159,17 +178,6 @@ require_once "../../../system/config.php";
             settype($class, "int");
             settype($form, "int");
 
-            // if ($class > 12) { // get all
-            //     if ($form > 0) {
-            //         $form = ($form - 1) * 9;
-            //         $listSpResource   = $model->getAllSupportResourceLimitForm($form);                    
-            //     } else {                
-            //         $listSpResource   = $model->getAllSupportResourceLimit();                    
-            //     }
-            //     $amountSupport    = $model->getAmountSpResources();
-            // } else {  // get by class                       
-                                              
-            // }
             if ($form > 0) {
                 $form = ($form - 1) * 9;    
             }

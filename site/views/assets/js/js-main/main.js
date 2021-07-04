@@ -424,6 +424,7 @@ function renderPage(pageCur) {
 var obj = {
     url: '',
     filterOb: '',
+    sachmem: false,
     pageTeacher: false,
     getData: function(form) {             
         goToByScroll('nav-chil');
@@ -499,9 +500,9 @@ $('.aboutDropdown').hover(function () {
     var lengthItem = $('.about-item').length;
     for (let i = 0; i < lengthItem; i++) {
         if (i > 0) {
-            var delay = i * 150;
+            var delay = i * 50;
         } else {
-            var delay = -150;
+            var delay = -50;
         }
         
         $('.about-item:eq('+i+')').css({            
@@ -514,3 +515,17 @@ $('.aboutDropdown').hover(function () {
         // out
     }
 );
+
+$('.dropdown-notdesk-click').click(function (e) { 
+    e.preventDefault();
+    var dropDownBox = $(this).next('.dropdown-notdesk');
+    if (dropDownBox.hasClass('show')) {
+        dropDownBox.slideUp(200, function() {
+            dropDownBox.removeClass('show');
+        });
+    } else {        
+        dropDownBox.slideDown(200, function() {
+            dropDownBox.addClass('show');
+        });
+    }    
+});

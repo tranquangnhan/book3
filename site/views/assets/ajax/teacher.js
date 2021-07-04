@@ -1,5 +1,5 @@
 filterOb = [
-    { 'type': [2] },
+    { 'type': [1, 2] },
     { 'class': [] },
     { 'category': [] }
 ];

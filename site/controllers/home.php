@@ -290,7 +290,7 @@ class Home
         $js             = ["teacher.js", "sticky.js"];    
         $namePage       = "Giáo Viên";            
         $ajax           = ["product-list.js", "teacher.js"];
-        $where          = ' type = 2 ';
+        $where          = ' type in (1,2) ';
         $level          = 13;
         $categories     = $this->model->getCategories();
         $getLastestNews = $this->modelBlogs->getLastestNews();

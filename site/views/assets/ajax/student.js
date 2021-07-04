@@ -3,4 +3,6 @@ var filterOb = [
     { 'class': [] },
     { 'category': [] }
 ];
+
+obj.sachmem  = true;
 obj.filterOb = filterOb;

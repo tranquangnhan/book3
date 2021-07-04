@@ -276,7 +276,7 @@
     border-left: 100px solid transparent;
     border-right: 100px solid transparent;
     border-bottom: 50px solid #2b639f;
-    margin-left: 220px;
+    margin-left: 0%;
 }
 
 .rectr {
@@ -285,7 +285,7 @@
     border-left: 100px solid transparent;
     border-right: 100px solid transparent;
     border-bottom: 50px solid #2b639f;
-    margin-left: 860px;
+    margin-left: 81%;
 }
 
 .project-wrap .text {
@@ -314,4 +314,156 @@
     color: var(--color-main);
     font-size: 1.5em;
 }
+
+.content .str-1 {
+    display: none;
+}
+
+.content-6 .str-1 {
+    display: none;
+}
 /* sua code */
+
+/* reponsive */
+
+@media screen and (max-width: 1200px) { 
+    .book-box {
+        min-height: 335px;
+    }
+
+    .content {        
+        transform: translateY(200px);        
+    }
+
+    .type {
+        padding-top: 25px;
+    }
+
+    .rectr {        
+        margin-left: 75%;
+    }
+
+    .rectl {        
+        margin-left: 0%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .book-box {
+        min-height: 335px;
+    }
+
+    .content {        
+        transform: translateY(200px);        
+    }
+
+    .type {
+        padding-top: 25px;
+    }
+
+    .rectr {        
+        margin-left: 75%;
+    }
+
+    .rectl {        
+        margin-left: 0%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .book-box {
+        min-height: 280px;
+    }
+
+    .content {        
+        transform: translateY(170px);        
+        font-size: .9em;
+    }
+
+    .type {
+        padding: 20px 0px;
+    }
+
+    .rectl {        
+        margin-left: 0%;
+    }
+
+    .rectr {        
+        margin-left: 70%;
+    }
+
+    .button-title.text-center a {
+        font-size: 1.4em;
+    }
+
+    
+    .box-button-title {
+        margin: 2em 0px !important;
+        
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .rectr {        
+        margin-left: 65%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .book-box {
+        min-height: 200px;
+    }
+
+    .content h3 {
+        font-size: 1em;
+    }
+
+    .content {        
+        transform: translateY(122px);        
+    }
+
+    .type {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .btn-type {        
+        font-size: .8em;
+    }
+
+    .project-wrap .text h3 a {
+        color: var(--color-main);
+        font-size: .9em;
+    }
+
+    .rectl {        
+        margin-left: 0%;
+    }
+
+    .rectr {
+        margin-left: 56%;
+    } 
+
+    .btn-hover-detail {
+        display: none;
+    }
+
+    .content .str-1 {
+        display: block;
+    }
+    
+    .content-6 .str-1 {
+        display: block;
+    }
+
+    .content h6 {
+        font-size: .6em;
+    }
+
+    .button-title.text-center a {
+        font-size: 1.4em;
+    }
+
+    .box-button-title {
+        margin: 2em 0px !important;
+    }
+}
