@@ -183,9 +183,21 @@
     .contact-name {
         font-size: 1.4em;
     }
+
+    .dropdown-notdesk-click {
+        display: block;
+    }
+
+    .dropdown-desk {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 576px) {
+    .search-button {
+        font-size: .9em;
+    }
+    
     .fanpage-md {
         display: none;
     }
@@ -207,3 +219,4 @@
         display: none;
     }
 }
+

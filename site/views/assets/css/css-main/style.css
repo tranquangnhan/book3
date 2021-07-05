@@ -15203,3 +15203,7 @@ button.navbar-toggler {
 .dropdown-notdesk li:hover {
     background: #07203b !important;
 }
+
+.dropdown-notdesk-click {
+    display: none;
+}

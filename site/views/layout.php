@@ -45,7 +45,7 @@
                                 </div>
                             </div>
                             <div class="col-3">
-                                <button type="submit" class="btn btn-primary float-right">Tìm kiếm</button>
+                                <button type="submit" class="search-button btn btn-primary float-right">Tìm kiếm</button>
 
                             </div>
                         </div>
@@ -80,6 +80,7 @@
                         <a href="<?=ROOT_URL?>" class="nav-link">Trang Chủ</a>
                     </li>
                     <li class="nav-item dropdown-2 aboutDropdown <?php echo ($viewFile == "views/about.php") ? 'bar-active active' : '' ?>">
+                        <a href="<?=ROOT_URL?>/gioi-thieu" class="nav-link dropdown-desk">Giới Thiệu </a>
                         <a href="<?=ROOT_URL?>/gioi-thieu" class="nav-link dropdown-notdesk-click">Giới Thiệu </a>
                         <ul class="dropdown-notdesk">
                             <li class="dropdown-notdesk-item"><a href="<?=ROOT_URL?>/gioi-thieu" class="text-uppercase">Giới thiệu chung</a></li>                            
@@ -104,6 +105,7 @@
                     </li>
 
                     <li class="nav-item dropdown-2 <?php echo ($viewFile == "views/product-list.php" || $viewFile == "views/product-detail.php") ? 'bar-active active' : '' ?>">
+                        <a href="<?=ROOT_URL?>/san-pham" class="nav-link dropdown-desk">Sản Phẩm</a>
                         <a href="<?=ROOT_URL?>/san-pham" class="nav-link dropdown-notdesk-click">Sản Phẩm</a>
                         <ul class="dropdown-notdesk sanpham">
                             <li class="dropdown-notdesk-item"><a href="<?=ROOT_URL?>/sach/mam-non">MẦM NON</a></li>
