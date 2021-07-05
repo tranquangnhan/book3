@@ -118,7 +118,7 @@ require_once "../../../system/config.php";
                     }
                 }
 
-                if ($checkSachMem == true) {
+                if ($checkSachMem == 1) {
                     if ($where == false) {
                         $sql  .= 'WHERE ';
                         $where = true;
@@ -166,7 +166,6 @@ require_once "../../../system/config.php";
                         $amountProduct = $model->getAmountProductDefault();
                     }
                 }
-                                
                 echo json_encode([$dataProducts, $amountProduct, $sql, $form]);                                     
             }
             break;    

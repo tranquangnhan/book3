@@ -14,17 +14,17 @@
                     <?php if ($level != 7) { ?>
                     <div class="container" style="width: fit-content; margin-bottom: 5%;">
                         <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                            <label class="type btn btn-primary-2 font-weight-600 <?=($level==10 || $level == 2 || $level == 3 || $level == 4) ? 'active primary-2-active' : ''?>">
+                            <label class="type btn btn-primary-2 font-weight-600 ">
                                 <input type="radio" class="filter type" data-type="0" value="1" name="options">Học Sinh
                             </label>
-                            <label class="type btn btn-primary-2 font-weight-600 <?=($level==11) ? 'active primary-2-active' : ''?>">
+                            <label class="type btn btn-primary-2 font-weight-600 ">
                                 <input type="radio" class="filter type" data-type="0" value="2" name="options"> Giáo Viên
                             </label>
                         </div>
                     </div>
                     <?php } ?>
                 </div>
-                <?php if ($level > 1) { ?>
+                <?php if ($level > 1) {?>
                 <div class="col-12 text-center">
                     <div class="block-27">
                         <div class="row">
@@ -36,20 +36,20 @@
                                             <li class="big class">Lớp</li>
                                             <?php } ?>
                                         <?php if ($level == 2 || $level == 6 || $level > 9) { ?>
-                                        <li <?php echo ($level != 6 && $level < 9) ? 'class="active"' : ''?>><a href="#" class="filter class" data-type="1">1</a></li>
+                                        <li><a href="#" class="filter class" data-type="1">1</a></li>
                                         <li><a href="#" class="filter class" data-type="1">2</a></li>
                                         <li><a href="#" class="filter class" data-type="1">3</a></li>
                                         <li><a href="#" class="filter class" data-type="1">4</a></li>
                                         <li><a href="#" class="filter class" data-type="1">5</a></li>
                                         <?php }
                                         if ($level == 3 || $level == 6 || $level > 9) { ?>
-                                        <li <?php echo ($level == 3) ? 'class="active"' : ''?>><a href="#" class="filter class" data-type="1">6</a></li>
+                                        <li ><a href="#" class="filter class" data-type="1">6</a></li>
                                         <li><a href="#" class="filter class" data-type="1">7</a></li>
                                         <li><a href="#" class="filter class" data-type="1">8</a></li>
                                         <li><a href="#" class="filter class" data-type="1">9</a></li>
                                         <?php }
                                         if ($level == 4 || $level == 6 || $level > 9) { ?>
-                                        <li <?php echo ($level == 4) ? 'class="active"' : ''?>><a href="#" class="filter class" data-type="1">10</a></li>
+                                        <li><a href="#" class="filter class" data-type="1">10</a></li>
                                         <li><a href="#" class="filter class" data-type="1">11</a></li>
                                         <li><a href="#" class="filter class" data-type="1">12</a></li>
                                         <?php } ?>
@@ -68,7 +68,7 @@
                                 foreach ($categories as $cate) { ?>
                                 <?php 
                                     if ($level == 12 || $level == 2 || $level == 3 || $level == 4) { ?>
-                                        <label class="category btn btn-primary-2 font-weight-600 <?=($num == 1) ? 'active primary-2-active' : ''?> ">
+                                        <label class="category btn btn-primary-2 font-weight-600  ">
                                             <input type="radio" class="filter category" data-type="2" value="<?= $cate['id'] ?>" name="" id="" class="filter" ><?=$cate['name']?>
                                         </label>  
                                     <?php } else { ?>

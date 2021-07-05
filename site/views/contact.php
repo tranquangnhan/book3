@@ -4,15 +4,22 @@
             <div class="col-md-12">
                 <div class="wrapper">
                     <div class="contact-background"></div>
-                    
-                    <div class="row no-gutters">
-                        <div class="col-12 text-center">
-                            <div class="dbox w-100 mt-5">                                        
-                                <div class="img-logo">
-                                    <img src="<?=PATH_URL?>images/logo.jpg" class="img-fluid" alt="">
-                                </div>
+                    <div class="row d-flex justify-content-center">
+                            <div class="col-6 text-center ">
+                                    <div class="logocontact">
+                                        <div class="img-contact">
+                                            <img src="/book3/site/views/assets/images/heid-logo.png" class="logo-header" alt="logo">
+                                        </div>
+                                        <div class="title-contact">
+                                            <h3 class="text-uppercase">CÔNG TY CỔ PHẦN ĐẦU TƯ <br> VÀ PHÁT TRIỂN GIÁO DỤC HÀ NỘI</h3>
+                                        </div>
+                                    </div>
                             </div>
-                        </div>
+
+                    </div>
+                    <div class="row no-gutters ">
+                       
+                       
                         
                         <div class="col-lg-6 col-md-6 order-md-last d-flex align-items-stretch contact-form">
                             <div class="contact-wrap position-relative w-100 p-md-5 p-4">

@@ -3,6 +3,11 @@ filterOb = [
     { 'class': [] },
     { 'category': [] }
 ];
+
+obj.sachmem = 1;
+obj.filterOb = filterOb;
+
+
 var what = $('#what_').val();
 if (what == 1) {
     obj.pageTeacher = true;
@@ -16,13 +21,13 @@ function getDataSupportResource(classhe, form) {
     dataSend.append('class', classhe);
     dataSend.append('form', form);
     dataSend.append('action', 'getDataSpResources');
-    
+
     var url = `${baseUrlSite}/site/controllers/ajax/product.php`;
-        
+
     getDataSpResourceClass(dataSend, url);
 }
 
-function getDataSpResourceClass(data, url) {    
+function getDataSpResourceClass(data, url) {
     $.ajax({
         type: 'POST',
         url: url,
@@ -31,7 +36,7 @@ function getDataSpResourceClass(data, url) {
         contentType: false,
         processData: false,
         data: data,
-        success: function(response) {                             
+        success: function(response) {
             if ($('.notice-h3')) {
                 $('.notice-h3').remove();
                 $('.pagina-box').show();
@@ -40,11 +45,11 @@ function getDataSpResourceClass(data, url) {
             if ($('.ftco-loader').hasClass('show') == true) {
                 $('.ftco-loader').removeClass('show');
             }
-            
+
             if (response[1] > 0) {
-                response[0].forEach(element => {                    
+                response[0].forEach(element => {
                     var ResourcesItem = htmlResourcesItem(element);
-                    $('.spre').append(ResourcesItem);                    
+                    $('.spre').append(ResourcesItem);
                 });
 
                 if (checkReloadPage == true) {
@@ -57,7 +62,7 @@ function getDataSpResourceClass(data, url) {
                 var html = '<h3 class="text-center w-100 notice-h3">Không tìm thấy sản phẩm !</h3>';
                 $('.spre').prepend(html);
                 $('.pagina-box').hide();
-            }         
+            }
         },
         error: function(e) {
             // Swal.fire({
@@ -92,4 +97,3 @@ function htmlResourcesItem(data) {
 
     return html;
 }
-

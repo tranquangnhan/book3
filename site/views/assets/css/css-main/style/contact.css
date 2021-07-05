@@ -1,5 +1,5 @@
 .contact-wrap {
-   z-index: 1;
+    z-index: 1;
 }
 
 .contact-background {
@@ -14,8 +14,8 @@
     height: 100%;
     background-image: url("../../../images/city.jpg");
     background-position: center;
-    background-repeat: no-repeat; 
-    background-size: cover; 
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .contactForm .form-control {
@@ -72,4 +72,27 @@ form#contactForm {
 
 .cursor-pointer {
     cursor: pointer;
+}
+
+.logocontact {
+    display: flex;
+}
+
+.logocontact .img-contact {
+    width: 16%;
+    margin-right: 2rem;
+}
+
+.logocontact .img-contact img {
+    width: 100%;
+}
+
+.logocontact .title-contact {
+    width: 80%;
+    text-align: left;
+}
+
+.logocontact .title-contact h3 {
+    color: var(--color-main);
+    font-weight: bold;
 }

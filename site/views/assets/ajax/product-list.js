@@ -19,21 +19,21 @@ if (level == 1) {
     ];
 } else if (level == 2) {
     filterOb = [
-        { 'type': ["1"] },
-        { 'class': ["1"] },
-        { 'category': [firstIdCategory] }
+        { 'type': [] },
+        { 'class': ["1,2,3,4,5"] },
+        { 'category': [] }
     ];
 } else if (level == 3) {
     filterOb = [
-        { 'type': ["1"] },
-        { 'class': ["6"] },
-        { 'category': [firstIdCategory] }
+        { 'type': [] },
+        { 'class': ["6,7,8,9"] },
+        { 'category': [] }
     ];
 } else if (level == 4) {
     filterOb = [
-        { 'type': ["1"] },
-        { 'class': ["10"] },
-        { 'category': [firstIdCategory] }
+        { 'type': [] },
+        { 'class': ["10,11,12"] },
+        { 'category': [] }
     ];
 } else if (level == 7) {
     var keyWord = $('.keyWordSearch').html();
@@ -121,7 +121,7 @@ $('.filter').click(function(e) {
             getDataSupportResource(keyFilter, 0);
         }
 
-    } else {  // lọc sản phẩm
+    } else { // lọc sản phẩm
         checkReloadPage = true;
         if ($('.ftco-loader').hasClass('show') == false) {
             $('.product-box .product-item').remove();
@@ -149,7 +149,7 @@ $('.filter').click(function(e) {
                 $(this).parent().addClass('active');
                 filterOb[1].class[0] = keyFilter;
             }
-        } else {            
+        } else {
             var keyFilter = $(this).val();
             var data = getDataByTypeCheck(checkType);
 
@@ -163,7 +163,7 @@ $('.filter').click(function(e) {
                     elementActive.removeClass('primary-2-active');
                     elementActive.addClass('btn-primary-2');
                     if (keyFilter == 2) {
-                        filterOb[0].type = [1, 2];
+                        filterOb[0].type = [1,2];
 
                     } else {
                         findAndDeleteItemInArray(filterOb[0].type, 2);
@@ -275,7 +275,7 @@ function setDataAndRequest(filterOb, form, url) {
     var dataToSring = JSON.stringify(filterOb);
 
     var dataSend = new FormData();
-    
+
     dataSend.append('filterOb', dataToSring);
     dataSend.append('checkSachMem', obj.sachmem);
     dataSend.append('form', form);
