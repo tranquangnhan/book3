@@ -3,6 +3,16 @@
         <div class="row justify-content-center">
             <div class="col-md-12">
                 <div class="wrapper">
+<<<<<<< HEAD
+                    <div class="contact-background"></div>                    
+                    <div class="row no-gutters">
+
+                        <div class="col-12 text-center">
+                            <div class="dbox w-100 mt-5">                                        
+                                <div class="img-logo">
+                                    <img src="<?=PATH_URL?>images/logo.jpg" class="img-fluid" alt="">
+                                </div>
+=======
                     <div class="contact-background"></div>
                     <div class="row d-flex justify-content-center">
                             <div class="col-6 text-center ">
@@ -14,6 +24,7 @@
                                             <h3 class="text-uppercase">CÔNG TY CỔ PHẦN ĐẦU TƯ <br> VÀ PHÁT TRIỂN GIÁO DỤC HÀ NỘI</h3>
                                         </div>
                                     </div>
+>>>>>>> d66344df91d05b47b5243b7d78144e11cd5e477b
                             </div>
 
                     </div>

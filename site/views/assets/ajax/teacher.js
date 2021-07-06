@@ -13,6 +13,7 @@ if (what == 1) {
     obj.pageTeacher = true;
 }
 
+obj.sachmem  = true;
 var classe = 0;
 
 function getDataSupportResource(classhe, form) {

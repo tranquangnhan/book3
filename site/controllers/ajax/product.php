@@ -118,7 +118,11 @@ require_once "../../../system/config.php";
                     }
                 }
 
+<<<<<<< HEAD
+                if ($checkSachMem === true || $checkSachMem == 'true') {
+=======
                 if ($checkSachMem == 1) {
+>>>>>>> d66344df91d05b47b5243b7d78144e11cd5e477b
                     if ($where == false) {
                         $sql  .= 'WHERE ';
                         $where = true;
@@ -166,7 +170,12 @@ require_once "../../../system/config.php";
                         $amountProduct = $model->getAmountProductDefault();
                     }
                 }
+<<<<<<< HEAD
+                                
+                echo json_encode([$dataProducts, $amountProduct, $sql, $form, $checkSachMem]);                                     
+=======
                 echo json_encode([$dataProducts, $amountProduct, $sql, $form]);                                     
+>>>>>>> d66344df91d05b47b5243b7d78144e11cd5e477b
             }
             break;    
         case "getDataSpResources": 

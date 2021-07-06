@@ -41,6 +41,32 @@
     font-size: 1em;
 }
 
+.content-6 {
+    margin: 0 auto;
+    transform: translateY(300px);
+    transition: 0.3s;
+    position: relative;
+    z-index: 10;
+    text-align: -webkit-center;
+}
+
+.content-6 h3 {
+    font-weight: bolder;
+    margin-bottom: 0px;
+    padding: 0px;
+    color: var(--color-main);
+    font-size: 1.5em;
+}
+
+.content-6 h6 {
+    font-weight: bolder;
+    margin-bottom: 0px;
+    padding: 0px;
+    color: var(--color-main);
+    font-size: 1em;
+}
+
+
 .book-box {
     transition: 0.4s;
     cursor: pointer;
@@ -301,7 +327,7 @@
 
 .content-6 {
     margin: 0 auto;
-    transform: translateY(30px);
+    transform: translateY(33px);
     transition: 0.3s;
     position: relative;
     z-index: 10;
@@ -332,6 +358,54 @@
     border-radius: 5px;
 }
 
+.book-box-6 {
+    width: 100%;
+    min-height: 500px;
+    max-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.book-box-6 {
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.cont-6 {
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.box-content-6:hover .cont-6 {
+    transform: scale(1.04);
+}
+
+.box-content-6:hover .btn-hover-detail {
+    opacity: 1;
+}
+
+.box-content-6 .btn-hover-detail {
+    z-index: 10;
+}
+
+.box-content-6:hover .carou::before {
+    opacity: .8;
+    transform: scale(1.04);
+}
+
+.carou::before {
+    content: '';
+    background: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    opacity: 0;
+    transition: 0.2s;
+}
 
 /* sua code */
 
@@ -342,17 +416,29 @@
     .book-box {
         min-height: 335px;
     }
+    .book-box-6 {
+        min-height: 335px;
+    }
+
     .content {
-        transform: translateY(200px);
+        transform: translateY(12px);
+    }
+
+    .content-6 {
+        transform: translateY(14px);
     }
     .type {
         padding-top: 25px;
     }
     .rectr {
-        margin-left: 75%;
+        margin-left: 67%;
     }
     .rectl {
-        margin-left: 38%;
+        margin-left: 13%;
+    }
+
+    .content-6z {
+        transform: translateY(200px);
     }
 }
 
@@ -360,17 +446,25 @@
     .book-box {
         min-height: 335px;
     }
+
+    .book-box-6 {
+        min-height: 335px;
+    }
     .content {
         transform: translateY(200px);
+    }
+
+    .content-6 {
+        transform: translateY(15px);
     }
     .type {
         padding-top: 25px;
     }
     .rectr {
-        margin-left: 75%;
+        margin-left: 65%;
     }
     .rectl {
-        margin-left: 36%;
+        margin-left: 7%;
     }
 }
 
@@ -378,15 +472,26 @@
     .book-box {
         min-height: 280px;
     }
+
+    .book-box-6 {
+        min-height: 280px;
+    }
+
     .content {
         transform: translateY(170px);
         font-size: .9em;
     }
+
+    .content-6 {
+        transform: translateY(14.8px);
+        font-size: .9em;
+    }
+
     .type {
         padding: 20px 0px;
     }
     .rectl {
-        margin-left: 33%;
+        margin-left: 3%;
     }
     .rectr {
         margin-left: 70%;
@@ -409,41 +514,72 @@
     .book-box {
         min-height: 200px;
     }
+
+    .book-box-6 {
+        min-height: 200px;
+    }
+
     .content h3 {
         font-size: 1em;
     }
+
     .content {
         transform: translateY(122px);
     }
+
+    .content-6 h3 {
+        font-size: 1em;
+    }
+    
+    .content-6 {
+        transform: translateY(6px);
+    }
+
     .type {
         padding-top: 30px;
         padding-bottom: 10px;
     }
+
     .btn-type {
         font-size: .8em;
     }
+
     .project-wrap .text h3 a {
         color: var(--color-main);
         font-size: .9em;
     }
+    
     .rectl {
-        margin-left: 23%;
+        margin-left: -2%;
     }
+
     .rectr {
         margin-left: 56%;
     }
+
     .btn-hover-detail {
         display: none;
     }
     .content .str-1 {
         display: block;
     }
+
     .content-6 .str-1 {
         display: block;
     }
+
+    .content-6 .str-1 {
+        display: block;
+    }
+
     .content h6 {
         font-size: .6em;
     }
+
+    .content-6 h6 {
+        font-size: .6em;
+    }
+
     .button-title.text-center a {
         font-size: 1.4em;
     }
