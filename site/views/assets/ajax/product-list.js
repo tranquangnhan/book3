@@ -163,7 +163,7 @@ $('.filter').click(function(e) {
                     elementActive.removeClass('primary-2-active');
                     elementActive.addClass('btn-primary-2');
                     if (keyFilter == 2) {
-                        filterOb[0].type = [1,2];
+                        filterOb[0].type = [1, 2];
 
                     } else {
                         findAndDeleteItemInArray(filterOb[0].type, 2);
@@ -231,7 +231,7 @@ function getDataByFilterOb(data, url) {
             var url = new URL(window.location.href);
             var param = url.searchParams.get("act");
             var isSanPhamPage = false;
-            if (url.toString().includes('san-pham')) {
+            if (url.toString().includes('hoc-sinh') || url.toString().includes('giao-vien')) {
                 isSanPhamPage = true;
             } else {
                 isSanPhamPage = false;
@@ -288,7 +288,7 @@ function setDataAndRequest(filterOb, form, url) {
 
 function htmlProductItem(product, isSanPhamPage) {
     var link = '';
-    if (product['sachmem'] == 1 && isSanPhamPage == false) {
+    if (product['sachmem'] == 1 && isSanPhamPage == true) {
         link = product['link'];
     } else {
         link = `${baseUrlSite}/sach/${product['slug']}`;

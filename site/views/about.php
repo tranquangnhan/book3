@@ -7,26 +7,18 @@
                             echo $aboutDetail['content'];
                     } else if (isset($page) && $page == 1) { ?>
                         <section id="about" class="my-5">
-                            <div class="row justify-content-center text-center mb-5">
-                                <div class="col-md-7">
-                                    <h2 class="title-1 text-uppercase" data-aos="fade-up">Global Success</h2>
-                                </div>
-                            </div>
+                            
                             <div class="row">
                                 <div class="col-12">
                                     <div class="content-about">
                                         <p>
-                                        <b>Global Success</b> là bộ sách giáo khoa Tiếng Anh được biên soạn dựa trên Chương trình 
-                                        giáo dục phổ thông môn tiếng Anh (Ban hành kèm theo Thông tư số <b>32/2018/TT-BGDĐT</b>
-                                        ngày 26 tháng 12 năm 2018 của Bộ trưởng Bộ Giáo dục và Đào tạo) và Khung năng lực 
-                                        ngoại ngữ 6 bậc dùng cho Việt Nam của Bộ Giáo dục và Đào tạo.
+                                        <b>Global Success</b> là bộ sách giáo khoa Tiếng Anh được biên soạn dựa trên 
+                                        <i>Chương trình giáo dục phổ thông môn tiếng Anh </i>(Ban hành kèm theo Thông tư số <b> 32/2018/TT-BGDĐT</b> ngày 26 tháng 12 năm 2018 của Bộ trưởng Bộ Giáo dục và Đào tạo) và <i> Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam</i> của Bộ Giáo dục và Đào tạo.
                                         </p>
 
                                         <p>
-                                        Bộ sách do GS.TS. Hoàng Văn Vân là Tổng chủ biên và có sự hợp tác chặt chẽ về 
-                                        chuyên môn và nghiệp vụ giữa <b>Nhà xuất bản Giáo dục Việt Nam</b> với các nhà xuất bản 
-                                        danh tiếng trên thế giới Macmillan Education (ở bậc Tiểu học) và Pearson Education
-                                        (ở bậc Trung học cơ sở và Trung học phổ thông).
+                                        Bộ sách do GS.TS. Hoàng Văn Vân là Tổng chủ biên và có sự hợp tác chặt chẽ về chuyên môn và nghiệp vụ giữa <b>Nhà xuất bản Giáo dục Việt Nam</b> 
+                                         với các nhà xuất bản danh tiếng trên thế giới <b>Macmillan Education </b>(ở bậc Tiểu học) và <b> Pearson Education </b>(ở bậc Trung học cơ sở và Trung học phổ thông).
                                         </p>
                                     </div>
                                 </div>
@@ -52,7 +44,7 @@
                                             <figure class="img-wrap m-0 text-center">
                                                 <img src="<?=PATH_URL?>images/biasachgt1.png" alt="Cơ sở pháp lý 1" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
-                                            <p class="text-center font-weight-bold"> Tài nguyên lớp 1</p>
+                                            <p class="text-center font-weight-bold"> Lớp 1</p>
                                         </a>
                                     </div>
 
@@ -61,7 +53,7 @@
                                             <figure class="img-wrap m-0 text-center">
                                                 <img src="<?=PATH_URL?>images/biasachgt2.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
-                                            <p class="text-center font-weight-bold"> Tài nguyên lớp 2</p>
+                                            <p class="text-center font-weight-bold"> Lớp 2</p>
                                         </a>
                                     </div>
 
@@ -70,7 +62,7 @@
                                             <figure class="img-wrap m-0 text-center comming">
                                                 <img src="<?=PATH_URL?>images/biasachgt3.png" alt="" class="w-80-center hover-scale img-fluid mb-3 ">
                                             </figure>
-                                            <p class="text-center font-weight-bold"> Tài nguyên lớp 3</p>
+                                            <p class="text-center font-weight-bold"> Lớp 3</p>
                                         </a>
                                     </div>
                                     <div class="col-md-6 col-lg-3 col-6 col-6 aos-init aos-animate" data-aos="fade-up">
@@ -78,7 +70,7 @@
                                             <figure class="img-wrap m-0 text-center comming">
                                                 <img src="<?=PATH_URL?>images/biasachgt4.png" alt="Cơ sở pháp lý 1" class="w-80-center img-fluid mb-3">
                                             </figure>
-                                            <p class="text-center font-weight-bold"> Tài nguyên lớp 4</p>
+                                            <p class="text-center font-weight-bold"> Lớp 4</p>
                                         </a>
                                     </div>
 
@@ -87,7 +79,7 @@
                                             <figure class="img-wrap m-0 text-center comming">
                                                 <img src="<?=PATH_URL?>images/biasachgt5.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
-                                            <p class="text-center font-weight-bold"> Tài nguyên lớp 5</p>
+                                            <p class="text-center font-weight-bold"> Lớp 5</p>
                                         </a>
                                     </div>
 
@@ -96,7 +88,7 @@
                                             <figure class="img-wrap m-0 text-center">
                                                 <img src="<?=PATH_URL?>images/biasachgt6.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
-                                            <p class="text-center font-weight-bold"> Tài nguyên lớp 6</p>
+                                            <p class="text-center font-weight-bold"> Lớp 6</p>
                                         </a>
                                     </div>
                                     <div class="col-md-6 col-lg-3 col-6 col-6 aos-init aos-animate" data-aos="fade-up">
@@ -104,7 +96,7 @@
                                             <figure class="img-wrap m-0 text-center comming">
                                                 <img src="<?=PATH_URL?>images/biasachgt7.png" alt="Cơ sở pháp lý 1" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
-                                            <p class="text-center font-weight-bold"> Tài nguyên lớp 7</p>
+                                            <p class="text-center font-weight-bold"> Lớp 7</p>
                                         </a>
                                     </div>
 
@@ -113,7 +105,7 @@
                                             <figure class="img-wrap m-0 text-center comming">
                                                 <img src="<?=PATH_URL?>images/biasachgt8.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
-                                            <p class="text-center font-weight-bold"> Tài nguyên lớp 8</p>
+                                            <p class="text-center font-weight-bold"> Lớp 8</p>
                                         </a>
                                     </div>
 
@@ -122,7 +114,7 @@
                                             <figure class="img-wrap m-0 text-center comming">
                                                 <img src="<?=PATH_URL?>images/biasachgt9.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
-                                            <p class="text-center font-weight-bold"> Tài nguyên lớp 9</p>
+                                            <p class="text-center font-weight-bold"> Lớp 9</p>
                                         </a>
                                     </div>
                                     <div class="col-md-6 col-lg-3 col-6 col-6 aos-init aos-animate" data-aos="fade-up">
@@ -130,7 +122,7 @@
                                             <figure class="img-wrap m-0 text-center comming">
                                                 <img src="<?=PATH_URL?>images/biasachgt10.png" alt="Cơ sở pháp lý 1" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
-                                            <p class="text-center font-weight-bold"> Tài nguyên lớp 10</p>
+                                            <p class="text-center font-weight-bold"> Lớp 10</p>
                                         </a>
                                     </div>
 
@@ -139,7 +131,7 @@
                                             <figure class="img-wrap m-0 text-center comming">
                                                 <img src="<?=PATH_URL?>images/biasachgt11.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
-                                            <p class="text-center font-weight-bold"> Tài nguyên lớp 11</p>
+                                            <p class="text-center font-weight-bold"> Lớp 11</p>
                                         </a>
                                     </div>
 
@@ -148,7 +140,7 @@
                                             <figure class="img-wrap m-0 text-center comming">
                                                 <img src="<?=PATH_URL?>images/biasachgt12.png" alt="" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
-                                            <p class="text-center font-weight-bold"> Tài nguyên lớp 12</p>
+                                            <p class="text-center font-weight-bold"> Lớp 12</p>
                                         </a>
                                     </div>
 
@@ -178,6 +170,17 @@
                                     <div class="col-md-6 col-lg-3 col-6 aos-init aos-animate" data-aos="fade-up">
                                         <a href="<?=ROOT_URL?>/giao-vien" class="room">
                                             <figure class="img-wrap m-0 text-center">
+                                                <img src="<?=PATH_URL?>/images/presentation1.svg" alt="" class="w-80-center hover-scale img-fluid mb-3">
+                                            </figure>
+                                            <div class="p-3 padding-top-0 text-center">
+                                                <p> Tích hợp các kĩ năng</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-md-6 col-lg-3 col-6 aos-init aos-animate" data-aos="fade-up">
+                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
+                                            <figure class="img-wrap m-0 text-center">
                                                 <img src="<?=PATH_URL?>/images/checklist.svg" alt="" class="w-80-center hover-scale img-fluid mb-3">
                                             </figure>
                                             <div class="p-3 padding-top-0 text-center">
@@ -186,16 +189,7 @@
                                         </a>
                                     </div>
 
-                                    <div class="col-md-6 col-lg-3 col-6 aos-init aos-animate" data-aos="fade-up">
-                                        <a href="<?=ROOT_URL?>/giao-vien" class="room">
-                                            <figure class="img-wrap m-0 text-center">
-                                                <img src="<?=PATH_URL?>/images/presentation1.svg" alt="" class="w-80-center hover-scale img-fluid mb-3">
-                                            </figure>
-                                            <div class="p-3 padding-top-0 text-center">
-                                                <p> Tích hợp các kĩ năng</p>
-                                            </div>
-                                        </a>
-                                    </div>
+                                    
                                     
                                     <div class="col-md-6 col-lg-3 col-6 aos-init aos-animate" data-aos="fade-up">
                                         <a href="<?=ROOT_URL?>/giao-vien" class="room">
@@ -217,7 +211,7 @@
                             <div class="container ftco-animate">
                                 <div class="row justify-content-center text-center mb-5">
                                     <div class="col-md-12">
-                                    <h2 class="title-1" data-aos="fade-up">PHÁT TRIỂN TOÀN DIỆN <br> KIẾN THỨC VÀ KỸ NĂNG</h2>
+                                    <h2 class="title-1" data-aos="fade-up">PHÁT TRIỂN TOÀN DIỆN KIẾN THỨC VÀ KỸ NĂNG</h2>
                                     </div>
                                 </div>
                                 <div class="row ftco-animate">
@@ -225,7 +219,7 @@
                                         <a href="<?=ROOT_URL?>/giao-vien" class="room">
                                             <figure class="img-wrap1">
                                                 <div class="hover-scale-white w-100">
-                                                    <img src="<?=PATH_URL?>images/diemmanh1.svg" alt="Điểm nổi bật" class="img-fluid mb-3">
+                                                    <img src="<?=PATH_URL?>images/icon-gioithieu-1.jpg" alt="Điểm nổi bật" class="img-fluid mb-3">
                                                 </div>    
                                             </figure>
                                             <div class="text-center">
@@ -235,25 +229,25 @@
                                         </a>
                                     </div>
 
-                                    <div class="col-md-6 col-lg-3 col-6 aos-init ftco-animate" data-aos="fade-up">
+                                    <div class="col-md-6 col-lg-3 col-6 aos-init ftco-animate " data-aos="fade-up">
                                         <a href="<?=ROOT_URL?>/giao-vien" class="room">
                                             <figure class="img-wrap1">
                                                 <div class="hover-scale-white w-100">
-                                                    <img src="<?=PATH_URL?>images/diemmanh2.jpg" alt="Điểm nổi bật" class="img-fluid mb-3">
+                                                    <img src="<?=PATH_URL?>images/icon-gioithieu-2.jpg" alt="Điểm nổi bật" class="img-fluid mb-3">
                                                 </div>    
                                             </figure>
                                             <div class="text-center">
                                                 <p class="p-3 fz-1em hover-color-blue m-0">KIẾN THỨC NGÔN NGỮ</p>
-                                                <p class="font-15 fz-1em color-black">Đảm bảo kiến thức ngôn ngữ tiếng Anh bao gồm ngữ âm, từ vững, ngữ pháp.</p>
+                                                <p class="font-15 fz-1em color-black">Đảm bảo kiến thức ngôn ngữ tiếng Anh bao gồm ngữ âm, từ vựng, ngữ pháp.</p>
                                             </div>
                                         </a>
                                     </div>
                                 
-                                    <div class="col-md-6 col-lg-3 col-6 aos-init ftco-animate" data-aos="fade-up">
+                                    <div class="col-md-6 col-lg-3 col-6 aos-init ftco-animate pr-10" data-aos="fade-up">
                                     <a href="<?=ROOT_URL?>/giao-vien" class="room">
                                         <figure class="img-wrap1">
                                             <div class="hover-scale-white w-100">
-                                                <img src="<?=PATH_URL?>images/diemmanh3.svg" alt="Điểm nổi bật" class="img-fluid mb-3">
+                                                <img src="<?=PATH_URL?>images/icon-gioithieu-3.jpg" alt="Điểm nổi bật" class="img-fluid mb-3">
                                             </div>
                                         </figure>
                                         <div class="text-center">
@@ -267,11 +261,11 @@
                                     <a href="<?=ROOT_URL?>/giao-vien" class="room">
                                         <figure class="img-wrap1">
                                             <div class="hover-scale-white w-100">
-                                                <img src="<?=PATH_URL?>images/chilgir.jpg" alt="Điểm nổi bật" class="img-fluid mb-3">
+                                                <img src="<?=PATH_URL?>images/icon-gioithieu-4.jpg" alt="Điểm nổi bật" class="img-fluid mb-3">
                                             </div>
                                         </figure>
                                         <div class="text-center">
-                                            <p class="p-3 hover-color-blue m-0">KĨ NĂNG PHẨM CHẤT <br> THẾ KỶ 21</p>
+                                            <p class="pl-2 pr-2 pt-3 pb-3 hover-color-blue m-0">KĨ NĂNG PHẨM CHẤT THẾ KỶ 21</p>
                                             <p class="font-15 fz-1em color-black">Hình thành, phát triển những năng lực, phẩm chất và kĩ năng học tập, làm việc thế kỷ 21.</p>
                                         </div>
                                     </a>
@@ -424,7 +418,7 @@
                                     <div class="col-md-4 col-lg-3 col-6 aos-init ftco-animate" data-aos="fade-up">
                                         <a href="<?=ROOT_URL?>/giao-vien/tai-nguyen" class="room">
                                             <figure class="img-wrap">
-                                                <img src="<?=PATH_URL?>images/online-learning.svg" alt="Tài nguyên hỗ trợ bộ sách" class="hover-scale img-fluid mb-3">
+                                                <img src="<?=PATH_URL?>images/logo-main-cat-1.png" alt="Tài nguyên hỗ trợ bộ sách" class="hover-scale img-fluid mb-3">
                                             </figure>
                                             <div class="text-center">
                                                 <p class="p-3">Phân Phối Chương Trình</p>
@@ -551,10 +545,10 @@
                                     <div class="col-md-4 col-lg-3 col-6 aos-init ftco-animate" data-aos="fade-up">
                                         <a href="<?=ROOT_URL?>/giao-vien/tai-nguyen" class="room">
                                             <figure class="img-wrap">
-                                                <img src="<?=PATH_URL?>images/tn19.svg" alt="Tài nguyên hỗ trợ bộ sách" class="hover-scale img-fluid mb-3">
+                                                <img src="<?=PATH_URL?>images/PngItem_3370120.png" alt="Tài nguyên hỗ trợ bộ sách" class="hover-scale img-fluid mb-3">
                                             </figure>
                                             <div class="text-center">
-                                                <p class="p-3">Website: tienganh.sachmem.vn</p>
+                                                <p class="p-3">Hỗ trợ - Giái đáp Tư vấn 24/7</p>
                                             </div>
                                         </a>
                                     </div>

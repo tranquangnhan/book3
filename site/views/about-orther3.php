@@ -1,9 +1,5 @@
 <div class="my-5">
-    <div class="first-title mt-4 ftco-animate">
-        <div class="col-md-12 heading-section text-center ftco-animate fadeInUp ftco-animated">
-            <h2 class="mb-4 text-uppercase">BỘ SÁCH GIÁO KHOA TIẾNG ANH <br> GLOBAL SUCCESS</h2>
-        </div>
-    </div>
+
 
     <section>
         <div class="container my-5 ftco-animate">
@@ -65,8 +61,8 @@
                     <div class="col-xl-6 ftco-animate">
                         <div class="btn-type teacher" data-type="0">
                             <div class="show">
-                                <span class="text-uppercase show-title">DÀNH CHO GIÁO VIÊN
-                                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                <span class="text-uppercase show-title d-flex justify-content-center align-items-center">DÀNH CHO GIÁO VIÊN
+                                    <i class="fa fa-chevron-down icon-about" aria-hidden="true"></i>
                                 </span>                               
                             </div>
                         </div>
@@ -74,8 +70,8 @@
                     <div class="col-xl-6 ftco-animate">
                         <div class="btn-type student" data-type="1">
                             <div class="show">
-                                <span class="text-uppercase show-title">DÀNH CHO HỌC SINH
-                                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                <span class="text-uppercase show-title d-flex justify-content-center align-items-center">DÀNH CHO HỌC SINH
+                                    <i class="fa fa-chevron-down icon-about" aria-hidden="true"></i>
                                 </span>                               
                             </div>
                         </div>

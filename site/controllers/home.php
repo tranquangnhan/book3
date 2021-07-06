@@ -228,16 +228,21 @@ class Home
         $oneproduct     = $this->model->getOnePro($slug);
         $getLastestNews = $this->modelBlogs->getLastestNews();
         
+
         $slugPart1      =   $this->model->getSlugById($oneproduct['id']);
-        $slugPart2      =  $this->model->getSlugByPart($oneproduct['id']);        
+
+        $slugPart2      =  $this->model->getSlugByPart($oneproduct['id']);  
+        
+        if($this->model->getSlugByPart($oneproduct['id']) == ''){
+            $slugPart1 = $this->model->getSlugById($oneproduct['part']);  
+            $slugPart2 =  $this->model->getSlugById($oneproduct['id']);
+        }
+       
      
         $checkOnePart   = $this->model->checkOnePart();
 
         $getAllLinkSingle = $this->model->getAllLinkSingle();
-        if($this->model->getSlugByPart($oneproduct['id']) == ''){
-            $slugPart1 = $this->model->getSlugById($oneproduct['id']);
-            $slugPart2 =  $this->model->getSlugById($oneproduct['part']);
-        }
+        
 
         $getProductsSameClass = $this->model->getProductsSameClass($oneproduct['class']);
    
