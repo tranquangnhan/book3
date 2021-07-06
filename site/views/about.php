@@ -218,7 +218,7 @@
                                     <div class="col-md-6 col-lg-3 col-6 aos-init ftco-animate" data-aos="fade-up">
                                         <a href="<?=ROOT_URL?>/giao-vien" class="room">
                                             <figure class="img-wrap1">
-                                                <div class="hover-scale-white w-100">
+                                                <div class="hover-scale-white w-100 d-flex justify-content-center ">
                                                     <img src="<?=PATH_URL?>images/icon-gioithieu-1.jpg" alt="Điểm nổi bật" class="img-fluid mb-3">
                                                 </div>    
                                             </figure>
@@ -232,7 +232,7 @@
                                     <div class="col-md-6 col-lg-3 col-6 aos-init ftco-animate " data-aos="fade-up">
                                         <a href="<?=ROOT_URL?>/giao-vien" class="room">
                                             <figure class="img-wrap1">
-                                                <div class="hover-scale-white w-100">
+                                                <div class="hover-scale-white w-100 d-flex justify-content-center">
                                                     <img src="<?=PATH_URL?>images/icon-gioithieu-2.jpg" alt="Điểm nổi bật" class="img-fluid mb-3">
                                                 </div>    
                                             </figure>
@@ -246,7 +246,7 @@
                                     <div class="col-md-6 col-lg-3 col-6 aos-init ftco-animate pr-10" data-aos="fade-up">
                                     <a href="<?=ROOT_URL?>/giao-vien" class="room">
                                         <figure class="img-wrap1">
-                                            <div class="hover-scale-white w-100">
+                                            <div class="hover-scale-white w-100 d-flex justify-content-center">
                                                 <img src="<?=PATH_URL?>images/icon-gioithieu-3.jpg" alt="Điểm nổi bật" class="img-fluid mb-3">
                                             </div>
                                         </figure>
@@ -260,7 +260,7 @@
                                     <div class="col-md-6 col-lg-3 col-6 aos-init ftco-animate" data-aos="fade-up">
                                     <a href="<?=ROOT_URL?>/giao-vien" class="room">
                                         <figure class="img-wrap1">
-                                            <div class="hover-scale-white w-100">
+                                            <div class="hover-scale-white w-100 d-flex justify-content-center">
                                                 <img src="<?=PATH_URL?>images/icon-gioithieu-4.jpg" alt="Điểm nổi bật" class="img-fluid mb-3">
                                             </div>
                                         </figure>
