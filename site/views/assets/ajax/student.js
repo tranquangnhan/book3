@@ -4,5 +4,5 @@ var filterOb = [
     { 'category': [] }
 ];
 
-obj.sachmem  = true;
+obj.sachmem = 1;
 obj.filterOb = filterOb;

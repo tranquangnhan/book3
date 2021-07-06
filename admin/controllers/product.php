@@ -93,7 +93,8 @@ class Product
             $linkppct               =   $_POST['linkppct']; 
             $linkudluyentuvung      =   $_POST['linkudluyentuvung'];
             $linkudluyennghenoi     =   $_POST['linkudluyennghenoi'];      
-            $linkhoverimg           =   $_POST['linkhoverimg'];   
+            $linkhoverimg           =   $_POST['linkhoverimg'];  
+            $part                   =   $_POST['part']; 
             if (strcmp($_POST['sachmem'], 'on') === 0) $sachmem= 1; else $sachmem = 0;   
 
             // if(isset($_GET['id']) && $_GET['id'] && $_POST['part'] !=0){
@@ -151,7 +152,7 @@ class Product
                 if (isset($_GET['id'])) {
                     $id = $_GET['id'];
                     settype($id, "int");
-                    $part = $_POST['part'];
+                   
 
                     $slug = $slug . '-' . $id;
   
@@ -171,7 +172,7 @@ class Product
                   
                     $this->store(
                      $name, $slug, $imgs, $type, $class, 
-                     $author, $year, $description, $link,
+                     $author, $year, $description, $link,$part,
                      $linksachmengv,$linksachmemhs ,$linkSachGv,
                      $linksachgv2,$linkudnghenoi,
                      $linkdekiemtra,$linkstoryland,$linkppct,
@@ -188,7 +189,7 @@ class Product
 
     public function store(
         $name, $slug, $imgs, $type, $class, 
-        $author, $year, $description, $link,
+        $author, $year, $description, $link,$part,
         $linksachmengv,$linksachmemhs ,$linkSachGv,
         $linksachgv2,$linkudnghenoi,
         $linkdekiemtra,$linkstoryland,$linkppct,
@@ -199,7 +200,7 @@ class Product
         {
         $idLastBook = $this->model->addNewProduct(
          $name, $slug, $imgs, $type, $class, 
-         $author, $year, $description, $link,
+         $author, $year, $description, $link,$part,
          $linksachmengv,$linksachmemhs ,$linkSachGv,
          $linksachgv2,$linkudnghenoi,
          $linkdekiemtra,$linkstoryland,$linkppct,

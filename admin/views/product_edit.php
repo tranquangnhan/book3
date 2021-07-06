@@ -80,7 +80,7 @@
                                 </div>  
                               
 
-                                    <div class="col-lg-3">
+                                <div class="col-lg-3">
                                     <div class="form-group">
                                         <label for="">Phần 1</label><span style="color:red;"> (*)</span>
                                             <select class="form-control" name="part"> 
@@ -96,7 +96,7 @@
                                                 ?>
                                             </select>
                                         </div>                                                
-                                    </div>  
+                                </div>  
 
                                 <div class="col-lg-2">
                                     <div class="form-group">

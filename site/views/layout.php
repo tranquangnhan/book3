@@ -58,7 +58,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
         <div class="container">
-            <a class="navbar-brand logo-lap" href="<?=ROOT_URL?>">
+            <a class="navbar-brand logo-lap" href="<?=ROOT_URL.'/'?>">
                 <img src="<?=PATH_URL?>images/heid-logo.png" class="logo-header" alt="logo">
                 <h3 class="text-uppercase logo-text">CÔNG TY CỔ PHẦN ĐẦU TƯ <br> VÀ PHÁT TRIỂN GIÁO DỤC HÀ NỘI</h3>
             </a>
@@ -66,7 +66,7 @@
                 aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="oi oi-menu"><i class="fa fa-bars" aria-hidden="true"></i></span>
             </button>
-            <a class="navbar-brand logo-mobile w-80" href="<?=ROOT_URL?>">
+            <a class="navbar-brand logo-mobile w-80" href="<?=ROOT_URL.'/'?>">
                 <img src="<?=PATH_URL?>images/heid-logo.png" class="logo-header" alt="logo">
             </a>
             <div class="navbar-brand m-0 p-0 search-on-nav search-box-will-show w-10">
@@ -77,7 +77,7 @@
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item <?php echo ($viewFile == "views/home.php") ? 'bar-active active' : '' ?>">
-                        <a href="<?=ROOT_URL?>" class="nav-link">Trang Chủ</a>
+                        <a href="<?=ROOT_URL.'/'?>" class="nav-link">Trang Chủ</a>
                     </li>
                     <li class="nav-item dropdown-2 aboutDropdown <?php echo ($viewFile == "views/about.php") ? 'bar-active active' : '' ?>">
                         <a href="<?=ROOT_URL?>/gioi-thieu" class="nav-link dropdown-desk">Giới Thiệu </a>

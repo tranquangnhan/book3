@@ -4,7 +4,7 @@
 }
 
 .news {
-    margin-top: 2em;    
+    margin-top: 2em;
     border-left: 1px solid #0000000d;
 }
 
@@ -39,7 +39,7 @@ a.new-name {
     color: gray;
 }
 
-.about-controls {    
+.about-controls {
     border-bottom: 4px solid #4286F5 !important;
 }
 

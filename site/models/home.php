@@ -709,6 +709,16 @@ class Model_home extends Model_db{
         return $this->result1(1, $sql, $type, $class, $idcate)['sodong'];
     }
 
+    function getProductsByIdCate($idcate){
+        $sql = 'SELECT * FROM `book` WHERE idcate in (?) ORDER BY id desc limit 0, 9';
+        return $this->result1(0, $sql, $idcate);
+    }
+
+    function countProductsByIdCate( $idcate) {
+        $sql = 'SELECT count(*) AS sodong FROM `book` WHERE idcate in (?)';
+        return $this->result1(1, $sql, $idcate)['sodong'];
+    }
+
     function updateSlug($slug, $id) {
         $sql = "UPDATE `book` SET `slug` = ? WHERE id = ?";
         return $this->exec1($sql, $slug, $id);
@@ -874,12 +884,18 @@ class Model_home extends Model_db{
     }
 
     function getProductByClass($form, $class) {
-        $sql = "SELECT * FROM `book` WHERE class = $class ORDER BY idcate ASC, class limit $form, 9";
+        $sql = "SELECT * FROM `book` WHERE class IN $class ORDER BY idcate ASC, class limit $form, 9";
         return $this->result1(0, $sql);
     }
 
     function getAmountProductByClass($class) {
-        $sql = "SELECT * FROM `book` WHERE class in $class";
+        $sql = "SELECT * FROM `book` WHERE class IN $class";
         return $this->result1(0, $sql);
     }
+
+    function countProductByClass($class){
+        $sql = "SELECT count(*) AS sodong FROM `book` WHERE class IN $class";
+        return $this->result1(1, $sql)['sodong'];
+    }
+
 }

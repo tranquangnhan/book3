@@ -6,6 +6,10 @@ img {
     color: var(--color-main)
 }
 
+.pr-10 {
+    padding-right: 10px !important;
+}
+
 :root {
     --blue: #007bff;
     --indigo: #6610f2;

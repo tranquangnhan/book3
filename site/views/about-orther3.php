@@ -1,9 +1,5 @@
 <div class="my-5">
-    <div class="first-title mt-4 ftco-animate">
-        <div class="col-md-12 heading-section text-center ftco-animate fadeInUp ftco-animated">
-            <h2 class="mb-4 text-uppercase">BỘ SÁCH GIÁO KHOA TIẾNG ANH <br> GLOBAL SUCCESS</h2>
-        </div>
-    </div>
+
 
     <section>
         <div class="container my-5 ftco-animate">
@@ -65,8 +61,8 @@
                     <div class="col-xl-6 ftco-animate">
                         <div class="btn-type teacher" data-type="0">
                             <div class="show">
-                                <span class="text-uppercase show-title">DÀNH CHO GIÁO VIÊN
-                                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                <span class="text-uppercase show-title d-flex justify-content-center align-items-center">DÀNH CHO GIÁO VIÊN
+                                    <i class="fa fa-chevron-down icon-about" aria-hidden="true"></i>
                                 </span>                               
                             </div>
                         </div>
@@ -74,8 +70,8 @@
                     <div class="col-xl-6 ftco-animate">
                         <div class="btn-type student" data-type="1">
                             <div class="show">
-                                <span class="text-uppercase show-title">DÀNH CHO HỌC SINH
-                                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                <span class="text-uppercase show-title d-flex justify-content-center align-items-center">DÀNH CHO HỌC SINH
+                                    <i class="fa fa-chevron-down icon-about" aria-hidden="true"></i>
                                 </span>                               
                             </div>
                         </div>
@@ -91,7 +87,7 @@
                                 <!-- <div class="triangle"></div> -->
                                 <div class="content-type">
                                     <div class="row">
-                                        <div class="col-xl-4 col-lg-4 col-6 col-md-6 mt-4">                                          
+                                        <div class="col-xl-4 col-lg-3 col-6 col-md-6 mt-4">                                          
                                             <div class="type-button">
                                                 <div class="project-wrap text-center sprs">
                                                     <a href="youtube.com" class="img" style="background-image: url('<?=PATH_IMG_SITE?>Logo-SM-(New).png');">
@@ -102,7 +98,7 @@
                                                 </div>
                                             </div> 
                                         </div>
-                                        <div class="col-xl-4 col-lg-4 col-6 col-md-6 mt-4">
+                                        <div class="col-xl-4 col-lg-3 col-6 col-md-6 mt-4">
                                             <div class="type-button">
                                                 <div class="project-wrap text-center sprs">
                                                     <a href="youtube.com" class="img" style="background-image: url('<?=PATH_IMG_SITE?>sach giao vien.png');">
@@ -113,7 +109,7 @@
                                                 </div>
                                             </div>                                  
                                         </div>
-                                        <div class="col-xl-4 col-lg-4 col-6 col-md-6 mt-4">
+                                        <div class="col-xl-4 col-lg-3 col-6 col-md-6 mt-4">
                                             <div class="type-button">
                                                 <div class="project-wrap text-center sprs">
                                                     <a href="youtube.com" class="img" style="background-image: url('<?=PATH_IMG_SITE?>logo-main-cat-1.png');">
@@ -124,7 +120,7 @@
                                                 </div>
                                             </div>                                  
                                         </div>
-                                        <div class="col-xl-4 col-lg-4 col-6 col-md-6 mt-4">
+                                        <div class="col-xl-4 col-lg-3 col-6 col-md-6 mt-4">
                                             <div class="type-button">
                                                 <div class="project-wrap text-center sprs">
                                                     <a href="youtube.com" class="img" style="background-image: url('<?=PATH_IMG_SITE?>1624608386-plan.svg');">
@@ -136,7 +132,7 @@
                                             </div>                                  
                                         </div>       
                                                          
-                                        <div class="col-xl-4 col-lg-4 col-6 col-md-6 mt-4">
+                                        <div class="col-xl-4 col-lg-3 col-6 col-md-6 mt-4">
                                             <div class="type-button">
                                                 <div class="project-wrap text-center sprs">
                                                     <a href="youtube.com" class="img" style="background-image: url('<?=PATH_IMG_SITE?>online-learning.svg');">
@@ -147,7 +143,7 @@
                                                 </div>
                                             </div>                                  
                                         </div>
-                                        <div class="col-xl-4 col-lg-4 col-6 col-md-6 mt-4">
+                                        <div class="col-xl-4 col-lg-3 col-6 col-md-6 mt-4">
                                             <div class="type-button">
                                                 <div class="project-wrap text-center sprs">
                                                     <a href="youtube.com" class="img" style="background-image: url('<?=PATH_IMG_SITE?>exam.svg');">
@@ -159,7 +155,7 @@
                                             </div>                                  
                                         </div>
 
-                                        <div class="col-xl-4 col-lg-4 col-6 col-md-6 mt-4">
+                                        <div class="col-xl-4 col-lg-3 col-6 col-md-6 mt-4">
                                             <div class="type-button">
                                                 <div class="project-wrap text-center sprs">
                                                     <a href="youtube.com" class="img" style="background-image: url('<?=PATH_IMG_SITE?>1624608322-illustration.svg');">
@@ -171,7 +167,7 @@
                                             </div>                                  
                                         </div>
 
-                                        <div class="col-xl-4 col-lg-4 col-6 col-md-6 mt-4">
+                                        <div class="col-xl-4 col-lg-3 col-6 col-md-6 mt-4">
                                             <div class="type-button">
                                                 <div class="project-wrap text-center sprs">
                                                     <a href="youtube.com" class="img" style="background-image: url('<?=PATH_IMG_SITE?>mortarboard.svg');">
@@ -182,7 +178,7 @@
                                                 </div>
                                             </div>                                  
                                         </div>
-                                        <div class="col-xl-4 col-lg-4 col-6 col-md-6 mt-4">
+                                        <div class="col-xl-4 col-lg-3 col-6 col-md-6 mt-4">
                                             <div class="type-button">
                                                 <div class="project-wrap text-center sprs">
                                                     <a href="youtube.com" class="img" style="background-image: url('<?=PATH_IMG_SITE?>strl.jpg');">
@@ -207,7 +203,7 @@
                                 </div>
                                 <div class="content-type">
                                 <div class="row">
-                                        <div class="col-xl-4 col-lg-4 col-6 col-md-6 mt-4">                                          
+                                        <div class="col-xl-3 col-lg-3 col-6 col-md-6 mt-4">                                          
                                             <div class="type-button">
                                                 <div class="project-wrap text-center sprs">
                                                     <a href="youtube.com" class="img" style="background-image: url('<?=PATH_IMG_SITE?>Logo-SM-(New).png');">
@@ -218,7 +214,7 @@
                                                 </div>
                                             </div> 
                                         </div>
-                                        <div class="col-xl-4 col-lg-4 col-6 col-md-6 mt-4">                                          
+                                        <div class="col-xl-3 col-lg-3 col-6 col-md-6 mt-4">                                          
                                             <div class="type-button">
                                                 <div class="project-wrap text-center sprs">
                                                     <a href="youtube.com" class="img" style="background-image: url('<?=PATH_IMG_SITE?>strl.jpg');">
@@ -229,7 +225,7 @@
                                                 </div>
                                             </div> 
                                         </div>
-                                        <div class="col-xl-4 col-lg-4 col-6 col-md-6 mt-4">                                          
+                                        <div class="col-xl-3 col-lg-3 col-6 col-md-6 mt-4">                                          
                                             <div class="type-button">
                                                 <div class="project-wrap text-center sprs">
                                                     <a href="youtube.com" class="img" style="background-image: url(https://s.sachmem.vn/public/temp-sm-questions/image/ungdung_phanmem_icon4_tcc3.svg);">
@@ -240,7 +236,7 @@
                                                 </div>
                                             </div> 
                                         </div>
-                                        <div class="col-xl-4 col-lg-4 col-6 col-md-6 mt-4">                                          
+                                        <div class="col-xl-3 col-lg-3 col-6 col-md-6 mt-4">                                          
                                             <div class="type-button">
                                                 <div class="project-wrap text-center sprs">
                                                     <a href="youtube.com" class="img" style="background-image: url(https://s.sachmem.vn/public/temp-sm-questions/image/ungdung_phanmem_icon2_tcc3.svg);">

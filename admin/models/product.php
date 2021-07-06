@@ -9,7 +9,7 @@ class Model_product extends Model_db{
    
     public function addNewProduct( 
                 $name, $slug, $imgs, $type, $class, 
-                $author, $year, $description, $link,
+                $author, $year, $description, $link,$part,
                 $linksachmengv,$linksachmemhs ,$linkSachGv,
                 $linksachgv2,$linkudnghenoi,
                 $linkdekiemtra,$linkstoryland,$linkppct,
@@ -21,12 +21,12 @@ class Model_product extends Model_db{
         $sql = "
                 INSERT INTO book(
                 name, slug, img, type, class, author, 
-                year, description,link,linksachmengv,linksachmemhs,
+                year, description,link,part,linksachmengv,linksachmemhs,
                 linkgv,linksachgv2,linkudnghenoi,
                 linkdekiemtra,linkstoryland,linkppct,linkudluyentuvung,
-                linkudluyennghenoi,linkhoverimg,sachmem, idcate) VALUE(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+                linkudluyennghenoi,linkhoverimg,sachmem, idcate) VALUE(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
         return $this->getLastId($sql,  $name, $slug, $imgs, $type, $class, 
-                $author, $year, $description, $link,
+                $author, $year, $description, $link,$part,
                 $linksachmengv,$linksachmemhs ,$linkSachGv,
                 $linksachgv2,$linkudnghenoi,
                 $linkdekiemtra,$linkstoryland,$linkppct,

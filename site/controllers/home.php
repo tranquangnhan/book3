@@ -179,17 +179,17 @@ class Home
                     
                 } else if ($level == 2) {
                     $namePage2     = 'TIẾNG ANH TIỂU HỌC';
-                    $listProduct   = $this->model->getProductsByTypes('1', '1', $idCateFirst);
-                    $AmountProduct = $this->model->countProductsByTypes('1', '1', $idCateFirst);
+                    $listProduct   = $this->model->getProductByClass(0, '(1, 2, 3, 4, 5)');
+                    $AmountProduct = $this->model->countProductByClass('(1, 2, 3, 4, 5)');
                     
                 } else if ($level == 3) {
                     $namePage2     = 'TIẾNG ANH TRUNG HỌC CƠ SỞ';
-                    $listProduct   = $this->model->getProductsByTypes('1', '6', $idCateFirst);
-                    $AmountProduct = $this->model->countProductsByTypes('1', '6', $idCateFirst);
+                    $listProduct   = $this->model->getProductByClass(0, '(6, 7, 8, 9)');
+                    $AmountProduct = $this->model->countProductByClass('(6, 7, 8, 9)');
                 } else if ($level == 4) {
                     $namePage2     = 'TIẾNG ANH TRUNG HỌC PHỔ THÔNG';
-                    $listProduct   = $this->model->getProductsByTypes('1', '10', $idCateFirst);
-                    $AmountProduct = $this->model->countProductsByTypes('1', '10', $idCateFirst);
+                    $listProduct   = $this->model->getProductByClass(0,'(10, 11, 12)');
+                    $AmountProduct = $this->model->countProductByClass('(10, 11, 12)');
 
                 } else if ($level == 10) { // lọc học sinh
                     $listProduct   = $this->model->getProductStudentLimit();
@@ -228,16 +228,21 @@ class Home
         $oneproduct     = $this->model->getOnePro($slug);
         $getLastestNews = $this->modelBlogs->getLastestNews();
         
+
         $slugPart1      =   $this->model->getSlugById($oneproduct['id']);
-        $slugPart2      =  $this->model->getSlugByPart($oneproduct['id']);        
+
+        $slugPart2      =  $this->model->getSlugByPart($oneproduct['id']);  
+        
+        if($this->model->getSlugByPart($oneproduct['id']) == ''){
+            $slugPart1 = $this->model->getSlugById($oneproduct['part']);  
+            $slugPart2 =  $this->model->getSlugById($oneproduct['id']);
+        }
+       
      
         $checkOnePart   = $this->model->checkOnePart();
 
         $getAllLinkSingle = $this->model->getAllLinkSingle();
-        if($this->model->getSlugByPart($oneproduct['id']) == ''){
-            $slugPart1 = $this->model->getSlugById($oneproduct['id']);
-            $slugPart2 =  $this->model->getSlugById($oneproduct['part']);
-        }
+        
 
         $getProductsSameClass = $this->model->getProductsSameClass($oneproduct['class']);
    
