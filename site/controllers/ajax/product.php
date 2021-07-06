@@ -118,7 +118,7 @@ require_once "../../../system/config.php";
                     }
                 }
 
-                if ($checkSachMem == true) {
+                if ($checkSachMem === true || $checkSachMem == 'true') {
                     if ($where == false) {
                         $sql  .= 'WHERE ';
                         $where = true;
@@ -167,7 +167,7 @@ require_once "../../../system/config.php";
                     }
                 }
                                 
-                echo json_encode([$dataProducts, $amountProduct, $sql, $form]);                                     
+                echo json_encode([$dataProducts, $amountProduct, $sql, $form, $checkSachMem]);                                     
             }
             break;    
         case "getDataSpResources": 

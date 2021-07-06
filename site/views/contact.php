@@ -3,9 +3,9 @@
         <div class="row justify-content-center">
             <div class="col-md-12">
                 <div class="wrapper">
-                    <div class="contact-background"></div>
-                    
+                    <div class="contact-background"></div>                    
                     <div class="row no-gutters">
+
                         <div class="col-12 text-center">
                             <div class="dbox w-100 mt-5">                                        
                                 <div class="img-logo">
