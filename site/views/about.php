@@ -219,7 +219,7 @@
                                         <a href="<?=ROOT_URL?>/giao-vien" class="room">
                                             <figure class="img-wrap1">
                                                 <div class="hover-scale-white w-100 d-flex justify-content-center ">
-                                                    <img src="<?=PATH_URL?>images/icon-gioithieu-1.jpg" alt="Điểm nổi bật" class="img-fluid mb-3">
+                                                    <img src="<?=PATH_URL?>images/translate.svg" alt="Điểm nổi bật" class="img-fluid mb-3">
                                                 </div>    
                                             </figure>
                                             <div class="text-center">
@@ -233,7 +233,7 @@
                                         <a href="<?=ROOT_URL?>/giao-vien" class="room">
                                             <figure class="img-wrap1">
                                                 <div class="hover-scale-white w-100 d-flex justify-content-center">
-                                                    <img src="<?=PATH_URL?>images/icon-gioithieu-2.jpg" alt="Điểm nổi bật" class="img-fluid mb-3">
+                                                    <img src="<?=PATH_URL?>images/meeting.svg" alt="Điểm nổi bật" class="img-fluid mb-3">
                                                 </div>    
                                             </figure>
                                             <div class="text-center">
@@ -247,7 +247,7 @@
                                     <a href="<?=ROOT_URL?>/giao-vien" class="room">
                                         <figure class="img-wrap1">
                                             <div class="hover-scale-white w-100 d-flex justify-content-center">
-                                                <img src="<?=PATH_URL?>images/icon-gioithieu-3.jpg" alt="Điểm nổi bật" class="img-fluid mb-3">
+                                                <img src="<?=PATH_URL?>images/teamwork.svg" alt="Điểm nổi bật" class="img-fluid mb-3">
                                             </div>
                                         </figure>
                                         <div class="text-center">
@@ -261,7 +261,7 @@
                                     <a href="<?=ROOT_URL?>/giao-vien" class="room">
                                         <figure class="img-wrap1">
                                             <div class="hover-scale-white w-100 d-flex justify-content-center">
-                                                <img src="<?=PATH_URL?>images/icon-gioithieu-4.jpg" alt="Điểm nổi bật" class="img-fluid mb-3">
+                                                <img src="<?=PATH_URL?>images/transparent.svg" alt="Điểm nổi bật" class="img-fluid mb-3">
                                             </div>
                                         </figure>
                                         <div class="text-center">
@@ -277,19 +277,19 @@
 
                         <section class="section" id="">
                             <div class="container ftco-animate">
-                                <div class="row justify-content-center text-center mb-5">
+                                <div class="row justify-content-center text-center mb-3">
                                     <div class="col-md-12">
                                     <h2 class="title-1" data-aos="fade-up">DỄ HỌC, DỄ DẠY, DỄ TIẾP CẬN</h2>
                                     </div>
                                 </div>
                                 <div class="row ftco-animate d-flex justify-content-center fadeInUp ftco-animated">
-                                    <div class="col-lg-10">
+                                    <div class="col-lg-10 content-tick-father">
                                         <div class="content-tick d-flex align-items-center ftco-animate">
                                             <div class="content-tick-icon">
                                                 <img src="<?=PATH_URL?>/images/checked.svg" alt="">
                                             </div>
                                             <div class="content-tick-content">
-                                                <p class="fz-1em">  Bám sát khung Chương trình giáo dục phổ thông môn tiếng Anh và Khung năng lực ngoại ngữ 6 bậc dùng cho <br> Việt Nam của Bộ Giáo dục và Đào tạo.</p>
+                                                <p class="fz-1em">  Bám sát khung Chương trình giáo dục phổ thông môn tiếng Anh và Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam của Bộ Giáo dục và Đào tạo.</p>
                                             </div>
                                         </div>
 
@@ -548,7 +548,7 @@
                                                 <img src="<?=PATH_URL?>images/PngItem_3370120.png" alt="Tài nguyên hỗ trợ bộ sách" class="hover-scale img-fluid mb-3">
                                             </figure>
                                             <div class="text-center">
-                                                <p class="p-3">Hỗ trợ - Giái đáp Tư vấn 24/7</p>
+                                                <p class="p-3">Hỗ trợ - Giải đáp Tư vấn 24/7</p>
                                             </div>
                                         </a>
                                     </div>
