@@ -13,41 +13,54 @@
         <div class="container my-5 ftco-animate">
             <div class="book">
                 <div class="row">
-                    <div class="col-xl-4 ftco-animate book-box">
-                        <a href="">
-                            <div class="owl-carousel owl-theme" id="carosel6">
-                                <div class="item book-box d-flex align-items-center" style="background-image: url('<?=PATH_URL?>images/tienganh-6-1-hs.jpg'); background-size: contain;"></div>
-                                <div class="item book-box d-flex align-items-center" style="background-image: url('<?=PATH_URL?>images/tienganh-6-2-hs.jpg'); background-size: contain;"></div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-4 ftco-animate box-content-6">
+                        <div class="btn-hover-detail">Xem chi tiết</div>
+                        <a href="" class="">
+                            <div class="cont-6">     
+                                <div class="carou">                           
+                                    <div class="owl-carousel owl-theme" id="carosel6">
+                                        <div class="item book-box-6 d-flex align-items-center" style="background-image: url('<?=PATH_URL?>images/tienganh-6-1-hs.jpg'); background-size: contain;"></div>
+                                        <div class="item book-box-6 d-flex align-items-center" style="background-image: url('<?=PATH_URL?>images/tienganh-6-2-hs.jpg'); background-size: contain;"></div>
+                                    </div>
+                                    <div class="content-6">
+                                        <h3 class="text-uppercase">SÁCH HỌC SINH</h3>
+                                        <a class="str-1" href=""><h6>(Bấm để xem chi tiết)</h6></a>
+                                    </div>    
+                                </div>
                             </div>
-                            <div class="content-6">
-                                <h3 class="text-uppercase">SÁCH HỌC SINH</h3>
-                                <a class="str-1" href=""><h6>(Bấm để xem chi tiết)</h6></a>
-                            </div>    
                         </a>                                                                     
                     </div>
 
-                    <div class="col-xl-4 ftco-animate book-box">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-4 ftco-animate box-content-6">                        
+                        <div class="btn-hover-detail">Xem chi tiết</div>
+
                         <a href="">
-                            <div class="owl-carousel owl-theme" id="carosel7">
-                                <div class="item book-box d-flex align-items-center" style="background-image: url('<?=PATH_URL?>images/tienganh-6-1-bt.jpg'); background-size: contain;"></div>
-                                <div class="item book-box d-flex align-items-center" style="background-image: url('<?=PATH_URL?>images/tienganh-6-2-bt.jpg'); background-size: contain;"></div>
+                            <div class="cont-6">
+                                <div class="carou">
+                                    <div class="owl-carousel owl-theme" id="carosel7">
+                                        <div class="item book-box-6 d-flex align-items-center" style="background-image: url('<?=PATH_URL?>images/tienganh-6-1-bt.jpg'); background-size: contain;">
+                                        </div>
+                                        <div class="item book-box-6 d-flex align-items-center" style="background-image: url('<?=PATH_URL?>images/tienganh-6-2-bt.jpg'); background-size: contain;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-6">
+                                    <h3 class="text-uppercase">SÁCH BÀI TẬP</h3>
+                                    <a class="str-1" href=""><h6>(Bấm để xem chi tiết)</h6></a>
+                                </div>    
                             </div>
-                            <div class="content-6">
-                                <h3 class="text-uppercase">SÁCH BÀI TẬP</h3>
-                                <a class="str-1" href=""><h6>(Bấm để xem chi tiết)</h6></a>
-                            </div>    
                         </a>                                                                     
                     </div>
                     
-                    <div class="col-xl-4 ftco-animate book-box">
-                        <a href="">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-4 ftco-animate">
+                        <a href="" class="">
                             <div class="book-box d-flex align-items-center" style="background-image: url('<?=PATH_URL?>images/tienganh-6-gv.jpg'); background-size: contain;">
-                             
-                            </div>
-                            <div class="content-6">
-                                <h3 class="text-uppercase">SÁCH GIÁO VIÊN</h3>
-                                <a class="str-1" href=""><h6>(Bấm để xem chi tiết)</h6></a>
-                            </div>
+                                <div class="btn-hover-detail">Xem chi tiết</div>                              
+                                <div class="content content-6z">
+                                    <h3 class="text-uppercase">SÁCH GIÁO VIÊN</h3>
+                                    <a class="str-1" href=""><h6>(Bấm để xem chi tiết)</h6></a>
+                                </div>
+                            </div>                            
                         </a>
                     </div>
                 </div>
@@ -58,7 +71,7 @@
         <div class="container mb-5">
             <div class="type">
                 <div class="row">
-                    <div class="col-xl-6 ftco-animate">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-6 ftco-animate">
                         <div class="btn-type teacher" data-type="0">
                             <div class="show">
                                 <span class="text-uppercase show-title d-flex justify-content-center align-items-center">DÀNH CHO GIÁO VIÊN
@@ -67,7 +80,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 ftco-animate">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-6 ftco-animate">
                         <div class="btn-type student" data-type="1">
                             <div class="show">
                                 <span class="text-uppercase show-title d-flex justify-content-center align-items-center">DÀNH CHO HỌC SINH

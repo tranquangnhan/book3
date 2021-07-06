@@ -73,8 +73,6 @@ form#contactForm {
 .cursor-pointer {
     cursor: pointer;
 }
-<<<<<<< HEAD
-=======
 
 .logocontact {
     display: flex;
@@ -98,4 +96,3 @@ form#contactForm {
     color: var(--color-main);
     font-weight: bold;
 }
->>>>>>> d66344df91d05b47b5243b7d78144e11cd5e477b
