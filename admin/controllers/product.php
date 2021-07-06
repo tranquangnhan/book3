@@ -108,7 +108,8 @@ class Product
             settype($type, "int");
             settype($year, "int");            
 
-            $imgs = $this->lib->checkUpLoadMany($img);
+            $imgs = $this->lib->checkUpLoadImageDateTimeMany($img);
+            
             if ($imgs) {                
                 $checkIMG = explode(",", $imgs);                
                

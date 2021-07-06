@@ -87,7 +87,7 @@
                                 <div class="row product-box w-100 m-0">
                                     <?php  if (count($getProductsSameClass) < 3) { ?>
                                         <?php foreach ($getProductsSameClass as $row) {
-                                            $link =SITE_URL . '?act=productdetail&slug='.$row['slug'];
+                                            $link = ROOT_URL."/sach/".$row['slug'];
                                             $img = PATH_IMG_SITE.explode(",",$row['img'])[0]; ?>
                                             
                                             <div class="col-md-4 product-item d-flex align-items-stretch ftco-animate">
@@ -105,13 +105,13 @@
                                     <?php } else { ?>
                                     <div class="owl-carousel owl-theme" id="kind-carousel">                                                                                                                             
                                         <?php foreach ($getProductsSameClass as $row) {
-                                            $link =$link = ROOT_URL."/sach/".$row['slug'];
+                                            $link = ROOT_URL."/sach/".$row['slug'];
                                             $img = PATH_IMG_SITE.explode(",",$row['img'])[0]; ?>
                                             
                                             <div class="item">
                                                 <div class="w-100 ">
                                                     <div class="project-wrap">
-                                                        <a href="'.$link .'" class="img-product position-relative"
+                                                        <a href="<?=$link?>" class="img-product position-relative"
                                                             style="background-image: url('<?=$img?>');">                                                            
                                                         </a>
                                                         <div class="text p-4">

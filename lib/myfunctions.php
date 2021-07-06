@@ -97,6 +97,7 @@ class lib{
         $String = str_replace("<", "", $String);
         $String = str_replace(">", "", $String);
         $String = str_replace("?", "", $String);
+        $String = str_replace("'", "", $String);
         $String = preg_replace('/\s+/', '', $String);
         return $String;
     }
@@ -161,6 +162,7 @@ class lib{
         $String = str_replace("<", "", $String);
         $String = str_replace(">", "", $String);
         $String = str_replace("?", "", $String);
+        $String = str_replace("'", "", $String);
         return $String;
     }
 
