@@ -233,7 +233,7 @@
                                         <a href="<?=ROOT_URL?>/giao-vien" class="room">
                                             <figure class="img-wrap1">
                                                 <div class="hover-scale-white w-100 d-flex justify-content-center">
-                                                    <img src="<?=PATH_URL?>images/icon-gioithieu-2.jpg" alt="Điểm nổi bật" class="img-fluid mb-3">
+                                                    <img src="<?=PATH_URL?>images/icon-gioithieu-2.svg" alt="Điểm nổi bật" class="img-fluid mb-3">
                                                 </div>    
                                             </figure>
                                             <div class="text-center">
@@ -247,7 +247,7 @@
                                     <a href="<?=ROOT_URL?>/giao-vien" class="room">
                                         <figure class="img-wrap1">
                                             <div class="hover-scale-white w-100 d-flex justify-content-center">
-                                                <img src="<?=PATH_URL?>images/icon-gioithieu-3.jpg" alt="Điểm nổi bật" class="img-fluid mb-3">
+                                                <img src="<?=PATH_URL?>images/icon-gioithieu-3.svg" alt="Điểm nổi bật" class="img-fluid mb-3">
                                             </div>
                                         </figure>
                                         <div class="text-center">
@@ -261,7 +261,7 @@
                                     <a href="<?=ROOT_URL?>/giao-vien" class="room">
                                         <figure class="img-wrap1">
                                             <div class="hover-scale-white w-100 d-flex justify-content-center">
-                                                <img src="<?=PATH_URL?>images/icon-gioithieu-4.jpg" alt="Điểm nổi bật" class="img-fluid mb-3">
+                                                <img src="<?=PATH_URL?>images/icon-gioithieu-4.svg" alt="Điểm nổi bật" class="img-fluid mb-3">
                                             </div>
                                         </figure>
                                         <div class="text-center">
