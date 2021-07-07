@@ -166,8 +166,7 @@ require_once "../../../system/config.php";
                         $amountProduct = $model->getAmountProductDefault();
                     }
                 }
-                                
-                echo json_encode([$dataProducts, $amountProduct, $sql, $form, $checkSachMem]);                                     
+                echo json_encode([$dataProducts, $amountProduct, $sql, $form]);                                     
             }
             break;    
         case "getDataSpResources": 

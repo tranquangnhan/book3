@@ -219,7 +219,7 @@
                                         <a href="<?=ROOT_URL?>/giao-vien" class="room">
                                             <figure class="img-wrap1">
                                                 <div class="hover-scale-white w-100 d-flex justify-content-center ">
-                                                    <img src="<?=PATH_URL?>images/translate.svg" alt="Điểm nổi bật" class="img-fluid mb-3">
+                                                    <img src="<?=PATH_URL?>images/icon-gioithieu-1.png" alt="Điểm nổi bật" class="img-fluid mb-3">
                                                 </div>    
                                             </figure>
                                             <div class="text-center">

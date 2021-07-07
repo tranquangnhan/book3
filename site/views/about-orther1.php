@@ -215,7 +215,7 @@
                                                     <a href="https://hoclieu.sachmem.vn/question_set/5d29f53c764d1872810e0b56/5ed71d12a1f63f0d4fc7633b/preview" class="img" style="background-image: url('<?=PATH_IMG_SITE?>bialop1storyland.png');">
                                                     </a>
                                                     <div class="text d-flex align-items-center justify-content-center">
-                                                        <h3><a href="https://hoclieu.sachmem.vn/question_set/5d29f53c764d1872810e0b56/5ed71d12a1f63f0d4fc7633b/preview">Story land</a></h3>
+                                                        <h3><a href="https://hoclieu.sachmem.vn/question_set/5d29f53c764d1872810e0b56/5ed71d12a1f63f0d4fc7633b/preview">Story Land</a></h3>
                                                     </div>
                                                 </div>
                                             </div>                                  
@@ -250,7 +250,7 @@
                                                     <a href="https://hoclieu.sachmem.vn/question_set/5d29f53c764d1872810e0b56/5ed71d12a1f63f0d4fc7633b/preview" class="img" style="background-image: url('<?=PATH_IMG_SITE?>bialop1storyland.png');">
                                                     </a>
                                                     <div class="text d-flex align-items-center justify-content-center">
-                                                        <h3><a href="https://hoclieu.sachmem.vn/question_set/5d29f53c764d1872810e0b56/5ed71d12a1f63f0d4fc7633b/preview">StoryLand</a></h3>
+                                                        <h3><a href="https://hoclieu.sachmem.vn/question_set/5d29f53c764d1872810e0b56/5ed71d12a1f63f0d4fc7633b/preview">Story Land</a></h3>
                                                     </div>
                                                 </div>
                                             </div> 
