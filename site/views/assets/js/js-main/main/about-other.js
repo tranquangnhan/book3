@@ -14,7 +14,7 @@ $('.btn-type').click(function(e) {
                 setTimeout(() => {
                     student.removeClass('hidetype');
                     teacherRun();
-                }, 600);
+                }, 950);
             } else {
                 teacherRun();
             }
@@ -29,7 +29,7 @@ $('.btn-type').click(function(e) {
                 setTimeout(() => {
                     techer.removeClass('hidetype');
                     studentRun();
-                }, 600);
+                }, 950);
             } else {
                 studentRun();
             }
@@ -37,7 +37,7 @@ $('.btn-type').click(function(e) {
         }
         setTimeout(() => {
             checkClick = false;
-        }, 610);
+        }, 960);
     }
 });
 
@@ -50,7 +50,7 @@ function studentRun() {
 
         setTimeout(() => {
             student.removeClass('hidetype');
-        }, 600);
+        }, 610);
     } else {
         $('.student .show-down').addClass('showtype');
     }
@@ -65,7 +65,7 @@ function teacherRun() {
 
         setTimeout(() => {
             techer.removeClass('hidetype');
-        }, 600);
+        }, 700);
     } else {
         $('.teacher .show-down').addClass('showtype');
     }

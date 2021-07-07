@@ -8,7 +8,7 @@
                             <div class="col-11 col-sm-11 col-lg-6 text-center ">
                                     <div class="logocontact">
                                         <div class="img-contact">
-                                            <img src="/book3/site/views/assets/images/heid-logo.png" class="logo-header" alt="logo">
+                                            <img src="<?=PATH_URL?>images/heid-logo.png" class="logo-header" alt="logo">
                                         </div>
                                         <div class="title-contact">
                                             <h3 class="text-uppercase">CÔNG TY CỔ PHẦN ĐẦU TƯ <br> VÀ PHÁT TRIỂN GIÁO DỤC HÀ NỘI</h3>

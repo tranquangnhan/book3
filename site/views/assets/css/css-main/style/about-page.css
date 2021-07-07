@@ -173,20 +173,20 @@ figure.img-wrap img {
 
 .content-tick {
     width: 100%;
-    background: var(--color-main);
-    /* padding: 5px 10px; */
-    color: white;
-    border-radius: 7px;
+    background: #ffffff;
+    color: black;
     height: auto;
-    height: 62px;
-    margin-top: 20px;
-    padding: 4px;
+    min-height: 70px;
+    margin-top: 6px;
+    padding: 0px 0px 0px 16px;
     transition: 0.1s;
+    border-bottom: 1px solid #0000000f;
+    font-weight: 500;
 }
 
-.content-tick:hover {
+/* .content-tick:hover {
     background: #07203b;
-}
+} */
 
 .content-about p {
     padding: 0em 1em;
@@ -242,4 +242,18 @@ figure.img-wrap img {
     .title-1 {
         font-size: 2em;
     }
+
+    .fz-1em {
+        font-size: .9em;
+    }
+
+    .content-tick-icon {     
+        width: 40px;
+    }
+}
+
+.content-tick-father {
+    box-shadow: 2px 3px 3px #0000000d;
+    border-radius: 1em;
+    padding: 0px 20px 0px 0px;
 }

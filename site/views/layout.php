@@ -83,7 +83,7 @@
                         <a href="<?=ROOT_URL?>/gioi-thieu" class="nav-link dropdown-desk">Giới Thiệu </a>
                         <a href="<?=ROOT_URL?>/gioi-thieu" class="nav-link dropdown-notdesk-click">Giới Thiệu </a>
                         <ul class="dropdown-notdesk">
-                            <li class="dropdown-notdesk-item"><a href="<?=ROOT_URL?>/gioi-thieu" class="text-uppercase">Giới thiệu chung</a></li>                            
+                            <!-- <li class="dropdown-notdesk-item"><a href="<?=ROOT_URL?>/gioi-thieu" class="text-uppercase">Giới thiệu chung</a></li>                             -->
                             <?php foreach($abouts as $about) { 
                                 if ($about['link'] == '') { ?>
                                     <li class="dropdown-notdesk-item"><a class="text-uppercase" href="<?=SITE_URL?>?act=about&id=<?=$about['id']?>"><?=$about['name']?></a></li>
@@ -93,7 +93,7 @@
                             } ?>  
                         </ul>
                         <ul class="dropdown-hover-2">
-                            <li class="about-item"><a href="<?=ROOT_URL?>/gioi-thieu" class="text-uppercase">Giới thiệu chung</a></li>                            
+                            <!-- <li class="about-item"><a href="<?=ROOT_URL?>/gioi-thieu" class="text-uppercase">Giới thiệu chung</a></li>                             -->
                             <?php foreach($abouts as $about) { 
                                 if ($about['link'] == '') { ?>
                                     <li class="about-item"><a class="text-uppercase" href="<?=SITE_URL?>?act=about&id=<?=$about['id']?>"><?=$about['name']?></a></li>

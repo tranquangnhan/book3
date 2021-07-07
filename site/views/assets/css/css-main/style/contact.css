@@ -95,6 +95,7 @@ form#contactForm {
 .logocontact .title-contact h3 {
     color: var(--color-main);
     font-weight: bold;
+    padding-top: 0.2rem;
 }
 
 @media only screen and (max-width: 576px) {

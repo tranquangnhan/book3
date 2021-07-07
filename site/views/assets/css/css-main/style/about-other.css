@@ -142,9 +142,9 @@
 
 .show-down {
     /* background: var(--color-main);     */
-    background: rgb(43 99 159);
+    /* background: rgb(43 99 159); */
     width: 100%;
-    height: 100%;
+    height: 0%;
     position: relative;
     margin-top: 1em;
     color: white;
@@ -187,6 +187,11 @@
     overflow: auto;
 }
 
+.show-down .content-type {
+    background: rgb(43 99 159);
+    border-radius: 14px;
+}
+
 .teacher .show-down {
     transition: 0.4s;
     width: 0%;
@@ -203,12 +208,12 @@
     }
     50% {
         width: 5%;
-        height: 5%;
+        height: 300px;
         transform: translate(0px, 0px);
     }
     100% {
         width: 100%;
-        height: 100%;
+        height: auto;
         transform: translate(0px, 0px);
     }
 }
@@ -233,7 +238,7 @@
     }
     50% {
         width: 5%;
-        height: 5%;
+        height: 50%;
         transform: translate(0px, 0px);
     }
     100% {
