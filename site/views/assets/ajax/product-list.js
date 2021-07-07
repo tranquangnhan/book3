@@ -275,10 +275,6 @@ function setDataAndRequest(filterOb, form, url) {
     var dataToSring = JSON.stringify(filterOb);
 
     var dataSend = new FormData();
-<<<<<<< HEAD
-    console.log(obj);
-=======
->>>>>>> d66344df91d05b47b5243b7d78144e11cd5e477b
 
     dataSend.append('filterOb', dataToSring);
     dataSend.append('checkSachMem', obj.sachmem);
