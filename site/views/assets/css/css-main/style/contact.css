@@ -113,4 +113,7 @@ form#contactForm {
     .logocontact .title-contact h3 {
         font-size: 12pt;
     }
+    .ftco-section {
+        padding: 0;
+    }
 }
