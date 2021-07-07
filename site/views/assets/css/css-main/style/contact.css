@@ -103,9 +103,14 @@ form#contactForm {
         flex-direction: column;
     }
     .logocontact .img-contact {
-        width: 26%;
+        width: 19%;
+        margin: 0 auto;
     }
     .logocontact .title-contact {
         width: 98%;
+        text-align: center;
+    }
+    .logocontact .title-contact h3 {
+        font-size: 12pt;
     }
 }
