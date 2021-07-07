@@ -3,19 +3,9 @@
         <div class="row justify-content-center">
             <div class="col-md-12">
                 <div class="wrapper">
-<<<<<<< HEAD
-                    <div class="contact-background"></div>                    
-                    <div class="row no-gutters">
-
-                        <div class="col-12 text-center">
-                            <div class="dbox w-100 mt-5">                                        
-                                <div class="img-logo">
-                                    <img src="<?=PATH_URL?>images/logo.jpg" class="img-fluid" alt="">
-                                </div>
-=======
                     <div class="contact-background"></div>
                     <div class="row d-flex justify-content-center">
-                            <div class="col-6 text-center ">
+                            <div class="col-11 col-sm-11 col-lg-6 text-center ">
                                     <div class="logocontact">
                                         <div class="img-contact">
                                             <img src="/book3/site/views/assets/images/heid-logo.png" class="logo-header" alt="logo">
@@ -24,7 +14,6 @@
                                             <h3 class="text-uppercase">CÔNG TY CỔ PHẦN ĐẦU TƯ <br> VÀ PHÁT TRIỂN GIÁO DỤC HÀ NỘI</h3>
                                         </div>
                                     </div>
->>>>>>> d66344df91d05b47b5243b7d78144e11cd5e477b
                             </div>
 
                     </div>

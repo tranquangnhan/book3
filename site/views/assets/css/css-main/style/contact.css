@@ -96,3 +96,15 @@ form#contactForm {
     color: var(--color-main);
     font-weight: bold;
 }
+
+@media only screen and (max-width: 576px) {
+    .logocontact {
+        flex-direction: column;
+    }
+    .logocontact .img-contact {
+        width: 26%;
+    }
+    .logocontact .title-contact {
+        width: 98%;
+    }
+}
