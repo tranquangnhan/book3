@@ -74,28 +74,9 @@ form#contactForm {
     cursor: pointer;
 }
 
-.logocontact {
-    display: flex;
-}
-
-.logocontact .img-contact {
-    width: 16%;
-    margin-right: 2rem;
-}
-
-.logocontact .img-contact img {
+.logo-contact {
     width: 100%;
-}
-
-.logocontact .title-contact {
-    width: 80%;
-    text-align: left;
-}
-
-.logocontact .title-contact h3 {
-    color: var(--color-main);
-    font-weight: bold;
-    padding-top: 0.2rem;
+    padding-top: 1rem;
 }
 
 @media only screen and (max-width: 576px) {
